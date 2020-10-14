@@ -1,0 +1,5265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="MapSource 6.14.1" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2008-09-08T21:15:31Z</time>
+    <bounds maxlat="49.4007051" maxlon="-122.8000470" minlat="49.2998975" minlon="-122.9285042"/>
+  </metadata>
+
+  <trk>
+    <name>Academy Trail</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>Cyan</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3230676" lon="-122.8543137">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3229912" lon="-122.8541390">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3229148" lon="-122.8539061">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3228001" lon="-122.8536149">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3227613" lon="-122.8530903">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3227607" lon="-122.8526240">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3229509" lon="-122.8523901">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3232174" lon="-122.8522726">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3235221" lon="-122.8522133">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3237124" lon="-122.8520961">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3239027" lon="-122.8519206">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3240929" lon="-122.8517450">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3245120" lon="-122.8518020">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3247786" lon="-122.8517428">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3252359" lon="-122.8518579">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3255789" lon="-122.8520316">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3259602" lon="-122.8522636">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3262651" lon="-122.8523792">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3266465" lon="-122.8527277">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3269896" lon="-122.8529598">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3272946" lon="-122.8530755">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3276756" lon="-122.8531908">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3280185" lon="-122.8531897">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3282470" lon="-122.8531890">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3287805" lon="-122.8533038">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3291995" lon="-122.8533025">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3295046" lon="-122.8535347">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3298479" lon="-122.8539417">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3301152" lon="-122.8543490">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3303059" lon="-122.8545817">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3306489" lon="-122.8546972">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3309539" lon="-122.8549293">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3312593" lon="-122.8553949">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3314502" lon="-122.8558024">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3315648" lon="-122.8560352">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3317558" lon="-122.8564429">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3318704" lon="-122.8567340">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3319086" lon="-122.8567922">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3322888" lon="-122.8562079">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3324409" lon="-122.8559158">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3325930" lon="-122.8557404">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3328975" lon="-122.8555645">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3331257" lon="-122.8552139">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3334301" lon="-122.8549796">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3336586" lon="-122.8549206">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3340396" lon="-122.8549777">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3342682" lon="-122.8549769">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3345731" lon="-122.8551509">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3349543" lon="-122.8552663">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3352592" lon="-122.8554402">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3355643" lon="-122.8556725">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3356407" lon="-122.8558472">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Bear Claw</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>Green</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3378630" lon="-122.8665705">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3376346" lon="-122.8666878">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3374823" lon="-122.8668048">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3376350" lon="-122.8670377">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3377876" lon="-122.8672122">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3380165" lon="-122.8675030">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3380168" lon="-122.8677363">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3379790" lon="-122.8680281">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3377124" lon="-122.8680872">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3374838" lon="-122.8680878">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3373316" lon="-122.8682633">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3374081" lon="-122.8684379">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3375607" lon="-122.8686708">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3374848" lon="-122.8689042">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3374852" lon="-122.8692542">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3375615" lon="-122.8693706">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3374474" lon="-122.8695459">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3372570" lon="-122.8695465">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3369521" lon="-122.8694890">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3367616" lon="-122.8694313">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3364948" lon="-122.8693154">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3362660" lon="-122.8691411">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3361137" lon="-122.8692582">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3361140" lon="-122.8694915">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3362668" lon="-122.8698409">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3364193" lon="-122.8699571">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3362670" lon="-122.8700742">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3361911" lon="-122.8703077">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3363437" lon="-122.8704821">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3364963" lon="-122.8706566">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3364204" lon="-122.8708902">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3362299" lon="-122.8708907">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3360394" lon="-122.8708912">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3359251" lon="-122.8708332">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3356584" lon="-122.8707757">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3353535" lon="-122.8707183">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3352776" lon="-122.8710101">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3354303" lon="-122.8712429">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3356970" lon="-122.8713004">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3359639" lon="-122.8714746">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3361925" lon="-122.8715906">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3364976" lon="-122.8718230">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3365741" lon="-122.8721143">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3364984" lon="-122.8725811">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3363846" lon="-122.8729897">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3362708" lon="-122.8734564">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Croker Point Lookout</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3984946" lon="-122.8547682">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3987612" lon="-122.8546506">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3989516" lon="-122.8546500">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3992565" lon="-122.8547074">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3994469" lon="-122.8547068">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3997136" lon="-122.8547059">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3999422" lon="-122.8547052">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.4001708" lon="-122.8548212">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.4003615" lon="-122.8549374">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.4005905" lon="-122.8553453">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.4007051" lon="-122.8555786">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.4006674" lon="-122.8558706">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.4005153" lon="-122.8561631">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.4003249" lon="-122.8561637">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.4001346" lon="-122.8562227">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3999061" lon="-122.8563986">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3997921" lon="-122.8565742">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3996020" lon="-122.8568667">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3993353" lon="-122.8568676">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3992594" lon="-122.8570430">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3991074" lon="-122.8573354">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3988788" lon="-122.8573362">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Dies Vistas</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3300845" lon="-122.8604132">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3300851" lon="-122.8608796">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3301620" lon="-122.8615208">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3302390" lon="-122.8622202">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3303539" lon="-122.8626864">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3305072" lon="-122.8634439">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3308124" lon="-122.8637928">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3311555" lon="-122.8640833">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3314606" lon="-122.8643739">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3313086" lon="-122.8646077">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3308895" lon="-122.8646089">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3306609" lon="-122.8646096">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3305850" lon="-122.8648430">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3306615" lon="-122.8650760">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3310043" lon="-122.8650750">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3311567" lon="-122.8650745">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3311571" lon="-122.8654244">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3310050" lon="-122.8656581">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3309292" lon="-122.8660082">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3310055" lon="-122.8660663">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3312721" lon="-122.8660654">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3314626" lon="-122.8660649">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3313486" lon="-122.8663568">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3311966" lon="-122.8665905">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3311206" lon="-122.8667657">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3313111" lon="-122.8668234">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3315397" lon="-122.8668227">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3316160" lon="-122.8669391">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3316163" lon="-122.8672890">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3316166" lon="-122.8674639">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3317691" lon="-122.8675217">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3320737" lon="-122.8675208">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3324547" lon="-122.8675197">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3328357" lon="-122.8675185">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3330642" lon="-122.8675179">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3334075" lon="-122.8678667">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3337506" lon="-122.8680990">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3341319" lon="-122.8684477">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3343228" lon="-122.8687970">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3345139" lon="-122.8693212">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3345908" lon="-122.8699624">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3347440" lon="-122.8706618">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3349729" lon="-122.8710110">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3350496" lon="-122.8714190">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3352787" lon="-122.8718848">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3354696" lon="-122.8722924">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3357365" lon="-122.8725250">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3361174" lon="-122.8725239">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3363463" lon="-122.8727565">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3363846" lon="-122.8729313">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Dies Vistas 3</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3638451" lon="-122.8681260">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3641500" lon="-122.8682417">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3644547" lon="-122.8682409">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3647595" lon="-122.8682400">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3651402" lon="-122.8680638">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3654450" lon="-122.8681212">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3656740" lon="-122.8685290">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3659031" lon="-122.8689368">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3661320" lon="-122.8692862">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3664370" lon="-122.8694019">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3665892" lon="-122.8692849">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3667032" lon="-122.8690511">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3667791" lon="-122.8688175">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3669699" lon="-122.8690502">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3671224" lon="-122.8692249">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3672365" lon="-122.8690495">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3673507" lon="-122.8689908">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3674271" lon="-122.8691657">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3675036" lon="-122.8693404">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3677700" lon="-122.8692230">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3678841" lon="-122.8690476">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3680367" lon="-122.8692806">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3682653" lon="-122.8692215">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3683412" lon="-122.8690462">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3685318" lon="-122.8691624">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3686462" lon="-122.8691621">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3689129" lon="-122.8692780">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3690659" lon="-122.8697443">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3690661" lon="-122.8699778">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3693706" lon="-122.8698018">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3694844" lon="-122.8693930">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3696364" lon="-122.8690424">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3698268" lon="-122.8689251">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3700170" lon="-122.8687495">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3702454" lon="-122.8685737">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3704738" lon="-122.8684564">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3704737" lon="-122.8683396">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Diez Vistas</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3362707" lon="-122.8733398">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3364995" lon="-122.8735724">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3368047" lon="-122.8739215">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3371479" lon="-122.8743287">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3374914" lon="-122.8748526">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3378730" lon="-122.8754930">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3381402" lon="-122.8760171">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3384074" lon="-122.8764829">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3387887" lon="-122.8768317">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3390555" lon="-122.8770059">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3392078" lon="-122.8769472">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3392455" lon="-122.8764805">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3393977" lon="-122.8763635">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3394743" lon="-122.8767131">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3394746" lon="-122.8770048">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3396271" lon="-122.8771793">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3397792" lon="-122.8769456">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3398552" lon="-122.8767121">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3400458" lon="-122.8768282">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3403126" lon="-122.8769441">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3406175" lon="-122.8770599">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3409984" lon="-122.8770588">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3413793" lon="-122.8769411">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3416074" lon="-122.8765905">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3418356" lon="-122.8762400">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3418355" lon="-122.8761233">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3420258" lon="-122.8760061">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3422926" lon="-122.8761221">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3425210" lon="-122.8760047">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3427496" lon="-122.8760041">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3430545" lon="-122.8761199">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3435880" lon="-122.8762350">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3443502" lon="-122.8766411">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3447314" lon="-122.8768151">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3452650" lon="-122.8771053">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3456466" lon="-122.8776874">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3459519" lon="-122.8782115">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3462951" lon="-122.8785605">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3466385" lon="-122.8790262">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3466767" lon="-122.8792011">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3471339" lon="-122.8792581">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3474008" lon="-122.8794907">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3477820" lon="-122.8797230">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3481637" lon="-122.8804219">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3484687" lon="-122.8806544">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3490783" lon="-122.8807694">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3494593" lon="-122.8808850">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3501450" lon="-122.8808248">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3506021" lon="-122.8808235">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3509829" lon="-122.8806475">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3512876" lon="-122.8805884">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3515919" lon="-122.8801792">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3518196" lon="-122.8793619">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3520474" lon="-122.8786613">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3522756" lon="-122.8783107">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3525797" lon="-122.8777264">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3531122" lon="-122.8769083">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3534163" lon="-122.8763241">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3536443" lon="-122.8757983">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3539490" lon="-122.8756808">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3541778" lon="-122.8758552">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3546353" lon="-122.8762623">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3552453" lon="-122.8766690">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3558547" lon="-122.8766672">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3563118" lon="-122.8765493">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3571112" lon="-122.8760803">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3575300" lon="-122.8758458">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3580252" lon="-122.8758444">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3585962" lon="-122.8753760">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3590530" lon="-122.8751414">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3593954" lon="-122.8746737">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3596619" lon="-122.8745561">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3601569" lon="-122.8743214">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3604234" lon="-122.8742623">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3604992" lon="-122.8738537">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3604985" lon="-122.8732702">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3606503" lon="-122.8726863">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3608021" lon="-122.8722192">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3610303" lon="-122.8718101">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3612585" lon="-122.8715177">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3614867" lon="-122.8711669">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3616769" lon="-122.8709330">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3620195" lon="-122.8706986">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3623240" lon="-122.8704644">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3627807" lon="-122.8701129">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3631616" lon="-122.8699951">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3636184" lon="-122.8697604">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3639609" lon="-122.8695260">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3639222" lon="-122.8689426">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3639219" lon="-122.8686508">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Energy</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>DarkYellow</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3389963" lon="-122.8585191">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3391870" lon="-122.8586934">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3392634" lon="-122.8588681">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3391875" lon="-122.8591016">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3391117" lon="-122.8594518">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3391498" lon="-122.8595100">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3389592" lon="-122.8593940">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3388450" lon="-122.8593943">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3387307" lon="-122.8594530">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3387312" lon="-122.8597446">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3385788" lon="-122.8597451">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3383502" lon="-122.8597457">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3381599" lon="-122.8599213">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3381602" lon="-122.8601546">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3381225" lon="-122.8604463">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3380086" lon="-122.8607382">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3378563" lon="-122.8607970">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3378558" lon="-122.8604471">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3378558" lon="-122.8603888">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3377792" lon="-122.8601558">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3376268" lon="-122.8600396">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3374362" lon="-122.8599236">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3372838" lon="-122.8599241">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3370933" lon="-122.8599247">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3370935" lon="-122.8600996">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3370938" lon="-122.8603912">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3370943" lon="-122.8607994">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3370946" lon="-122.8610327">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3370948" lon="-122.8612076">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Energy Trail</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>DarkYellow</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3397970" lon="-122.8590997">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3396452" lon="-122.8595667">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3395314" lon="-122.8599753">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3393794" lon="-122.8603257">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3391512" lon="-122.8605597">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3388852" lon="-122.8611438">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3386569" lon="-122.8613777">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3383909" lon="-122.8619034">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3382387" lon="-122.8620788">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3380486" lon="-122.8624293">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3377822" lon="-122.8626634">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3374396" lon="-122.8628394">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3372109" lon="-122.8627235">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3372105" lon="-122.8623736">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3372098" lon="-122.8618488">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3371713" lon="-122.8614406">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3370946" lon="-122.8610327">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3369422" lon="-122.8610331">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3365991" lon="-122.8608009">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3362561" lon="-122.8606271">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3361034" lon="-122.8604526">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3359505" lon="-122.8599866">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3356454" lon="-122.8596376">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3354164" lon="-122.8592885">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3353398" lon="-122.8589972">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Lakeshore Trail</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>DarkGray</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3393851" lon="-122.8651079">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3396134" lon="-122.8648156">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3398417" lon="-122.8646399">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3401464" lon="-122.8646390">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3404510" lon="-122.8645214">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3408319" lon="-122.8644620">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3410985" lon="-122.8644028">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3412890" lon="-122.8644022">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3414413" lon="-122.8643435">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3417076" lon="-122.8639927">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3421261" lon="-122.8635248">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3424305" lon="-122.8632906">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3427357" lon="-122.8636396">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3429643" lon="-122.8636389">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3432687" lon="-122.8634047">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3436492" lon="-122.8630536">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3439538" lon="-122.8629360">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3443343" lon="-122.8625265">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3447155" lon="-122.8627004">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3450966" lon="-122.8628741">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3453633" lon="-122.8629316">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3457064" lon="-122.8631055">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3460875" lon="-122.8632794">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3463925" lon="-122.8633951">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3468498" lon="-122.8635686">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3473452" lon="-122.8637422">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3477648" lon="-122.8642075">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3482225" lon="-122.8646727">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3486801" lon="-122.8651380">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3489096" lon="-122.8658372">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3491009" lon="-122.8666533">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3492160" lon="-122.8672946">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3494072" lon="-122.8679356">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3495982" lon="-122.8684601">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3498273" lon="-122.8688677">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3501321" lon="-122.8689834">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3504369" lon="-122.8689825">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3506653" lon="-122.8688653">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3509694" lon="-122.8682810">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3513495" lon="-122.8675216">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3516160" lon="-122.8673457">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3519583" lon="-122.8669363">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3524151" lon="-122.8666433">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3527580" lon="-122.8666423">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3531391" lon="-122.8667578">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3536348" lon="-122.8671646">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3540537" lon="-122.8671051">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3543963" lon="-122.8668707">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3546623" lon="-122.8663449">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3549284" lon="-122.8658774">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3552326" lon="-122.8653514">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3555372" lon="-122.8652338">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3559559" lon="-122.8648825">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3562218" lon="-122.8642400">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3564495" lon="-122.8635392">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3568301" lon="-122.8632463">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3572488" lon="-122.8629533">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3576678" lon="-122.8629521">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3580488" lon="-122.8629508">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3584296" lon="-122.8628913">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3587722" lon="-122.8626569">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3590004" lon="-122.8624228">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3591904" lon="-122.8619555">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3594183" lon="-122.8613714">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3596463" lon="-122.8609040">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3599503" lon="-122.8603196">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3602550" lon="-122.8602019">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3605596" lon="-122.8600842">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3609404" lon="-122.8600830">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3614739" lon="-122.8601980">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3618549" lon="-122.8601969">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3621597" lon="-122.8601959">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3626167" lon="-122.8600777">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3629977" lon="-122.8601933">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3633787" lon="-122.8602504">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3637597" lon="-122.8602492">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3641406" lon="-122.8602481">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3644450" lon="-122.8599554">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3646732" lon="-122.8596045">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3649774" lon="-122.8592535">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3652821" lon="-122.8591941">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3656630" lon="-122.8591346">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3658910" lon="-122.8586671">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3660047" lon="-122.8581999">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3660044" lon="-122.8579665">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Lakeview Trail</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>LightGray</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3387773" lon="-122.8665094">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3391200" lon="-122.8664500">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3397675" lon="-122.8663314">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3400721" lon="-122.8662139">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3404530" lon="-122.8661544">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3409099" lon="-122.8659780">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3412906" lon="-122.8657437">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3415190" lon="-122.8656263">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3420524" lon="-122.8656830">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3424331" lon="-122.8655069">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3426617" lon="-122.8655062">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3430430" lon="-122.8657966">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3433480" lon="-122.8660290">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3436529" lon="-122.8662031">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3439577" lon="-122.8662022">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3443387" lon="-122.8663177">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3448717" lon="-122.8659078">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3451002" lon="-122.8659654">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3454435" lon="-122.8662560">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3457102" lon="-122.8663136">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3460153" lon="-122.8666626">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3462059" lon="-122.8667787">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3466250" lon="-122.8667774">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3470060" lon="-122.8668929">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3472350" lon="-122.8672422">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3476545" lon="-122.8675909">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3479212" lon="-122.8677068">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3482261" lon="-122.8678225">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3485313" lon="-122.8681716">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3488744" lon="-122.8684622">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3492940" lon="-122.8688693">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3494086" lon="-122.8692189">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3497519" lon="-122.8695679">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3500189" lon="-122.8699171">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3504000" lon="-122.8700327">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3507428" lon="-122.8700317">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3508948" lon="-122.8696812">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3511991" lon="-122.8692136">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3515028" lon="-122.8682794">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3516547" lon="-122.8679289">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3519215" lon="-122.8680448">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3519602" lon="-122.8685114">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3521126" lon="-122.8686276">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3522647" lon="-122.8683938">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3523406" lon="-122.8681019">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3525686" lon="-122.8675762">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3527587" lon="-122.8672257">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3531396" lon="-122.8672245">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3533683" lon="-122.8673405">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3537111" lon="-122.8673394">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3540543" lon="-122.8675718">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3544731" lon="-122.8674538">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3547016" lon="-122.8673365">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3550825" lon="-122.8673353">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3553110" lon="-122.8672763">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3555777" lon="-122.8672755">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3558063" lon="-122.8672749">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3562254" lon="-122.8673320">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3565301" lon="-122.8673894">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3567583" lon="-122.8669802">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3568341" lon="-122.8667467">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3566815" lon="-122.8665138">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3568718" lon="-122.8662799">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3571003" lon="-122.8662792">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3575954" lon="-122.8661610">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3578238" lon="-122.8660437">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3577853" lon="-122.8656937">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3576709" lon="-122.8655774">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3576325" lon="-122.8653441">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3577848" lon="-122.8652853">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3580134" lon="-122.8652846">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3582037" lon="-122.8651090">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3581653" lon="-122.8648758">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3579747" lon="-122.8647596">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3579742" lon="-122.8644096">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3581266" lon="-122.8644092">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3583552" lon="-122.8644084">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3585837" lon="-122.8643494">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3586596" lon="-122.8640575">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3588116" lon="-122.8637653">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3590401" lon="-122.8637063">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3593067" lon="-122.8637054">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3595352" lon="-122.8635880">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3598017" lon="-122.8634706">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3601825" lon="-122.8633526">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3604871" lon="-122.8632350">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3607921" lon="-122.8634091">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3610972" lon="-122.8636999">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3614024" lon="-122.8640491">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3617075" lon="-122.8643982">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3620888" lon="-122.8646305">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3623174" lon="-122.8647464">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3623936" lon="-122.8647462">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3625841" lon="-122.8648040">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3627746" lon="-122.8647450">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3626598" lon="-122.8643953">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3626214" lon="-122.8641037">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3626593" lon="-122.8639286">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3626209" lon="-122.8636953">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3627731" lon="-122.8635781">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3629254" lon="-122.8634026">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3630775" lon="-122.8631687">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3632295" lon="-122.8629349">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3636104" lon="-122.8628754">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3638390" lon="-122.8628746">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3641437" lon="-122.8628737">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3645247" lon="-122.8628725">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3647536" lon="-122.8631635">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3650968" lon="-122.8634542">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3653637" lon="-122.8636868">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3657446" lon="-122.8636857">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3659731" lon="-122.8635683">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3659728" lon="-122.8632765">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3660485" lon="-122.8628678">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3659718" lon="-122.8625180">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3658954" lon="-122.8623431">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3659333" lon="-122.8621096">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3660474" lon="-122.8619343">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3661232" lon="-122.8617006">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3660468" lon="-122.8614674">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3658941" lon="-122.8612345">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3659697" lon="-122.8607674">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3660458" lon="-122.8606505">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3661217" lon="-122.8604169">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Powerhouse Road</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3687474" lon="-122.8581328">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3690900" lon="-122.8578983">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3695090" lon="-122.8578969">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3698138" lon="-122.8578960">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3701187" lon="-122.8580701">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3704621" lon="-122.8585359">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3708059" lon="-122.8592350">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3711875" lon="-122.8598174">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3714549" lon="-122.8604001">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3717983" lon="-122.8608659">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3722561" lon="-122.8614481">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3725231" lon="-122.8617974">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3727904" lon="-122.8622634">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3730958" lon="-122.8628460">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3735537" lon="-122.8634866">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3738208" lon="-122.8638943">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3738212" lon="-122.8641861">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3736312" lon="-122.8645952">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3734410" lon="-122.8648292">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3731743" lon="-122.8648300">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3728317" lon="-122.8649478">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3725272" lon="-122.8652405">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3722990" lon="-122.8655330">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3721090" lon="-122.8659421">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3719191" lon="-122.8664095">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3717293" lon="-122.8669937">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3715777" lon="-122.8676360">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3716923" lon="-122.8679858">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3720355" lon="-122.8682183">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3724930" lon="-122.8685670">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3729508" lon="-122.8691493">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3732939" lon="-122.8694401">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3735608" lon="-122.8696143">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3738655" lon="-122.8696134">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3742084" lon="-122.8696124">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3744366" lon="-122.8693200">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3746267" lon="-122.8690276">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3748930" lon="-122.8686767">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3748925" lon="-122.8682098">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3748922" lon="-122.8679764">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Powerline trail</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3365757" lon="-122.8735139">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3367655" lon="-122.8729885">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3370317" lon="-122.8725795">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3370693" lon="-122.8720546">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3372973" lon="-122.8715874">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3373735" lon="-122.8715289">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3374113" lon="-122.8712955">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3374110" lon="-122.8710622">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3376014" lon="-122.8710033">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3377537" lon="-122.8710029">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3377535" lon="-122.8707113">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3377153" lon="-122.8706531">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3376768" lon="-122.8703033">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3379050" lon="-122.8698944">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3381333" lon="-122.8697188">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3382473" lon="-122.8694268">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3383992" lon="-122.8690765">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3386657" lon="-122.8689008">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3388938" lon="-122.8684918">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3391220" lon="-122.8681996">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3393501" lon="-122.8677907">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3396544" lon="-122.8673815">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3399206" lon="-122.8669725">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3401867" lon="-122.8664468">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3403769" lon="-122.8662713">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Start of Indian Arm Trail</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>Blue</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3930538" lon="-122.8315496">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3933955" lon="-122.8307894">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3938521" lon="-122.8303790">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3945369" lon="-122.8297926">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3952220" lon="-122.8293813">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3958308" lon="-122.8289119">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3965164" lon="-122.8288510">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3972782" lon="-122.8287897">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3980398" lon="-122.8286116">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3985722" lon="-122.8279673">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3991804" lon="-122.8271475">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3997509" lon="-122.8265030">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Sugar Mountain Trail</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>Yellow</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3362708" lon="-122.8734564">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3359666" lon="-122.8739239">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3358148" lon="-122.8745074">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3356245" lon="-122.8746246">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3353581" lon="-122.8749170">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3350534" lon="-122.8749178">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3347488" lon="-122.8750936">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3342917" lon="-122.8750949">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3338345" lon="-122.8750962">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3334537" lon="-122.8750973">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3330725" lon="-122.8749818">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3326916" lon="-122.8749829">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3320058" lon="-122.8748681">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3315488" lon="-122.8749861">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3310916" lon="-122.8749874">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3306345" lon="-122.8749887">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3301774" lon="-122.8749900">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3297202" lon="-122.8749329">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3293392" lon="-122.8749340">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3290345" lon="-122.8748766">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3286532" lon="-122.8745862">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3281197" lon="-122.8744127">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3277386" lon="-122.8742972">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3272813" lon="-122.8741819">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3269385" lon="-122.8741829">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3266337" lon="-122.8741837">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3262911" lon="-122.8743597">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3257580" lon="-122.8745361">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3253771" lon="-122.8746538">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3248440" lon="-122.8748302">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3241585" lon="-122.8750070">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3238920" lon="-122.8751244">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3233204" lon="-122.8750094">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3228630" lon="-122.8747775">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3225198" lon="-122.8744287">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3220242" lon="-122.8740803">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3217956" lon="-122.8740226">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3215287" lon="-122.8738485">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3211477" lon="-122.8737330">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3207666" lon="-122.8736758">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3204237" lon="-122.8736185">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3201947" lon="-122.8732111">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3198138" lon="-122.8732122">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3194328" lon="-122.8731549">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3186328" lon="-122.8731573">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3183280" lon="-122.8731581">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3179090" lon="-122.8731594">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3174139" lon="-122.8732774">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3170710" lon="-122.8732201">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3166136" lon="-122.8729882">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3161564" lon="-122.8729312">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3156988" lon="-122.8725245">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3151650" lon="-122.8721180">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3146312" lon="-122.8715950">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3142499" lon="-122.8713046">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3139829" lon="-122.8710722">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 004</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3698613" lon="-122.8657738">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3696327" lon="-122.8657745">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3694803" lon="-122.8657750">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3692517" lon="-122.8657173">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3690609" lon="-122.8654262">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3687938" lon="-122.8650768">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3685649" lon="-122.8647274">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3684121" lon="-122.8643778">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3681831" lon="-122.8640283">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3679161" lon="-122.8637957">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3676490" lon="-122.8633297">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3675344" lon="-122.8630967">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3672677" lon="-122.8630392">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3671151" lon="-122.8628646">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3670005" lon="-122.8626315">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3669622" lon="-122.8623982">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3668856" lon="-122.8620483">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3667326" lon="-122.8615820">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3665036" lon="-122.8612326">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3662743" lon="-122.8605915">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3661216" lon="-122.8603585">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 008</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3182261" lon="-122.8849339">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3186830" lon="-122.8846995">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3190639" lon="-122.8846402">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3193683" lon="-122.8843479">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3197489" lon="-122.8839971">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3200536" lon="-122.8838798">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3205105" lon="-122.8836453">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3208914" lon="-122.8835861">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3211956" lon="-122.8831188">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3215766" lon="-122.8831178">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3218811" lon="-122.8828838">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3221857" lon="-122.8827664">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3226426" lon="-122.8824737">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3229853" lon="-122.8823562">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3233280" lon="-122.8822387">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3236325" lon="-122.8820046">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3241656" lon="-122.8817699">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3246224" lon="-122.8814189">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3250034" lon="-122.8814179">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3254982" lon="-122.8811250">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3258411" lon="-122.8810658">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3262601" lon="-122.8810647">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3268311" lon="-122.8807133">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3271354" lon="-122.8802460">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3275543" lon="-122.8801283">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3279350" lon="-122.8798940">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3283918" lon="-122.8795430">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3289628" lon="-122.8791915">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3294199" lon="-122.8790737">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3297242" lon="-122.8787230">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3307143" lon="-122.8783703">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3314377" lon="-122.8780185">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3320087" lon="-122.8775504">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3326180" lon="-122.8773738">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3329986" lon="-122.8770812">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3333794" lon="-122.8769635">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3338361" lon="-122.8765541">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3343312" lon="-122.8763777">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3347118" lon="-122.8760851">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3352066" lon="-122.8756755">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3356633" lon="-122.8752660">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3359677" lon="-122.8749736">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3362718" lon="-122.8743895">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3364621" lon="-122.8741557">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3366522" lon="-122.8738635">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 009</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3147983" lon="-122.8856424">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3151028" lon="-122.8854667">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3153692" lon="-122.8851163">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3155973" lon="-122.8846494">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3156350" lon="-122.8842412">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3155202" lon="-122.8837752">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3154819" lon="-122.8835421">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3156336" lon="-122.8828422">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3157474" lon="-122.8823756">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3158610" lon="-122.8816758">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3159367" lon="-122.8812675">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3162410" lon="-122.8808587">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3163166" lon="-122.8802755">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3165067" lon="-122.8799253">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3164682" lon="-122.8794591">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3163153" lon="-122.8789931">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3162383" lon="-122.8782356">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3164281" lon="-122.8775938">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3165419" lon="-122.8771855">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3166173" lon="-122.8763692">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3166930" lon="-122.8759609">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3166923" lon="-122.8753197">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3166918" lon="-122.8747950">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3166152" lon="-122.8744455">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3165767" lon="-122.8740959">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3165381" lon="-122.8736296">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3165377" lon="-122.8732799">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3166137" lon="-122.8730465">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 014</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3221717" lon="-122.8394503">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3221724" lon="-122.8399168">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3221352" lon="-122.8406164">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3221362" lon="-122.8413160">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3222127" lon="-122.8415490">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3220611" lon="-122.8421324">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3219091" lon="-122.8423662">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3216047" lon="-122.8426005">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3213383" lon="-122.8428346">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3211104" lon="-122.8433018">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3210347" lon="-122.8436518">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3209969" lon="-122.8438851">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3212257" lon="-122.8440593">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3215305" lon="-122.8441164">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3216069" lon="-122.8442911">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3218355" lon="-122.8442903">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3219881" lon="-122.8444064">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3222929" lon="-122.8444636">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3225594" lon="-122.8443461">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3228259" lon="-122.8442286">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3230542" lon="-122.8439946">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3232829" lon="-122.8441104">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3235501" lon="-122.8445758">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3236650" lon="-122.8450419">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3237421" lon="-122.8456829">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3237426" lon="-122.8460910">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3236668" lon="-122.8463245">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3235148" lon="-122.8466165">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3233626" lon="-122.8467919">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3232107" lon="-122.8471423">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3232113" lon="-122.8476087">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3232121" lon="-122.8481334">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3233650" lon="-122.8485409">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3235558" lon="-122.8488318">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3237847" lon="-122.8491225">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3240138" lon="-122.8494715">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3238997" lon="-122.8496469">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3237476" lon="-122.8498222">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3236716" lon="-122.8499391">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3238242" lon="-122.8501718">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3239769" lon="-122.8504045">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3239008" lon="-122.8505214">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3236723" lon="-122.8505221">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3235200" lon="-122.8506392">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3233680" lon="-122.8508729">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3234445" lon="-122.8511059">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3236731" lon="-122.8511051">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3239778" lon="-122.8511041">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3242063" lon="-122.8511033">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3245113" lon="-122.8512773">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3246641" lon="-122.8515683">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3246642" lon="-122.8516849">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 015</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3211465" lon="-122.8161349">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3208029" lon="-122.8156116">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3205356" lon="-122.8152629">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3206870" lon="-122.8146210">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3208389" lon="-122.8143289">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3205718" lon="-122.8140385">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3205709" lon="-122.8135138">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3205320" lon="-122.8129893">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3203407" lon="-122.8124654">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3201498" lon="-122.8122330">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3200346" lon="-122.8116505">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3199193" lon="-122.8110680">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3196517" lon="-122.8104862">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3192326" lon="-122.8104296">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3189657" lon="-122.8103141">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3186985" lon="-122.8099655">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3185076" lon="-122.8097331">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3182407" lon="-122.8095593">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3182026" lon="-122.8095595">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 016</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3181647" lon="-122.8096179">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3177462" lon="-122.8100277">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3174037" lon="-122.8102623">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3170230" lon="-122.8103222">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3167945" lon="-122.8104397">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3164521" lon="-122.8106743">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3160715" lon="-122.8109091">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3159198" lon="-122.8113177">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3159201" lon="-122.8114926">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3157302" lon="-122.8118432">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3154638" lon="-122.8120191">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3152736" lon="-122.8121364">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3150456" lon="-122.8124871">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3146652" lon="-122.8128384">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3143606" lon="-122.8129563">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3140943" lon="-122.8131906">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3139040" lon="-122.8132496">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3136371" lon="-122.8131341">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3134466" lon="-122.8131349">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 017</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3250417" lon="-122.8221827">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3248517" lon="-122.8225332">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3245476" lon="-122.8230008">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3243197" lon="-122.8233515">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3239777" lon="-122.8239358">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3236737" lon="-122.8244617">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3234461" lon="-122.8251039">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3231422" lon="-122.8256881">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3228376" lon="-122.8258058">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3226095" lon="-122.8260399">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3223428" lon="-122.8260409">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3221909" lon="-122.8263330">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3220389" lon="-122.8265667">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3218487" lon="-122.8267424">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 018</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3191350" lon="-122.8209232">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3191737" lon="-122.8212728">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3192888" lon="-122.8218553">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3192134" lon="-122.8223220">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3192137" lon="-122.8225552">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3190242" lon="-122.8231389">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3189871" lon="-122.8237803">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3189877" lon="-122.8241883">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3187215" lon="-122.8245392">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3184554" lon="-122.8248899">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3183038" lon="-122.8253568">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3180762" lon="-122.8260573">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3179251" lon="-122.8268739">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3178879" lon="-122.8274571">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3177741" lon="-122.8278073">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3176222" lon="-122.8280993">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3176233" lon="-122.8288571">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3176239" lon="-122.8292069">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3174340" lon="-122.8296739">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3173203" lon="-122.8300241">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3170922" lon="-122.8303747">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3169021" lon="-122.8306086">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3165594" lon="-122.8307264">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3162166" lon="-122.8307860">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3158742" lon="-122.8310787">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3156460" lon="-122.8313127">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3157610" lon="-122.8317787">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 019</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3180498" lon="-122.8339853">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3184683" lon="-122.8336340">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3188488" lon="-122.8332829">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3191913" lon="-122.8330485">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3194578" lon="-122.8329309">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3197621" lon="-122.8325800">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3202188" lon="-122.8323450">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3206379" lon="-122.8323435">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3209047" lon="-122.8324591">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3212095" lon="-122.8325163">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3215142" lon="-122.8324569">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3216659" lon="-122.8319899">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3217412" lon="-122.8314067">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3219311" lon="-122.8309979">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3220446" lon="-122.8304728">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3220440" lon="-122.8300064">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3220430" lon="-122.8293068">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3219654" lon="-122.8284326">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3219646" lon="-122.8278496">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3219257" lon="-122.8273250">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3218105" lon="-122.8267425">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3216577" lon="-122.8264516">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3215048" lon="-122.8260441">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3214280" lon="-122.8256946">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3211613" lon="-122.8256373">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3208948" lon="-122.8257549">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3205898" lon="-122.8255813">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3204368" lon="-122.8252321">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3201318" lon="-122.8250583">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3199033" lon="-122.8250592">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3196745" lon="-122.8248852">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3196739" lon="-122.8245355">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3195212" lon="-122.8243029">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3192165" lon="-122.8243623">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3189883" lon="-122.8245964">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3187216" lon="-122.8245974">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 020</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3342740" lon="-122.8596420">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3340070" lon="-122.8593512">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3338160" lon="-122.8590019">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3336255" lon="-122.8589443">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3335491" lon="-122.8587696">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3333204" lon="-122.8586537">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3332440" lon="-122.8584790">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3331295" lon="-122.8582461">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3329388" lon="-122.8581884">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3327484" lon="-122.8581890">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3324818" lon="-122.8581898">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3322532" lon="-122.8581906">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3319865" lon="-122.8581914">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3317961" lon="-122.8581920">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3316438" lon="-122.8583091">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3314920" lon="-122.8587760">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3312258" lon="-122.8590685">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3311117" lon="-122.8592438">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 021</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3363295" lon="-122.8583526">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3360629" lon="-122.8584700">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3357966" lon="-122.8587041">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3354541" lon="-122.8589968">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3351495" lon="-122.8591144">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3349592" lon="-122.8592899">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3346928" lon="-122.8594657">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3343882" lon="-122.8596416">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3340454" lon="-122.8597010">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3337788" lon="-122.8597018">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3335120" lon="-122.8595861">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3331693" lon="-122.8597037">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3328261" lon="-122.8594133">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3324832" lon="-122.8593561">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3320639" lon="-122.8591825">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3317592" lon="-122.8591834">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3314925" lon="-122.8591259">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3313019" lon="-122.8591266">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3310357" lon="-122.8594189">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3307694" lon="-122.8597113">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3304648" lon="-122.8598289">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3302364" lon="-122.8600628">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3301988" lon="-122.8604128">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3301608" lon="-122.8605295">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 024</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3249304" lon="-122.8846830">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3248537" lon="-122.8841002">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3247772" lon="-122.8838088">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3247766" lon="-122.8832841">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3246621" lon="-122.8830513">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3246617" lon="-122.8826432">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3246232" lon="-122.8822351">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3246229" lon="-122.8818854">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3246225" lon="-122.8815355">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 025</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3266406" lon="-122.8806555">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3264878" lon="-122.8802478">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3264873" lon="-122.8797231">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3265630" lon="-122.8792564">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3267911" lon="-122.8789059">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3271718" lon="-122.8786717">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3274762" lon="-122.8782627">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3274374" lon="-122.8775632">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3275890" lon="-122.8769214">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3272079" lon="-122.8767475">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3271313" lon="-122.8763396">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3271689" lon="-122.8759314">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3268641" lon="-122.8758156">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3266732" lon="-122.8754663">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3262917" lon="-122.8749427">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3259485" lon="-122.8745939">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3257960" lon="-122.8744194">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 026</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3404149" lon="-122.8662128">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3403004" lon="-122.8659799">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3400717" lon="-122.8658639">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3398811" lon="-122.8657479">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3397285" lon="-122.8655734">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3394237" lon="-122.8655160">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3393851" lon="-122.8651079">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 027</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3458126" lon="-122.8564560">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3458502" lon="-122.8560476">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3458878" lon="-122.8556391">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3460020" lon="-122.8555221">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3459635" lon="-122.8552306">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3461537" lon="-122.8549967">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3463061" lon="-122.8549962">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3462294" lon="-122.8547048">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3460770" lon="-122.8545887">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3461527" lon="-122.8542384">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3461905" lon="-122.8540050">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3460377" lon="-122.8536555">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3460374" lon="-122.8534223">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3461510" lon="-122.8528969">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3459984" lon="-122.8527225">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3459221" lon="-122.8526060">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3459219" lon="-122.8524894">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 028</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3381162" lon="-122.8553143">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3383830" lon="-122.8554302">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3388019" lon="-122.8553705">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3391446" lon="-122.8552527">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3394492" lon="-122.8550768">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3397151" lon="-122.8545511">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3400197" lon="-122.8543750">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3405147" lon="-122.8542569">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3410480" lon="-122.8541968">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3415811" lon="-122.8540201">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3420380" lon="-122.8538436">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3424189" lon="-122.8538424">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3428761" lon="-122.8538409">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3433332" lon="-122.8538394">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3437906" lon="-122.8540129">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3442481" lon="-122.8543613">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3445912" lon="-122.8545351">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3449340" lon="-122.8545340">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3452770" lon="-122.8545913">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3456202" lon="-122.8548818">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3459253" lon="-122.8551724">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3461536" lon="-122.8549384">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3464584" lon="-122.8549374">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3468014" lon="-122.8551112">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3471823" lon="-122.8551100">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3475250" lon="-122.8549339">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3477156" lon="-122.8551083">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3480203" lon="-122.8550489">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3482106" lon="-122.8548733">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3484776" lon="-122.8551059">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3487443" lon="-122.8551633">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3490490" lon="-122.8551623">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3492776" lon="-122.8551615">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3496964" lon="-122.8549269">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3500007" lon="-122.8546342">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3503435" lon="-122.8546331">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3506864" lon="-122.8545737">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3509911" lon="-122.8545727">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3514100" lon="-122.8544547">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3516763" lon="-122.8542205">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3519809" lon="-122.8541028">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3522472" lon="-122.8538103">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3525900" lon="-122.8536924">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3529708" lon="-122.8535746">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3532373" lon="-122.8535153">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3534659" lon="-122.8535146">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3536946" lon="-122.8536305">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3539612" lon="-122.8535713">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3542278" lon="-122.8535704">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3545328" lon="-122.8537445">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3547994" lon="-122.8536269">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3550278" lon="-122.8536261">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3552946" lon="-122.8536253">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3555612" lon="-122.8536244">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3561705" lon="-122.8535058">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3563992" lon="-122.8535633">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3567041" lon="-122.8536207">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3571231" lon="-122.8536192">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3575421" lon="-122.8536179">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3579610" lon="-122.8534999">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3582657" lon="-122.8534989">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3586846" lon="-122.8533808">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3589893" lon="-122.8533214">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3592560" lon="-122.8533789">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3595226" lon="-122.8532613">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3597511" lon="-122.8532606">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3600939" lon="-122.8532595">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3603607" lon="-122.8533170">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3605892" lon="-122.8533162">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3608937" lon="-122.8530818">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3612366" lon="-122.8530807">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3617319" lon="-122.8531958">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3621512" lon="-122.8533695">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3624943" lon="-122.8535434">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3629135" lon="-122.8536586">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3632944" lon="-122.8537158">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3636373" lon="-122.8537146">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3640182" lon="-122.8537134">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3643231" lon="-122.8538291">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 029</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3737063" lon="-122.8636613">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3741634" lon="-122.8636598">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3746204" lon="-122.8635417">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3750012" lon="-122.8633655">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3754198" lon="-122.8630140">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3759145" lon="-122.8626623">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3762569" lon="-122.8621943">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3765609" lon="-122.8616097">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3768268" lon="-122.8609669">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3772452" lon="-122.8604404">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3777400" lon="-122.8600886">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3781585" lon="-122.8596203">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3783870" lon="-122.8596196">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3787679" lon="-122.8595601">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3791868" lon="-122.8594420">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3794914" lon="-122.8593243">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3798342" lon="-122.8592649">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3802150" lon="-122.8592053">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3805960" lon="-122.8592041">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3808623" lon="-122.8589114">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3811288" lon="-122.8587938">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3814339" lon="-122.8591431">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3815106" lon="-122.8594347">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3815109" lon="-122.8597265">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3815112" lon="-122.8600183">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3816640" lon="-122.8603681">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3818923" lon="-122.8601339">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3819680" lon="-122.8597835">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3821960" lon="-122.8592574">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3824627" lon="-122.8593149">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3827294" lon="-122.8593725">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3830343" lon="-122.8594883">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3833391" lon="-122.8594872">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3837581" lon="-122.8594276">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3842911" lon="-122.8591924">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3847103" lon="-122.8593078">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3850153" lon="-122.8595404">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3854726" lon="-122.8597141">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3858918" lon="-122.8598295">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3862348" lon="-122.8599451">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3866921" lon="-122.8600604">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3870351" lon="-122.8602928">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3873786" lon="-122.8607004">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3877980" lon="-122.8610494">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3881794" lon="-122.8614568">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3883704" lon="-122.8618649">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3884090" lon="-122.8623317">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3884094" lon="-122.8626237">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3880666" lon="-122.8627414">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3876857" lon="-122.8626843">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3873808" lon="-122.8626269">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3869618" lon="-122.8626281">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3865808" lon="-122.8626293">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3862380" lon="-122.8626304">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3858952" lon="-122.8626898">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3853999" lon="-122.8626330">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3850952" lon="-122.8625755">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3847904" lon="-122.8625765">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3847142" lon="-122.8625767">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 030</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3716543" lon="-122.8680443">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3713878" lon="-122.8682202">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3711596" lon="-122.8684543">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3708548" lon="-122.8684552">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3706262" lon="-122.8684559">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3704737" lon="-122.8682813">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3703590" lon="-122.8679898">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3703206" lon="-122.8676982">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3702438" lon="-122.8672315">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3701291" lon="-122.8668234">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3700142" lon="-122.8662402">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3699375" lon="-122.8658319">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3699752" lon="-122.8654817">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3698605" lon="-122.8651320">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3697076" lon="-122.8646655">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 032</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3660455" lon="-122.8604171">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3658167" lon="-122.8602428">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3653975" lon="-122.8601274">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3649023" lon="-122.8601290">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3645975" lon="-122.8601299">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3643310" lon="-122.8601891">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3642167" lon="-122.8601895">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 033</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3375615" lon="-122.8694289">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3378282" lon="-122.8694281">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3380949" lon="-122.8694273">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3383231" lon="-122.8691934">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 035</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3345304" lon="-122.8514772">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3351014" lon="-122.8511255">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3354819" lon="-122.8508327">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3359388" lon="-122.8506562">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3363578" lon="-122.8505965">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3365103" lon="-122.8507126">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3366249" lon="-122.8508872">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3368534" lon="-122.8508281">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3371197" lon="-122.8505940">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3374624" lon="-122.8504762">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3376912" lon="-122.8506504">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3379201" lon="-122.8509411">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3382251" lon="-122.8510568">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3386059" lon="-122.8509972">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3389866" lon="-122.8508793">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3393676" lon="-122.8508780">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3396723" lon="-122.8508187">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3400152" lon="-122.8508176">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3402437" lon="-122.8508168">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3403962" lon="-122.8509329">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3405487" lon="-122.8509908">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3408535" lon="-122.8509898">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3411201" lon="-122.8509888">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3413868" lon="-122.8509880">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3417296" lon="-122.8509868">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3423392" lon="-122.8510431">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3428344" lon="-122.8509831">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3432153" lon="-122.8509819">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3434819" lon="-122.8509810">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3439770" lon="-122.8508627">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3442817" lon="-122.8508617">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3445485" lon="-122.8509774">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3448915" lon="-122.8510346">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3452346" lon="-122.8512084">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3455394" lon="-122.8512658">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3459585" lon="-122.8512644">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3463395" lon="-122.8513798">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3467206" lon="-122.8514952">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3470634" lon="-122.8514940">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3474063" lon="-122.8514929">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3480539" lon="-122.8514907">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3483966" lon="-122.8513730">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3488537" lon="-122.8513715">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3491207" lon="-122.8516039">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3496923" lon="-122.8517186">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3499591" lon="-122.8518927">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3503023" lon="-122.8521250">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 037</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3288484" lon="-122.8468898">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3283151" lon="-122.8469500">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3277817" lon="-122.8468935">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3271720" lon="-122.8467207">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3266765" lon="-122.8464891">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3261046" lon="-122.8461412">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3256472" lon="-122.8459679">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3252280" lon="-122.8458527">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3249617" lon="-122.8461452">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3245807" lon="-122.8460298">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3241997" lon="-122.8460312">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3237807" lon="-122.8460326">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 040</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3399874" lon="-122.8590991">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3397589" lon="-122.8590998">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3395679" lon="-122.8586922">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3393772" lon="-122.8584595">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3388818" lon="-122.8583445">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3387291" lon="-122.8581117">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 041</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3336693" lon="-122.8637257">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3332124" lon="-122.8639021">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3326032" lon="-122.8641372">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3321462" lon="-122.8642552">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3316507" lon="-122.8640818">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3312695" lon="-122.8637914">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3309644" lon="-122.8635591">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3308119" lon="-122.8633847">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3305832" lon="-122.8633271">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 042</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3214551" lon="-122.9191464">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3217975" lon="-122.9186793">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3221021" lon="-122.9183872">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3224828" lon="-122.9181533">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3229018" lon="-122.9179775">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3232825" lon="-122.9176270">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3235870" lon="-122.9172183">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 043</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3233627" lon="-122.9235152">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3232862" lon="-122.9230489">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3231337" lon="-122.9227577">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3229431" lon="-122.9226414">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3227905" lon="-122.9223503">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3227142" lon="-122.9221172">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3226377" lon="-122.9215926">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3225993" lon="-122.9211263">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3225227" lon="-122.9206601">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3224463" lon="-122.9203104">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3224080" lon="-122.9200190">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3222554" lon="-122.9196111">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 044</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3235531" lon="-122.9233982">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3237051" lon="-122.9227566">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3238953" lon="-122.9223482">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3239710" lon="-122.9217067">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3241991" lon="-122.9210650">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3243892" lon="-122.9204816">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3246175" lon="-122.9200731">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3248838" lon="-122.9194312">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3252262" lon="-122.9188475">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3254544" lon="-122.9183223">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3256827" lon="-122.9179721">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 045</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3137246" lon="-122.9231250">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3138767" lon="-122.9228333">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3140672" lon="-122.9227163">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3143339" lon="-122.9227741">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3147530" lon="-122.9228316">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3149816" lon="-122.9230061">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3153627" lon="-122.9231220">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3157438" lon="-122.9234710">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3160868" lon="-122.9237035">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3165439" lon="-122.9237027">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3169247" lon="-122.9234105">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3171149" lon="-122.9230604">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3175337" lon="-122.9225350">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3180285" lon="-122.9220094">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3183330" lon="-122.9216008">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3185993" lon="-122.9211922">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3189039" lon="-122.9209001">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3192085" lon="-122.9206664">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3196654" lon="-122.9203157">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3201603" lon="-122.9198484">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3206171" lon="-122.9193811">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3209980" lon="-122.9192638">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3213789" lon="-122.9191465">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3216074" lon="-122.9192044">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3219504" lon="-122.9194369">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3224840" lon="-122.9197273">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3227888" lon="-122.9197267">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3230935" lon="-122.9197261">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3235506" lon="-122.9197253">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3237409" lon="-122.9194334">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3237405" lon="-122.9189670">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3240072" lon="-122.9188499">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3242737" lon="-122.9186745">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3245022" lon="-122.9185574">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3247304" lon="-122.9182072">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3249589" lon="-122.9180901">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3253780" lon="-122.9179726">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3256826" lon="-122.9179138">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3260252" lon="-122.9175633">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3262917" lon="-122.9172712">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3265201" lon="-122.9169792">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3269008" lon="-122.9166869">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3272052" lon="-122.9162782">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3275098" lon="-122.9159861">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3278144" lon="-122.9157523">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3280426" lon="-122.9154020">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3283473" lon="-122.9152264">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3286138" lon="-122.9149927">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3288424" lon="-122.9149922">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3291472" lon="-122.9151666">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3292617" lon="-122.9154578">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3295664" lon="-122.9153406">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3298712" lon="-122.9153400">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 046</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3088032" lon="-122.8157183">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3085742" lon="-122.8153695">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3083072" lon="-122.8151958">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3080402" lon="-122.8149637">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3077733" lon="-122.8148482">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3074686" lon="-122.8148495">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3072023" lon="-122.8150837">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3068213" lon="-122.8150269">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3064022" lon="-122.8150286">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3060975" lon="-122.8150299">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3058689" lon="-122.8150308">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3056022" lon="-122.8150319">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3051832" lon="-122.8150336">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3046118" lon="-122.8150359">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3041165" lon="-122.8150379">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 047</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3206246" lon="-122.8000470">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3197125" lon="-122.8013334">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3191427" lon="-122.8022103">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3187635" lon="-122.8032613">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3182319" lon="-122.8042546">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3177002" lon="-122.8052479">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3170929" lon="-122.8065329">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3165993" lon="-122.8075842">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3160678" lon="-122.8086357">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3156502" lon="-122.8095118">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3151179" lon="-122.8101552">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3147767" lon="-122.8111476">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3142830" lon="-122.8120822">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3138653" lon="-122.8129000">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3135614" lon="-122.8134258">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3132194" lon="-122.8139519">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3129158" lon="-122.8147109">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3126124" lon="-122.8155281">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3121945" lon="-122.8162292">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3120057" lon="-122.8172792">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3117021" lon="-122.8180381">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3110555" lon="-122.8186235">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3104846" lon="-122.8190337">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3099904" lon="-122.8196186">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3096485" lon="-122.8202611">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3092306" lon="-122.8210204">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3088505" lon="-122.8215465">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3083945" lon="-122.8223059">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3078997" lon="-122.8225410">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3072903" lon="-122.8226599">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3063379" lon="-122.8226054">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3053857" lon="-122.8227256">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3045478" lon="-122.8228454">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3036718" lon="-122.8229071">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3027958" lon="-122.8230271">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3020720" lon="-122.8230299">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3011957" lon="-122.8230333">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3005864" lon="-122.8230939">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 048</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3136367" lon="-122.8129010">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3134078" lon="-122.8126687">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3142808" lon="-122.8107416">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3145862" lon="-122.8110901">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3136748" lon="-122.8129008">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 049</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3118363" lon="-122.8068465">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3091745" lon="-122.8097136">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3074538" lon="-122.8058742">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3096593" lon="-122.8034752">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3101925" lon="-122.8034146">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3117981" lon="-122.8067884">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 050</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3255711" lon="-122.8196735">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3253812" lon="-122.8200824">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3251535" lon="-122.8206080">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3249639" lon="-122.8211918">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3247745" lon="-122.8218921">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3245844" lon="-122.8221261">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3243564" lon="-122.8225351">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3241664" lon="-122.8228274">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3239764" lon="-122.8231196">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3239009" lon="-122.8235280">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3236732" lon="-122.8241702">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3235977" lon="-122.8245786">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 054</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3698994" lon="-122.8657737">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3700134" lon="-122.8655983">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3700511" lon="-122.8652480">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3701652" lon="-122.8651310">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3702032" lon="-122.8649558">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3703552" lon="-122.8646636">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3706215" lon="-122.8644293">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3707739" lon="-122.8643705">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3710026" lon="-122.8644865">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3712688" lon="-122.8640772">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3715352" lon="-122.8639013">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3717259" lon="-122.8641342">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3719167" lon="-122.8643670">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3721454" lon="-122.8644830">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3722598" lon="-122.8645994">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3722982" lon="-122.8648327">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3725269" lon="-122.8649487">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3725652" lon="-122.8651237">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 056</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3105649" lon="-122.9264531">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3101460" lon="-122.9266871">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3094222" lon="-122.9266883">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3088507" lon="-122.9265728">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3083937" lon="-122.9268068">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3078987" lon="-122.9272156">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3075180" lon="-122.9275076">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3070230" lon="-122.9279165">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3064517" lon="-122.9280924">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3056138" lon="-122.9283270">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3048520" lon="-122.9285032">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3042806" lon="-122.9285042">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3033661" lon="-122.9280978">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3027183" lon="-122.9278076">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3018799" lon="-122.9272846">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3010796" lon="-122.9268198">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3006219" lon="-122.9260048">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3002406" lon="-122.9254227">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.2998975" lon="-122.9250155">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 058</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3337331" lon="-122.8535792">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3337324" lon="-122.8530544">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3337702" lon="-122.8528209">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3338076" lon="-122.8522961">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3338835" lon="-122.8520042">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3340356" lon="-122.8518288">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3343401" lon="-122.8516528">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3346447" lon="-122.8514769">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 060</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3143874" lon="-122.8942704">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3143497" lon="-122.8946202">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3143884" lon="-122.8952030">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3144650" lon="-122.8957857">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3146562" lon="-122.8965431">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3148474" lon="-122.8974169">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3150385" lon="-122.8979993">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3153438" lon="-122.8986981">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3156110" lon="-122.8993387">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3157257" lon="-122.8997464">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3159167" lon="-122.9004455">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3159171" lon="-122.9009119">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3158034" lon="-122.9015533">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3156516" lon="-122.9021949">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3154233" lon="-122.9025452">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3151951" lon="-122.9029537">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3148904" lon="-122.9031292">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3145856" lon="-122.9030134">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 061</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3130737" lon="-122.9184049">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3131883" lon="-122.9188127">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3132267" lon="-122.9192789">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3132650" lon="-122.9195120">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3133413" lon="-122.9196284">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3139910" lon="-122.9227165">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3143713" lon="-122.9218997">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3146376" lon="-122.9213746">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3148660" lon="-122.9211410">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3166171" lon="-122.9192723">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3162746" lon="-122.9197976">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3158178" lon="-122.9202648">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3154752" lon="-122.9204986">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3153229" lon="-122.9207321">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3149041" lon="-122.9210243">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3144091" lon="-122.9212584">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3139900" lon="-122.9212593">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3135708" lon="-122.9210852">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3133420" lon="-122.9207359">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3132654" lon="-122.9201531">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3133413" lon="-122.9196867">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3134552" lon="-122.9191036">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3136834" lon="-122.9186368">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3138736" lon="-122.9182285">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3140637" lon="-122.9177618">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3141778" lon="-122.9174701">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3142918" lon="-122.9170619">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3143677" lon="-122.9167703">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3144058" lon="-122.9167118">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Track 063</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3117239" lon="-122.8079544">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3106603" lon="-122.8098240">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3082301" lon="-122.8146133">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3073928" lon="-122.8151412">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3055264" lon="-122.8152653">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3032027" lon="-122.8153330">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3007647" lon="-122.8153429">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>Vista Connector</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>DarkBlue</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="49.3637689" lon="-122.8681262">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3636542" lon="-122.8677764">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3633874" lon="-122.8676022">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3633869" lon="-122.8671937">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3633102" lon="-122.8667272">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3631956" lon="-122.8664942">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3629285" lon="-122.8660282">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3626995" lon="-122.8657955">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3625089" lon="-122.8656210">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3623561" lon="-122.8652131">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+      <trkpt lat="49.3623938" lon="-122.8649212">
+        <time>2007-09-21T17:15:37Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+</gpx>

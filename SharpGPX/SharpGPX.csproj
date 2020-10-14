@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Company>Blue Toque Software</Company>
+    <Version>2.20.10.13</Version>
+    <Copyright>Copyright © Blue Toque Software 2020</Copyright>
+    <Authors>Michael Coyle</Authors>
+    <Description>Read and write GPX Files</Description>
+    <AssemblyVersion>2.20.10.13</AssemblyVersion>
+    <FileVersion>2.20.10.13</FileVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Xslt\gpx10to11.xslt" />
+    <None Remove="Xslt\gpx11to10.xslt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Xslt\gpx10to11.xslt" />
+    <Resource Include="Xslt\gpx11to10.xslt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="GPX1_0\gpx.xsd">
+      <Generator>XsdCodeGenerator</Generator>
+    </None>
+  </ItemGroup>
+
+</Project>
