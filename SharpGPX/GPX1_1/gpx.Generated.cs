@@ -22,10 +22,10 @@ namespace SharpGPX.GPX1_1 {
     [System.Xml.Serialization.XmlRootAttribute("gpx", Namespace="http://www.topografix.com/GPX/1/1", IsNullable=false)]
     public partial class gpxType : System.ComponentModel.INotifyPropertyChanged {
         
-        /// <summary />
-        public gpxType() {
-            this.versionField = "1.1";
-        }
+        ///// <summary />
+        //public gpxType() {
+        //    this.versionField = "1.1";
+        //}
         
         /// <summary />
         public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
