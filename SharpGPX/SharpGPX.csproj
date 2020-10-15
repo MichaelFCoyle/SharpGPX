@@ -11,6 +11,11 @@
     <FileVersion>2.20.10.14</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/BlueToque/SharpGPX</RepositoryUrl>
+    <PackageId>BlueToque.SharpGPX</PackageId>
+    <PackageTags>gpx,geospatial,gps</PackageTags>
+    <RepositoryType>Git</RepositoryType>
+    <AssemblyName>BlueToque.SharpGPX</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
