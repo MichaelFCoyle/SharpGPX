@@ -1,18 +1,26 @@
 ﻿using SharpGPX;
 using SharpGPX.GPX1_1;
 using System;
+using System.Linq;
 using System.Security.Principal;
 
 namespace Examples
 {
     class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
             try
             {
-                ReadAndPrint("Files\\All Buntzen Trails.gpx");
-                ReadAndPrint("Files\\Buntzen Waypoints.gpx");
+                if (args.Count() != 0)
+                {
+                    ReadAndPrint(args[0]);
+                }
+                else
+                {
+                    ReadAndPrint("Files\\All Buntzen Trails.gpx");
+                    ReadAndPrint("Files\\Buntzen Waypoints.gpx");
+                }
 
                 // create a new file
                 GpxClass newGpx = new GpxClass()

@@ -59,5 +59,35 @@ namespace SharpGPX.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot;?&gt;
+        ///&lt;xsl:stylesheet version=&quot;1.0&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;  xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns=&quot;http://www.topografix.com/GPX/1/1&quot; xmlns:gpx=&quot;http://www.topografix.com/GPX/1/0&quot; exclude-result-prefixes=&quot;gpx&quot;&gt;
+        ///
+        ///  &lt;xsl:output method=&quot;xml&quot; indent=&quot;yes&quot; encoding=&quot;utf-8&quot;/&gt;
+        ///
+        ///  &lt;xsl:template match=&quot;/gpx:gpx&quot;&gt;
+        ///    &lt;gpx creator=&quot;Cybarber&quot; version=&quot;1.1&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;  xsi:schemaLocation=&quot;http://www.topografix.com/GP [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string gpx10to11 {
+            get {
+                return ResourceManager.GetString("gpx10to11", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot;?&gt;
+        ///&lt;xsl:stylesheet version=&quot;1.0&quot; xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot;  xmlns=&quot;http://www.topografix.com/GPX/1/0&quot; xmlns:gpx=&quot;http://www.topografix.com/GPX/1/1&quot; exclude-result-prefixes=&quot;gpx&quot;&gt;
+        ///
+        ///  &lt;xsl:output method=&quot;xml&quot; indent=&quot;yes&quot; encoding=&quot;utf-8&quot;/&gt;
+        ///
+        ///  &lt;xsl:template match=&quot;/gpx:gpx&quot;&gt;
+        ///    &lt;gpx creator=&quot;Cybarber&quot; version=&quot;1.0&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;  xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;  xsi:schemaLocation=&quot;http://www.topografix.com/G [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string gpx11to10 {
+            get {
+                return ResourceManager.GetString("gpx11to10", resourceCulture);
+            }
+        }
     }
 }

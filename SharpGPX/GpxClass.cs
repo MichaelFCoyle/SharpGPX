@@ -1,4 +1,5 @@
 ﻿using SharpGPX.GPX1_1;
+using SharpGPX.Properties;
 using System;
 using System.Diagnostics;
 using System.IO;
@@ -66,7 +67,7 @@ namespace SharpGPX
             if (version == null)
                 return new GpxClass();
             else if (version == GpxVersion.GPX_1_0)
-                xmlString = XsltHelper.Transform(xmlString, ResourceHelper.GetText("gpx10to11.xslt"));
+                xmlString = XsltHelper.Transform(xmlString, Resources.gpx10to11);
 
             return new GpxClass(Serializer.Deserialize<gpxType>(xmlString))
             {
@@ -201,7 +202,7 @@ namespace SharpGPX
         {
             string xmlString = Serializer.Serialize(ToGpx1_1());
             return (version == GpxVersion.GPX_1_0) ?
-                XsltHelper.Transform(xmlString, ResourceHelper.GetText("gpx11to10.xslt")) :
+                XsltHelper.Transform(xmlString, Resources.gpx11to10) :
                 xmlString;
         }
 
@@ -227,7 +228,7 @@ namespace SharpGPX
             if (version == GpxVersion.GPX_1_1)
                 Serializer.Serialize(stream, ToGpx1_1());
             else
-                XsltHelper.Transform(Serializer.Serialize(ToGpx1_1()), ResourceHelper.GetText("gpx11to10.xslt"), stream);
+                XsltHelper.Transform(Serializer.Serialize(ToGpx1_1()), Resources.gpx11to10, stream);
         }
 
         /// <summary>
