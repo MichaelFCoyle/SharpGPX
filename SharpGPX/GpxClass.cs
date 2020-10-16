@@ -3,6 +3,7 @@ using SharpGPX.Properties;
 using System;
 using System.Diagnostics;
 using System.IO;
+using System.Linq;
 using System.Xml;
 using Utility;
 
@@ -252,6 +253,23 @@ namespace SharpGPX
             bounds = Routes.GetBounds().Union(bounds);
             bounds = Waypoints.GetBounds().Union(bounds);
             return bounds;
+        }
+
+        /// <summary>
+        /// Count all elements and sub elements
+        /// </summary>
+        /// <returns></returns>
+        public int CountElements()
+        {
+            int count = Waypoints.Count + Routes.Count + Tracks.Count;
+
+            if (Routes != null)
+                count += Routes.Sum(x => x.rtept.Count);
+
+            if (Tracks != null)
+                count += Tracks.Sum(x => x.trkseg.Sum(y => y.trkpt.Count));
+
+            return count;
         }
 
         #endregion

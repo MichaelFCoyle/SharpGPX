@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Blue Toque Software</Company>
-    <Version>2.20.1015</Version>
+    <Version>2.20.1016</Version>
     <Copyright>Copyright © Blue Toque Software 2020</Copyright>
     <Authors>Michael Coyle</Authors>
     <Description>Read and write GPX Files</Description>
-    <AssemblyVersion>2.20.1015</AssemblyVersion>
-    <FileVersion>2.20.1015</FileVersion>
+    <AssemblyVersion>2.20.1016</AssemblyVersion>
+    <FileVersion>2.20.1016</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/BlueToque/SharpGPX</RepositoryUrl>
@@ -16,7 +16,8 @@
     <PackageTags>gpx,geospatial,gps</PackageTags>
     <RepositoryType>Git</RepositoryType>
     <AssemblyName>BlueToque.SharpGPX</AssemblyName>
-    <PackageReleaseNotes>Fixed import of GPX 1.0</PackageReleaseNotes>
+    <PackageReleaseNotes>Fixed import of GPX 1.0
+Changed a namespace, added CountElements to sum all elements and sub-elements in a GPX file</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

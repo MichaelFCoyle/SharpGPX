@@ -60,6 +60,8 @@ namespace Examples
             // read a file
             GpxClass gpx = GpxClass.FromFile(fileName);
 
+            Console.WriteLine("{0} elements total", gpx.CountElements());
+
             Console.WriteLine("Waypoints: {0}", gpx.Waypoints.Count);
             gpx.Waypoints.ForEach(x => Console.WriteLine("\tWaypoint: {0}", x.name));
             Console.WriteLine("Routes: {0}", gpx.Routes.Count);

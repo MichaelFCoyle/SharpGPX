@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Drawing;
+﻿using System.Drawing;
 using System.Xml.Serialization;
-using SharpGpx.GPX1_1;
 
-namespace SharpGpx.GPX1_1
+namespace SharpGPX.GPX1_1
 {
     public static class GarminExtensions
     {
