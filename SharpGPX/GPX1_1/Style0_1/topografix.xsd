@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- topografix.xsd version 0.1: Private GPX extensions used by TopoGrafix products -->
+<xsd:schema
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:topografix="http://www.topografix.com/GPX/Private/TopoGrafix/0/1"
+	targetNamespace="http://www.topografix.com/GPX/Private/TopoGrafix/0/1"
+	elementFormDefault="qualified">
+
+<!-- Active Point definition -->
+
+  <xsd:element name="active_point">
+    <xsd:complexType>
+      <xsd:attribute name="lat" type="topografix:latitude" use="required"/>
+      <xsd:attribute name="lon" type="topografix:longitude" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+
+<!-- Route Number definition -->
+  <xsd:element name="route_number"	type="xsd:decimal"/>
+
+<!-- Route Color definition -->
+  <xsd:element name="color"	type="xsd:hexBinary"/>
+
+<!-- Leg definition -->
+	<xsd:element name="leg">
+	  <xsd:complexType>
+		<xsd:sequence>	<!-- elements must appear in this order -->
+		  <xsd:element name="name"			type="xsd:string"		minOccurs="0"/>
+		  <xsd:element name="desc"			type="xsd:string"		minOccurs="0"/>
+		  <xsd:element name="url"			type="xsd:anyURI"		minOccurs="0"/>
+		  <xsd:element name="urlname"		type="xsd:string"		minOccurs="0"/>
+		</xsd:sequence>
+	  </xsd:complexType>
+	</xsd:element>
+
+  <!-- Helper types -->
+
+  <xsd:simpleType name="latitude">
+    <xsd:restriction base="xsd:decimal">
+      <xsd:minInclusive value="-90.0"/>
+      <xsd:maxInclusive value="90.0"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="longitude">
+    <xsd:restriction base="xsd:decimal">
+      <xsd:minInclusive value="-180.0"/>
+      <xsd:maxInclusive value="180.0"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+</xsd:schema> 

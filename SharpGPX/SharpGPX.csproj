@@ -7,8 +7,8 @@
     <Copyright>Copyright © Blue Toque Software 2020</Copyright>
     <Authors>Michael Coyle</Authors>
     <Description>Read and write GPX Files</Description>
-    <AssemblyVersion>2.20.1016</AssemblyVersion>
-    <FileVersion>2.20.1016</FileVersion>
+    <AssemblyVersion>2.20.1027</AssemblyVersion>
+    <FileVersion>2.20.1027</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/BlueToque/SharpGPX</RepositoryUrl>
@@ -16,9 +16,21 @@
     <PackageTags>gpx,geospatial,gps</PackageTags>
     <RepositoryType>Git</RepositoryType>
     <AssemblyName>BlueToque.SharpGPX</AssemblyName>
-    <PackageReleaseNotes>Fixed import of GPX 1.0
-Changed a namespace, added CountElements to sum all elements and sub-elements in a GPX file</PackageReleaseNotes>
+    <PackageReleaseNotes>Added convenience method for GarminExtensions
+Added topographics private schemas</PackageReleaseNotes>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="GPX1_1\Style0_1\obj\**" />
+    <Compile Remove="GPX1_1\Style0_2\bin\**" />
+    <Compile Remove="GPX1_1\Style0_2\obj\**" />
+    <EmbeddedResource Remove="GPX1_1\Style0_1\obj\**" />
+    <EmbeddedResource Remove="GPX1_1\Style0_2\bin\**" />
+    <EmbeddedResource Remove="GPX1_1\Style0_2\obj\**" />
+    <None Remove="GPX1_1\Style0_1\obj\**" />
+    <None Remove="GPX1_1\Style0_2\bin\**" />
+    <None Remove="GPX1_1\Style0_2\obj\**" />
+  </ItemGroup>
 
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">

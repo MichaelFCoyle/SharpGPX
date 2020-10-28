@@ -26,21 +26,20 @@ namespace SharpGPX.GPX1_1
                 case DisplayColor_t.Transparent: return Color.Transparent;
                 case DisplayColor_t.White: return Color.White;
                 case DisplayColor_t.Yellow: return Color.Yellow;
-
+                default: return Color.Black;
             }
-            return Color.Black;
         }
     }
 
     public partial class RouteExtension_t
     {
         [XmlIgnore]
-        public Color Color { get { return GarminExtensions.ConvertColor(this.DisplayColor); } }
+        public Color Color => GarminExtensions.ConvertColor(DisplayColor);
     }
 
     public partial class TrackExtension_t
     {
         [XmlIgnore]
-        public Color Color { get { return GarminExtensions.ConvertColor(this.DisplayColor); } }
+        public Color Color => GarminExtensions.ConvertColor(DisplayColor);
     }
 }
