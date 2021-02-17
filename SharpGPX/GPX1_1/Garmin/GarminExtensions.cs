@@ -1,7 +1,7 @@
 ﻿using System.Drawing;
 using System.Xml.Serialization;
 
-namespace SharpGPX.GPX1_1
+namespace SharpGPX.GPX1_1.Garmin
 {
     public static class GarminExtensions
     {

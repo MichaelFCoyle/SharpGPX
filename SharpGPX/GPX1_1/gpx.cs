@@ -2,9 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Xml.Serialization;
-using Utility;
 
 namespace SharpGPX.GPX1_1
 {
@@ -17,6 +15,7 @@ namespace SharpGPX.GPX1_1
             rte = new rteTypeCollection();
             wpt = new wptTypeCollection();
             trk = new trkTypeCollection();
+            versionField = "1.1";
         }
     }
 
@@ -207,36 +206,11 @@ namespace SharpGPX.GPX1_1
         /// </summary>
         /// <returns></returns>
         public boundsType GetBounds() => trkseg.GetBounds();
-
-        public TrackExtension_t GarminTrackExt => extensions.Get<TrackExtension_t>();
-
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
     public partial class extensionsType
     {
-
-        /// <summary>
-        /// Get a deserialized element if it exists
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <returns></returns>
-        public T Get<T>() where T : class
-        {
-            if (Any == null || Any.Count() == 0)
-                return null;
-
-            foreach (var element in Any)
-            {
-                try
-                {
-                    T item = Serializer.Deserialize<T>(element);
-                    if (item != null)
-                        return item;
-                } catch { }
-            }
-            return null;
-        }
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]

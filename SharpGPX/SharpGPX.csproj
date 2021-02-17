@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Blue Toque Software</Company>
-    <Version>2.20.1016</Version>
-    <Copyright>Copyright © Blue Toque Software 2020</Copyright>
+    <Version>2.21.0216</Version>
+    <Copyright>Copyright © Blue Toque Software 2021</Copyright>
     <Authors>Michael Coyle</Authors>
-    <Description>Read and write GPX Files</Description>
-    <AssemblyVersion>2.20.1027</AssemblyVersion>
-    <FileVersion>2.20.1027</FileVersion>
+    <Description>Read and write GPX Files as associated extensions</Description>
+    <AssemblyVersion>2.21.0216</AssemblyVersion>
+    <FileVersion>2.21.0216</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/BlueToque/SharpGPX</RepositoryUrl>
@@ -17,19 +17,20 @@
     <RepositoryType>Git</RepositoryType>
     <AssemblyName>BlueToque.SharpGPX</AssemblyName>
     <PackageReleaseNotes>Added convenience method for GarminExtensions
-Added topographics private schemas</PackageReleaseNotes>
+Added topographics private schemas
+Added topographix GpxStyle schema and convenience methods to acccess</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="GPX1_1\Style0_1\obj\**" />
-    <Compile Remove="GPX1_1\Style0_2\bin\**" />
-    <Compile Remove="GPX1_1\Style0_2\obj\**" />
-    <EmbeddedResource Remove="GPX1_1\Style0_1\obj\**" />
-    <EmbeddedResource Remove="GPX1_1\Style0_2\bin\**" />
-    <EmbeddedResource Remove="GPX1_1\Style0_2\obj\**" />
-    <None Remove="GPX1_1\Style0_1\obj\**" />
-    <None Remove="GPX1_1\Style0_2\bin\**" />
-    <None Remove="GPX1_1\Style0_2\obj\**" />
+    <Compile Remove="GPX1_1\TopoGrafix\PrivateStyle0_1\obj\**" />
+    <Compile Remove="GPX1_1\TopoGrafix\PrivateStyle0_2\bin\**" />
+    <Compile Remove="GPX1_1\TopoGrafix\PrivateStyle0_2\obj\**" />
+    <EmbeddedResource Remove="GPX1_1\TopoGrafix\PrivateStyle0_1\obj\**" />
+    <EmbeddedResource Remove="GPX1_1\TopoGrafix\PrivateStyle0_2\bin\**" />
+    <EmbeddedResource Remove="GPX1_1\TopoGrafix\PrivateStyle0_2\obj\**" />
+    <None Remove="GPX1_1\TopoGrafix\PrivateStyle0_1\obj\**" />
+    <None Remove="GPX1_1\TopoGrafix\PrivateStyle0_2\bin\**" />
+    <None Remove="GPX1_1\TopoGrafix\PrivateStyle0_2\obj\**" />
   </ItemGroup>
 
   <ItemGroup>

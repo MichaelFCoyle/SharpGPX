@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7823939C-17AD-4D8A-A444-48B55729362F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CodeGen</RootNamespace>
+    <AssemblyName>CodeGen</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing">
+      <HintPath>..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GPX1_0\gpx.cs">
+      <DependentUpon>gpx.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPX1_0\gpx.Generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gpx.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPX1_1\Extensions.cs" />
+    <Compile Include="GPX1_1\Garmin\GarminExtensions.cs">
+      <DependentUpon>GarminExtensions.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPX1_1\Garmin\GarminExtensions.Generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GarminExtensions.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPX1_1\gpx.cs">
+      <DependentUpon>gpx.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPX1_1\gpx.Generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gpx.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPX1_1\TopoGrafix\GPX_Style\gpx_style.Generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gpx_style.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPX1_1\TopoGrafix\PrivateStyle0_1\topografix.Generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>topografix.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPX1_1\TopoGrafix\PrivateStyle0_2\topografix.Generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>topografix.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GPX1_0\gpx.Generated.xml">
+      <DependentUpon>gpx.xsd</DependentUpon>
+    </Content>
+    <Content Include="GPX1_1\Garmin\GarminExtensions.Generated.xml">
+      <DependentUpon>GarminExtensions.xsd</DependentUpon>
+    </Content>
+    <Content Include="GPX1_1\gpx.Generated.xml">
+      <DependentUpon>gpx.xsd</DependentUpon>
+    </Content>
+    <Content Include="GPX1_1\TopoGrafix\GPX_Style\gpx_style.Generated.xml">
+      <DependentUpon>gpx_style.xsd</DependentUpon>
+    </Content>
+    <Content Include="GPX1_1\TopoGrafix\PrivateStyle0_1\topografix.Generated.xml">
+      <DependentUpon>topografix.xsd</DependentUpon>
+    </Content>
+    <Content Include="GPX1_1\TopoGrafix\PrivateStyle0_2\topografix.Generated.xml">
+      <DependentUpon>topografix.xsd</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GPX1_0\gpx.xsd">
+      <SubType>Designer</SubType>
+      <Generator>XsdCodeGenerator</Generator>
+      <LastGenOutput>gpx.Generated.cs</LastGenOutput>
+      <CustomToolNamespace>SharpGPX.GPX1_0</CustomToolNamespace>
+    </None>
+    <None Include="GPX1_1\Garmin\GarminExtensions.xsd">
+      <SubType>Designer</SubType>
+      <Generator>XsdCodeGenerator</Generator>
+      <LastGenOutput>GarminExtensions.Generated.cs</LastGenOutput>
+      <CustomToolNamespace>SharpGPX.GPX1_1.Garmin</CustomToolNamespace>
+    </None>
+    <None Include="GPX1_1\gpx.xsd">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>SharpGPX.GPX1_1</CustomToolNamespace>
+      <Generator>XsdCodeGenerator</Generator>
+      <LastGenOutput>gpx.Generated.cs</LastGenOutput>
+    </None>
+    <None Include="GPX1_1\TopoGrafix\GPX_Style\gpx_style.xsd">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>SharpGPX.GPX1_1.Topografix.GpxStyle</CustomToolNamespace>
+      <Generator>XsdCodeGenerator</Generator>
+      <LastGenOutput>gpx_style.Generated.cs</LastGenOutput>
+    </None>
+    <None Include="GPX1_1\TopoGrafix\PrivateStyle0_1\topografix.xsd">
+      <SubType>Designer</SubType>
+      <Generator>XsdCodeGenerator</Generator>
+      <LastGenOutput>topografix.Generated.cs</LastGenOutput>
+      <CustomToolNamespace>SharpGPX.GPX1_1.Topografix.PrivateStyle0_1</CustomToolNamespace>
+    </None>
+    <None Include="GPX1_1\TopoGrafix\PrivateStyle0_2\topografix.xsd">
+      <SubType>Designer</SubType>
+      <Generator>XsdCodeGenerator</Generator>
+      <LastGenOutput>topografix.Generated.cs</LastGenOutput>
+      <CustomToolNamespace>SharpGPX.GPX1_1.Topografix.PrivateStyle0_2</CustomToolNamespace>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

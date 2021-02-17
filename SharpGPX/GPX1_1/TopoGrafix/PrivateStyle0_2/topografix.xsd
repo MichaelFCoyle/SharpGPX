@@ -6,9 +6,9 @@
 	xmlns="http://www.topografix.com/GPX/Private/TopoGrafix/0/2"
 	targetNamespace="http://www.topografix.com/GPX/Private/TopoGrafix/0/2"
 	elementFormDefault="qualified">
-<xsd:import namespace="http://www.topografix.com/GPX/1/1" schemaLocation="http://www.topografix.com/GPX/1/1/gpx.xsd"/>
-
-<!-- Active Point definition -->
+  <!--<xsd:import namespace="http://www.topografix.com/GPX/1/1" schemaLocation="http://www.topografix.com/GPX/1/1/gpx.xsd"/>-->
+  <xsd:import namespace="http://www.topografix.com/GPX/1/1" schemaLocation="../../gpx.xsd"/>
+  <!-- Active Point definition -->
 
   <xsd:element name="active_point">
     <xsd:complexType>

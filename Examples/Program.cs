@@ -20,6 +20,7 @@ namespace Examples
                 {
                     ReadAndPrint("Files\\All Buntzen Trails.gpx");
                     ReadAndPrint("Files\\Buntzen Waypoints.gpx");
+                    ReadAndPrint("Files\\Burnaby Walk.gpx");
                 }
 
                 // create a new file
@@ -68,6 +69,17 @@ namespace Examples
             gpx.Routes.ForEach(x => Console.WriteLine("\tRoute: {0}, {1} points", x.name, x.rtept.Count));
             Console.WriteLine("Tracks: {0}", gpx.Tracks.Count);
             gpx.Tracks.ForEach(x => Console.WriteLine("\tTrack: {0}, {1} segments", x.name, x.trkseg.Count));
+
+            foreach(var track in gpx.Tracks)
+            {
+                var garminExt = track.GetGarminExt();
+                if(garminExt!=null) 
+                    Console.WriteLine("Track {0} has Garmin extension", track.name );
+                var color = garminExt?.Color;
+                var lineExt = track.GetTopografixLine();
+                if (lineExt != null) Console.WriteLine("Track {0} has Topografix extension", track.name);
+
+            }
         }
 
         private static void CreateTrack()

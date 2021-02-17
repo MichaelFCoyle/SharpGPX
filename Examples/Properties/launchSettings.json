@@ -1,8 +1,7 @@
 {
   "profiles": {
     "Examples": {
-      "commandName": "Project",
-      "commandLineArgs": "\"C:\\Users\\Michael Coyle\\Documents\\Development\\GPSError\\GPSError\\GPSError\\TestData\\20200927-132348.gpx\""
+      "commandName": "Project"
     }
   }
 }
