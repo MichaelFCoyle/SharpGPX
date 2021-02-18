@@ -12,7 +12,7 @@ namespace SharpGPX
         /// <returns></returns>
         public static T Get<T>(this extensionsType ext) where T : class
         {
-            if (ext.Any == null || ext.Any.Count() == 0) return null;
+            if (ext == null || ext.Any == null || ext.Any.Count() == 0) return null;
 
             foreach (var element in ext.Any)
             {

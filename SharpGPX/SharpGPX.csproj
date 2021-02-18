@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Blue Toque Software</Company>
-    <Version>2.21.0216.1</Version>
+    <Version>2.21.0217</Version>
     <Copyright>Copyright © Blue Toque Software 2021</Copyright>
     <Authors>Michael Coyle</Authors>
     <Description>Read and write GPX Files as associated extensions</Description>
-    <AssemblyVersion>2.21.0216.1</AssemblyVersion>
-    <FileVersion>2.21.0216.1</FileVersion>
+    <AssemblyVersion>2.21.0217</AssemblyVersion>
+    <FileVersion>2.21.0217</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/BlueToque/SharpGPX</RepositoryUrl>
@@ -16,7 +16,7 @@
     <PackageTags>gpx,geospatial,gps</PackageTags>
     <RepositoryType>Git</RepositoryType>
     <AssemblyName>BlueToque.SharpGPX</AssemblyName>
-    <PackageReleaseNotes>Added topographix more GpxStyle convenience methods</PackageReleaseNotes>
+    <PackageReleaseNotes>Bug fix: null reference exception</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
