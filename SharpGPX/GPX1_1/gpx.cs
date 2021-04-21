@@ -22,12 +22,7 @@ namespace SharpGPX.GPX1_1
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
     public partial class metadataType
     {
-        public metadataType()
-        {
-            link = new linkTypeCollection();
-            time = DateTime.UtcNow;
-            timeSpecified = true;
-        }
+        public metadataType() => link = new linkTypeCollection();
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
@@ -64,11 +59,11 @@ namespace SharpGPX.GPX1_1
 
         public emailType(string email)
         {
-            if (string.IsNullOrEmpty(email))
-                return;
+            if (string.IsNullOrEmpty(email)) return;
+
             var parts = email.Split(new char[] { '@' }, StringSplitOptions.RemoveEmptyEntries);
-            if (parts.Length != 2)
-                return;
+            if (parts.Length != 2) return;
+
             id = parts[0];
             domain = parts[1];
         }
@@ -141,8 +136,7 @@ namespace SharpGPX.GPX1_1
     {
         public wptType()
         {
-            time = DateTime.UtcNow;
-            timeSpecified = true;
+            timeSpecified = false;
             eleSpecified = false;
         }
 
@@ -150,18 +144,14 @@ namespace SharpGPX.GPX1_1
         {
             lat = (decimal)latitude;
             lon = (decimal)longitude;
-            eleSpecified = false;
-            time = DateTime.UtcNow;
-            timeSpecified = true;
 
+            timeSpecified = dateTime.HasValue;
             if (dateTime.HasValue)
                 time = dateTime.Value;
 
+            eleSpecified = elevation.HasValue;
             if (elevation.HasValue)
-            {
                 ele = (decimal)elevation.Value;
-                eleSpecified = true;
-            }
         }
     }
 
@@ -169,29 +159,21 @@ namespace SharpGPX.GPX1_1
     [System.Diagnostics.DebuggerDisplay("{lat},{lon},{ele}")]
     public partial class ptType
     {
-        public ptType()
-        {
-            time = DateTime.UtcNow;
-            timeSpecified = true;
-            eleSpecified = false;
-        }
+        public ptType()=> eleSpecified = false;
 
         public ptType(double latitude, double longitude, double? elevation = null, DateTime? dateTime = null)
         {
-            time = DateTime.UtcNow;
             lat = (decimal)latitude;
             lon = (decimal)longitude;
             eleSpecified = false;
-            time = DateTime.UtcNow;
-            timeSpecified = true;
+
+            timeSpecified = dateTime.HasValue;
             if (dateTime.HasValue)
                 time = dateTime.Value;
 
+            eleSpecified = elevation.HasValue;
             if (elevation.HasValue)
-            {
                 ele = (decimal)elevation.Value;
-                eleSpecified = true;
-            }
         }
     }
 
@@ -250,15 +232,7 @@ namespace SharpGPX.GPX1_1
         /// Get a boundsType that represents the bounds of this data
         /// </summary>
         /// <returns></returns>
-        public boundsType GetBounds() => 
-            this.Count==0?new boundsType():
-            new boundsType
-            {
-                maxlat = this.Max(x => x.lat),
-                maxlon = this.Max(x => x.lon),
-                minlat = this.Min(x => x.lat),
-                minlon = this.Min(x => x.lon)
-            };
+        public boundsType GetBounds() => Count == 0 ? new boundsType() : new boundsType(this.Min(x => x.lat), this.Max(x => x.lat), this.Min(x => x.lon), this.Max(x => x.lon));
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]

@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SharpGPX\SharpGPX.csproj" />
+    <ProjectReference Include="..\..\SharpGPX\SharpGPX.csproj" />
   </ItemGroup>
 
   <ItemGroup>
