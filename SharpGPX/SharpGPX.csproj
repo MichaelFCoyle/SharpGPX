@@ -16,7 +16,7 @@
     <PackageTags>gpx,geospatial,gps</PackageTags>
     <RepositoryType>Git</RepositoryType>
     <AssemblyName>BlueToque.SharpGPX</AssemblyName>
-    <PackageReleaseNotes>Bug fix: null reference exception</PackageReleaseNotes>
+    <PackageReleaseNotes>Remove date initialization. If date is null, it's null.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
