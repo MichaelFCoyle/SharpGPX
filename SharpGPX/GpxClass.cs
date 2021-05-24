@@ -43,8 +43,9 @@ namespace SharpGPX
         public metadataType Metadata { get; set; } = new metadataType();
         
         public extensionsType Extensions { get; set; }
-        
-        public string Version { get; set; }
+
+        /// <summary> Version is set to "1.1" because this is part of the standards </summary>
+        public string Version { get; } = "1.1";
 
         public wptTypeCollection Waypoints { get; set; } = new wptTypeCollection();
 
@@ -161,8 +162,9 @@ namespace SharpGPX
         /// Save as Gpx 1.1
         /// </summary>
         /// <returns></returns>
-        internal gpxType ToGpx1_1() => 
-            new gpxType()
+        internal gpxType ToGpx1_1()
+        {
+            var gpx1_1 = new gpxType()
             {
                 creator = Creator,
                 extensions = Extensions,
@@ -173,22 +175,9 @@ namespace SharpGPX
                 wpt = Waypoints == null ? new wptTypeCollection() : new wptTypeCollection(Waypoints),
             };
 
-        ///// <summary>
-        ///// Save as Gpx 1.0
-        ///// </summary>
-        ///// <returns></returns>
-        //internal GPX1_0.gpx ToGpx1_0()
-        //{
-        //    return new GPX1_0.gpx()
-        //    {
-        //        creator = Creator,
-        //        version = Version,
-        //        //rte = new GPX1_0.gpxRteCollection(this.rte),
-        //        //trk = new GPX1_0.gpxTrkCollection(this.trk),
-        //        //wpt = new GPX1_0.gpxWptCollection(this.wpt),
-        //    };
-
-        //}
+            gpx1_1.Preserialize();
+            return gpx1_1;
+        }
 
         #endregion
 
@@ -202,6 +191,7 @@ namespace SharpGPX
         public string ToXml(GpxVersion version)
         {
             string xmlString = Serializer.Serialize(ToGpx1_1());
+
             return (version == GpxVersion.GPX_1_0) ?
                 XsltHelper.Transform(xmlString, Resources.gpx11to10) :
                 xmlString;
@@ -238,6 +228,9 @@ namespace SharpGPX
         /// <param name="fileName"></param>
         public void ToFile(string fileName)
         {
+            if (File.Exists(fileName))
+                File.Delete(fileName);
+
             using (FileStream stream = File.OpenWrite(fileName))
                 ToStream(stream, GpxVersion.GPX_1_1);
         }

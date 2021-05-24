@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\SharpGPX\SharpGPX.csproj" />
+    <ProjectReference Include="..\Utility\Utility.csproj" />
   </ItemGroup>
 
 </Project>

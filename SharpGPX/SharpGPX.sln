@@ -11,7 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{21
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandLine", "..\Examples\CommandLine\CommandLine.csproj", "{9DA1DC3E-D76B-4BF3-93D0-BDA0732C55C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForms", "..\Examples\WinForms\WinForms.csproj", "{93198030-690D-4ECB-8AF8-065CFCBAD15F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinForms", "..\Examples\WinForms\WinForms.csproj", "{93198030-690D-4ECB-8AF8-065CFCBAD15F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "..\Examples\Utility\Utility.csproj", "{00830A59-4B1C-4137-B9FC-9374637ED546}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +36,10 @@ Global
 		{93198030-690D-4ECB-8AF8-065CFCBAD15F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93198030-690D-4ECB-8AF8-065CFCBAD15F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93198030-690D-4ECB-8AF8-065CFCBAD15F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00830A59-4B1C-4137-B9FC-9374637ED546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00830A59-4B1C-4137-B9FC-9374637ED546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00830A59-4B1C-4137-B9FC-9374637ED546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00830A59-4B1C-4137-B9FC-9374637ED546}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9DA1DC3E-D76B-4BF3-93D0-BDA0732C55C0} = {21E499A2-2FCC-40E3-A486-7DEF8988486A}
 		{93198030-690D-4ECB-8AF8-065CFCBAD15F} = {21E499A2-2FCC-40E3-A486-7DEF8988486A}
+		{00830A59-4B1C-4137-B9FC-9374637ED546} = {21E499A2-2FCC-40E3-A486-7DEF8988486A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0875125D-4CA3-4A3B-9711-F34E3731EF45}

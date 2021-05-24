@@ -43,9 +43,6 @@
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GPX1_0\gpx.cs">
-      <DependentUpon>gpx.xsd</DependentUpon>
-    </Compile>
     <Compile Include="GPX1_0\gpx.Generated.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -59,9 +56,6 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>GarminExtensions.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="GPX1_1\gpx.cs">
-      <DependentUpon>gpx.xsd</DependentUpon>
     </Compile>
     <Compile Include="GPX1_1\gpx.Generated.cs">
       <AutoGen>True</AutoGen>

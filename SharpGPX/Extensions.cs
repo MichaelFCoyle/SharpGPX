@@ -5,6 +5,45 @@ namespace SharpGPX
 {
     public static class Extensions
     {
+        public static bool IsNullOrEmpty(this metadataType metadata)
+        {
+            if (metadata == null) return true;
+            return (metadata.author.IsNullOrEmpty() &&
+                metadata.bounds.IsNullOrEmpty() &&
+                metadata.copyright.IsNullOrEmpty() &&
+                metadata.desc.IsNullOrEmpty() &&
+                metadata.extensions.IsNullOrEmpty() &&
+                metadata.keywords.IsNullOrEmpty() &&
+                metadata.link.IsNullOrEmpty() &&
+                metadata.name.IsNullOrEmpty() &&
+                metadata.timeSpecified == false);
+        }
+
+        public static bool IsNullOrEmpty(this extensionsType extensions) => extensions == null || extensions.Any == null || extensions.Any.Count() == 0;
+
+        public static bool IsNullOrEmpty(this copyrightType copyright) => copyright == null || (copyright.author.IsNullOrEmpty() && copyright.license.IsNullOrEmpty() && copyright.year.IsNullOrEmpty());
+
+        public static bool IsNullOrEmpty(this linkTypeCollection collection) => collection == null || collection.Count == 0;
+
+        public static bool IsNullOrEmpty(this linkType link) => link == null || (link.href.IsNullOrEmpty() && link.text.IsNullOrEmpty() && link.type.IsNullOrEmpty());
+
+        public static bool IsNullOrEmpty(this personType person) => person == null ||
+                (person.email.IsNullOrEmpty() &&
+                person.link.IsNullOrEmpty() &&
+                person.name.IsNullOrEmpty());
+
+        public static bool IsNullOrEmpty(this boundsType bounds) => bounds == null || bounds.IsEmpty();
+
+        public static bool IsNullOrEmpty(this emailType email) => email == null || (email.domain.IsNullOrEmpty() && email.id.IsNullOrEmpty());
+
+        internal static bool IsNullOrEmpty(this string str) => string.IsNullOrEmpty(str);
+
+        public static bool IsNullOrEmpty(this rteTypeCollection rteCollection) => rteCollection == null || rteCollection.Count == 0;
+
+        public static bool IsNullOrEmpty(this wptTypeCollection wptCollection) => wptCollection == null || wptCollection.Count == 0;
+
+        public static bool IsNullOrEmpty(this trkTypeCollection trkCollection) => trkCollection == null || trkCollection.Count == 0;
+
         /// <summary>
         /// Get a deserialized extension if it exists
         /// </summary>

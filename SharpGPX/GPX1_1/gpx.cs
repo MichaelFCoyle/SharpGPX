@@ -15,7 +15,26 @@ namespace SharpGPX.GPX1_1
             rte = new rteTypeCollection();
             wpt = new wptTypeCollection();
             trk = new trkTypeCollection();
-            versionField = "1.1";
+            version = "1.1";
+        }
+
+        public void Preserialize()
+        {
+            metadata?.Preserialize();
+            if (metadata.IsNullOrEmpty())
+                metadata = null;
+
+            rte?.Preserialize();
+            if (rte.IsNullOrEmpty())
+                rte = null;
+
+            wpt?.Preserialize();
+            if (wpt.IsNullOrEmpty())
+                rte = null;
+
+            trk?.Preserialize();
+            if (trk.IsNullOrEmpty())
+                rte = null;
         }
     }
 
@@ -23,6 +42,37 @@ namespace SharpGPX.GPX1_1
     public partial class metadataType
     {
         public metadataType() => link = new linkTypeCollection();
+
+        public void Preserialize()
+        {
+            author?.Preserialize();
+            if (author.IsNullOrEmpty()) 
+                author = null;
+
+            if (bounds.IsNullOrEmpty())
+                bounds = null;
+
+            copyright?.Preserialize();
+            if (copyright.IsNullOrEmpty())
+                copyright = null;
+
+            if (desc.IsNullOrEmpty())
+                desc = null;
+
+            extensions?.Preserialize();
+            if (extensions.IsNullOrEmpty())
+                extensions = null;
+
+            if (keywords.IsNullOrEmpty())
+                keywords = null;
+
+            link?.Preserialize();
+            if (link.IsNullOrEmpty())
+                link = null;
+
+            if (name.IsNullOrEmpty())
+                name = null;
+        }
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
@@ -35,6 +85,13 @@ namespace SharpGPX.GPX1_1
         {
             href = link;
             text = description;
+        }
+
+        public void Preserialize()
+        {
+            if (href.IsNullOrEmpty()) href = null;
+
+            if (text.IsNullOrEmpty()) text = null;
         }
     }
 
@@ -49,6 +106,13 @@ namespace SharpGPX.GPX1_1
             this.name = name;
             this.email = new emailType(email);
         }
+
+        public void Preserialize()
+        {
+            if (name.IsNullOrEmpty()) name = null;
+
+            if (email.IsNullOrEmpty()) email = null;
+        }
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
@@ -59,13 +123,20 @@ namespace SharpGPX.GPX1_1
 
         public emailType(string email)
         {
-            if (string.IsNullOrEmpty(email)) return;
+            if (email.IsNullOrEmpty()) return;
 
             var parts = email.Split(new char[] { '@' }, StringSplitOptions.RemoveEmptyEntries);
             if (parts.Length != 2) return;
 
             id = parts[0];
             domain = parts[1];
+        }
+
+        public void Preserialize()
+        {
+            if (id.IsNullOrEmpty()) id = null;
+
+            if (domain.IsNullOrEmpty()) domain = null;
         }
     }
 
@@ -79,6 +150,15 @@ namespace SharpGPX.GPX1_1
             this.author = author;
             this.license = license;
             this.year = year;
+        }
+
+        public void Preserialize()
+        {
+            if (author.IsNullOrEmpty()) author = null;
+
+            if (license.IsNullOrEmpty()) license = null;
+
+            if (year.IsNullOrEmpty()) year = null;
         }
     }
 
@@ -103,7 +183,7 @@ namespace SharpGPX.GPX1_1
         public boundsType Union(boundsType other)
         {
             if (other == null || other.IsEmpty()) return this;
-            if (this.IsEmpty()) return other;
+            if (IsEmpty()) return other;
 
             maxlat = Math.Max(maxlat, other.maxlat);
             maxlon = Math.Max(maxlon, other.maxlon);
@@ -153,6 +233,11 @@ namespace SharpGPX.GPX1_1
             if (elevation.HasValue)
                 ele = (decimal)elevation.Value;
         }
+
+        public void Preserialize()
+        {
+
+        }
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
@@ -175,6 +260,11 @@ namespace SharpGPX.GPX1_1
             if (elevation.HasValue)
                 ele = (decimal)elevation.Value;
         }
+
+        public void Preserialize()
+        {
+
+        }
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
@@ -188,11 +278,19 @@ namespace SharpGPX.GPX1_1
         /// </summary>
         /// <returns></returns>
         public boundsType GetBounds() => trkseg.GetBounds();
+
+        public void Preserialize()
+        {
+
+        }
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
     public partial class extensionsType
     {
+        public void Preserialize()
+        {
+        }
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
@@ -206,6 +304,8 @@ namespace SharpGPX.GPX1_1
         /// </summary>
         /// <returns></returns>
         public boundsType GetBounds() => trkpt.GetBounds();
+
+        public void Preserialize() => trkpt.Preserialize();
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
@@ -219,6 +319,8 @@ namespace SharpGPX.GPX1_1
         /// </summary>
         /// <returns></returns>
         public boundsType GetBounds() => rtept.GetBounds();
+
+        public void Preserialize() => rtept.Preserialize();
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
@@ -233,6 +335,12 @@ namespace SharpGPX.GPX1_1
         /// </summary>
         /// <returns></returns>
         public boundsType GetBounds() => Count == 0 ? new boundsType() : new boundsType(this.Min(x => x.lat), this.Max(x => x.lat), this.Min(x => x.lon), this.Max(x => x.lon));
+
+        public void Preserialize()
+        {
+            foreach (var wpt in this)
+                wpt.Preserialize();
+        }
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
@@ -252,6 +360,12 @@ namespace SharpGPX.GPX1_1
             foreach (var rte in this)
                 bounds = rte.rtept.GetBounds().Union(bounds);
             return bounds;
+        }
+
+        public void Preserialize()
+        {
+            foreach (var rte in this)
+                rte.Preserialize();
         }
     }
 
@@ -273,6 +387,12 @@ namespace SharpGPX.GPX1_1
                 bounds = trk.trkseg.GetBounds().Union(bounds);
             return bounds;
         }
+
+        public void Preserialize()
+        {
+            foreach (var trkSeg in this)
+                trkSeg.Preserialize();
+        }
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
@@ -281,6 +401,12 @@ namespace SharpGPX.GPX1_1
         public linkTypeCollection() { }
 
         public linkTypeCollection(IEnumerable<linkType> collection) : base(collection) { }
+
+        public void Preserialize()
+        {
+            foreach (var link in this)
+                link.Preserialize();
+        }
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
@@ -301,6 +427,12 @@ namespace SharpGPX.GPX1_1
                 bounds = trkSeg.trkpt.GetBounds().Union(bounds);
             return bounds;
         }
+
+        public void Preserialize()
+        {
+            foreach (var item in this)
+                item.Preserialize();
+        }
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
@@ -309,5 +441,11 @@ namespace SharpGPX.GPX1_1
         public ptTypeCollection() { }
 
         public ptTypeCollection(IEnumerable<ptType> collection) : base(collection) { }
+
+        public void Preserialize()
+        {
+            foreach (var pt in this)
+                pt.Preserialize();
+        }
     }
 }
