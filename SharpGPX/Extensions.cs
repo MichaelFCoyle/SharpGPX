@@ -1,4 +1,5 @@
 ﻿using SharpGPX.GPX1_1;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace SharpGPX
@@ -118,5 +119,44 @@ namespace SharpGPX
         public static GPX1_1.Topografix.GpxStyle.textType GetTopografixText(this extensionsType ext) => ext.Get<GPX1_1.Topografix.GpxStyle.textType>();
 
         #endregion
+ 
+        /// <summary>
+        /// Convert a track to several routes.
+        /// Each track segment is a seperate route.
+        /// Each route has the same name as the track with the words "Segment n" appended
+        /// where "n" is the segment number.
+        /// </summary>
+        /// <param name="track"></param>
+        /// <returns></returns>
+        public static List<rteType> ToRoutes(this trkType track)
+        {
+            List<rteType> results = new List<rteType>();
+
+            int i = 0;
+            foreach (var seg in track.trkseg)
+                results.Add(new rteType()
+                {
+                    cmt = track.cmt,
+                    desc = track.desc,
+                    link = track.link,
+                    number = track.number,
+                    rtept = new wptTypeCollection(seg.trkpt),
+                    src = track.src,
+                    type = track.type,
+                    name = $"{track.name} segment {i++}",
+                });
+
+            return results;
+        }
+
+        /// <summary>
+        /// Conver a single track segment to a route.
+        /// </summary>
+        /// <param name="seg"></param>
+        /// <returns></returns>
+        public static rteType ToRoute(this trksegType seg) => new rteType()
+        {
+            rtept = new wptTypeCollection(seg.trkpt.ToArray())
+        };
     }
 }

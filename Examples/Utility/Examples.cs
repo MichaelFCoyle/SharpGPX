@@ -1,5 +1,7 @@
 ﻿using SharpGPX;
 using SharpGPX.GPX1_1;
+using System;
+using System.Collections.Generic;
 
 namespace Utility
 {
@@ -60,6 +62,84 @@ namespace Utility
 
             track.Metadata.bounds = track.GetBounds();
             return track;
+        }
+
+        /// <summary>
+        /// Read the GPX from the source file, take each route and 
+        /// store it in a new GPX class
+        /// </summary>
+        /// <param name="sourceFileName"></param>
+        /// <returns></returns>
+        public static List<GpxClass> CopyGpxFile(string sourceFileName)
+        {
+            List<GpxClass> result = new List<GpxClass>();
+
+            var source = GpxClass.FromFile(sourceFileName);
+
+            foreach (var track in source.Tracks)
+            {
+                var newGPX = new GpxClass()
+                {
+                    Metadata = new metadataType()
+                    {
+                        name = track.name,
+                        desc = track.desc,
+                    },
+                };
+
+                var routes = track.ToRoutes();
+                newGPX.Routes.AddRange(routes);
+
+                var _ = newGPX.ToXml();
+
+                result.Add(newGPX);
+            }
+
+            return result;
+        }
+
+        public static GpxClass ConvertToRoutes(string sourceFileName)
+        {
+            var src = GpxClass.FromFile(sourceFileName);
+
+            var dst = new GpxClass()
+            {
+                Creator = src.Creator,
+                Extensions = new extensionsType(src.Extensions),
+                Metadata = new metadataType(src.Metadata),
+            };
+
+            foreach (var track in src.Tracks)
+                dst.Routes.AddRange(track.ToRoutes());
+
+            return dst;
+        }
+
+        public static void ReadAndPrint(string fileName)
+        {
+            Console.WriteLine("File Name: {0}", fileName);
+            // read a file
+            GpxClass gpx = GpxClass.FromFile(fileName);
+
+            Console.WriteLine("{0} elements total", gpx.CountElements());
+
+            Console.WriteLine("Waypoints: {0}", gpx.Waypoints.Count);
+            gpx.Waypoints.ForEach(x => Console.WriteLine("\tWaypoint: {0}", x.name));
+            Console.WriteLine("Routes: {0}", gpx.Routes.Count);
+            gpx.Routes.ForEach(x => Console.WriteLine("\tRoute: {0}, {1} points", x.name, x.rtept.Count));
+            Console.WriteLine("Tracks: {0}", gpx.Tracks.Count);
+            gpx.Tracks.ForEach(x => Console.WriteLine("\tTrack: {0}, {1} segments", x.name, x.trkseg.Count));
+
+            foreach (var track in gpx.Tracks)
+            {
+                var garminExt = track.GetGarminExt();
+                if (garminExt != null)
+                    Console.WriteLine("Track {0} has Garmin extension", track.name);
+                var color = garminExt?.Color;
+                var lineExt = track.GetTopografixLine();
+                if (lineExt != null) Console.WriteLine("Track {0} has Topografix extension", track.name);
+
+            }
         }
     }
 }

@@ -32,9 +32,9 @@ namespace WinForms
             this.myOpenButton = new System.Windows.Forms.Button();
             this.mySaveButton = new System.Windows.Forms.Button();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.PropertyGrid = new System.Windows.Forms.PropertyGrid();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.myCreateButton = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.PropertyGrid = new System.Windows.Forms.PropertyGrid();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -82,13 +82,15 @@ namespace WinForms
             this.splitContainer1.SplitterDistance = 242;
             this.splitContainer1.TabIndex = 2;
             // 
-            // propertyGrid1
+            // myCreateButton
             // 
-            this.PropertyGrid.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PropertyGrid.Location = new System.Drawing.Point(0, 0);
-            this.PropertyGrid.Name = "propertyGrid1";
-            this.PropertyGrid.Size = new System.Drawing.Size(238, 341);
-            this.PropertyGrid.TabIndex = 1;
+            this.myCreateButton.Location = new System.Drawing.Point(12, 70);
+            this.myCreateButton.Name = "myCreateButton";
+            this.myCreateButton.Size = new System.Drawing.Size(75, 23);
+            this.myCreateButton.TabIndex = 3;
+            this.myCreateButton.Text = "Create";
+            this.myCreateButton.UseVisualStyleBackColor = true;
+            this.myCreateButton.Click += new System.EventHandler(this.CreateButton_Click);
             // 
             // listBox1
             // 
@@ -99,15 +101,13 @@ namespace WinForms
             this.listBox1.Size = new System.Drawing.Size(120, 94);
             this.listBox1.TabIndex = 2;
             // 
-            // myCreateButton
+            // PropertyGrid
             // 
-            this.myCreateButton.Location = new System.Drawing.Point(12, 70);
-            this.myCreateButton.Name = "myCreateButton";
-            this.myCreateButton.Size = new System.Drawing.Size(75, 23);
-            this.myCreateButton.TabIndex = 3;
-            this.myCreateButton.Text = "Create";
-            this.myCreateButton.UseVisualStyleBackColor = true;
-            this.myCreateButton.Click += new System.EventHandler(this.CreateButton_Click);
+            this.PropertyGrid.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PropertyGrid.Location = new System.Drawing.Point(0, 0);
+            this.PropertyGrid.Name = "PropertyGrid";
+            this.PropertyGrid.Size = new System.Drawing.Size(238, 341);
+            this.PropertyGrid.TabIndex = 1;
             // 
             // MainForm
             // 

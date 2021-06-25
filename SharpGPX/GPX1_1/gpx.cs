@@ -18,7 +18,7 @@ namespace SharpGPX.GPX1_1
             version = "1.1";
         }
 
-        public void Preserialize()
+        internal void Preserialize()
         {
             metadata?.Preserialize();
             if (metadata.IsNullOrEmpty())
@@ -30,11 +30,11 @@ namespace SharpGPX.GPX1_1
 
             wpt?.Preserialize();
             if (wpt.IsNullOrEmpty())
-                rte = null;
+                wpt = null;
 
             trk?.Preserialize();
             if (trk.IsNullOrEmpty())
-                rte = null;
+                wpt = null;
         }
     }
 
@@ -43,7 +43,25 @@ namespace SharpGPX.GPX1_1
     {
         public metadataType() => link = new linkTypeCollection();
 
-        public void Preserialize()
+        /// <summary>
+        /// Copy constructor
+        /// </summary>
+        /// <param name="other"></param>
+        public metadataType(metadataType other)
+        {
+            author = other.author;
+            bounds = new boundsType(other.bounds);
+            copyright = new copyrightType(other.copyright);
+            desc = other.desc;
+            extensions = new extensionsType(other.extensions);
+            keywords = other.keywords;
+            link = new linkTypeCollection(other.link);
+            name = other.name;
+            time = other.time;
+            timeSpecified = other.timeSpecified;
+        }
+
+        internal void Preserialize()
         {
             author?.Preserialize();
             if (author.IsNullOrEmpty()) 
@@ -81,13 +99,28 @@ namespace SharpGPX.GPX1_1
     {
         public linkType() { }
 
+        /// <summary>
+        /// Copy constructor
+        /// </summary>
+        /// <param name="other"></param>
+        public linkType(linkType other)
+        {
+            href = other?.href;
+            text = other?.text;
+        }
+
+        /// <summary>
+        /// Create a link
+        /// </summary>
+        /// <param name="link"></param>
+        /// <param name="description"></param>
         public linkType(string link, string description = "")
         {
             href = link;
             text = description;
         }
 
-        public void Preserialize()
+        internal void Preserialize()
         {
             if (href.IsNullOrEmpty()) href = null;
 
@@ -100,14 +133,30 @@ namespace SharpGPX.GPX1_1
     public partial class personType
     {
         public personType() { }
+        
+        /// <summary>
+        /// Copy constructor
+        /// </summary>
+        /// <param name="other"></param>
+        public personType(personType other) 
+        {
+            name = other?.name;
+            email = new emailType(other?.email);
+            link = new linkType(other?.link);
+        }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="email"></param>
         public personType(string name, string email = "")
         {
             this.name = name;
             this.email = new emailType(email);
         }
 
-        public void Preserialize()
+        internal void Preserialize()
         {
             if (name.IsNullOrEmpty()) name = null;
 
@@ -121,6 +170,20 @@ namespace SharpGPX.GPX1_1
     {
         public emailType() { }
 
+        /// <summary>
+        /// Copy construcor
+        /// </summary>
+        /// <param name="other"></param>
+        public emailType(emailType other) 
+        {
+            domain = other?.domain;
+            id = other?.id;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="email"></param>
         public emailType(string email)
         {
             if (email.IsNullOrEmpty()) return;
@@ -132,7 +195,7 @@ namespace SharpGPX.GPX1_1
             domain = parts[1];
         }
 
-        public void Preserialize()
+        internal void Preserialize()
         {
             if (id.IsNullOrEmpty()) id = null;
 
@@ -144,7 +207,24 @@ namespace SharpGPX.GPX1_1
     public partial class copyrightType
     {
         public copyrightType() { }
+        
+        /// <summary>
+        /// Copy constructor
+        /// </summary>
+        /// <param name="other"></param>
+        public copyrightType(copyrightType other) 
+        {
+            author = other.author;
+            license = other.license;
+            year = other.year;
+        }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="author"></param>
+        /// <param name="year"></param>
+        /// <param name="license"></param>
         public copyrightType(string author, string year = "", string license = "")
         {
             this.author = author;
@@ -152,7 +232,7 @@ namespace SharpGPX.GPX1_1
             this.year = year;
         }
 
-        public void Preserialize()
+        internal void Preserialize()
         {
             if (author.IsNullOrEmpty()) author = null;
 
@@ -167,7 +247,27 @@ namespace SharpGPX.GPX1_1
     public partial class boundsType
     {
         public boundsType() { }
+        
+        /// <summary>
+        /// Copy constructor
+        /// </summary>
+        /// <param name="other"></param>
+        public boundsType(boundsType other)
+        {
+            if (other == null) return;
+            minlat = other.minlat;
+            maxlat = other.maxlat;
+            minlon = other.minlon;
+            maxlon = other.maxlon;
+        }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="minlat"></param>
+        /// <param name="maxlat"></param>
+        /// <param name="minlon"></param>
+        /// <param name="maxlon"></param>
         public boundsType(decimal minlat, decimal maxlat, decimal minlon, decimal maxlon)
         {
             this.minlat = minlat;
@@ -220,6 +320,13 @@ namespace SharpGPX.GPX1_1
             eleSpecified = false;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="latitude"></param>
+        /// <param name="longitude"></param>
+        /// <param name="elevation"></param>
+        /// <param name="dateTime"></param>
         public wptType(double latitude, double longitude, double? elevation = null, DateTime? dateTime = null)
         {
             lat = (decimal)latitude;
@@ -234,10 +341,7 @@ namespace SharpGPX.GPX1_1
                 ele = (decimal)elevation.Value;
         }
 
-        public void Preserialize()
-        {
-
-        }
+        internal void Preserialize() { }
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
@@ -246,6 +350,13 @@ namespace SharpGPX.GPX1_1
     {
         public ptType()=> eleSpecified = false;
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="latitude"></param>
+        /// <param name="longitude"></param>
+        /// <param name="elevation"></param>
+        /// <param name="dateTime"></param>
         public ptType(double latitude, double longitude, double? elevation = null, DateTime? dateTime = null)
         {
             lat = (decimal)latitude;
@@ -261,10 +372,7 @@ namespace SharpGPX.GPX1_1
                 ele = (decimal)elevation.Value;
         }
 
-        public void Preserialize()
-        {
-
-        }
+        internal void Preserialize() { }
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
@@ -279,18 +387,21 @@ namespace SharpGPX.GPX1_1
         /// <returns></returns>
         public boundsType GetBounds() => trkseg.GetBounds();
 
-        public void Preserialize()
-        {
-
-        }
+        internal void Preserialize() => trkseg.Preserialize();
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
     public partial class extensionsType
     {
-        public void Preserialize()
-        {
-        }
+        public extensionsType() { }
+
+        /// <summary>
+        /// Copy constructor
+        /// </summary>
+        /// <param name="other"></param>
+        public extensionsType(extensionsType other) => Any = other?.Any;
+
+        internal void Preserialize() { }
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
@@ -305,7 +416,7 @@ namespace SharpGPX.GPX1_1
         /// <returns></returns>
         public boundsType GetBounds() => trkpt.GetBounds();
 
-        public void Preserialize() => trkpt.Preserialize();
+        internal void Preserialize() => trkpt.Preserialize();
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
@@ -320,7 +431,7 @@ namespace SharpGPX.GPX1_1
         /// <returns></returns>
         public boundsType GetBounds() => rtept.GetBounds();
 
-        public void Preserialize() => rtept.Preserialize();
+        internal void Preserialize() => rtept.Preserialize();
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
@@ -336,11 +447,7 @@ namespace SharpGPX.GPX1_1
         /// <returns></returns>
         public boundsType GetBounds() => Count == 0 ? new boundsType() : new boundsType(this.Min(x => x.lat), this.Max(x => x.lat), this.Min(x => x.lon), this.Max(x => x.lon));
 
-        public void Preserialize()
-        {
-            foreach (var wpt in this)
-                wpt.Preserialize();
-        }
+        internal void Preserialize() => ForEach(x => x.Preserialize());
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
@@ -362,11 +469,7 @@ namespace SharpGPX.GPX1_1
             return bounds;
         }
 
-        public void Preserialize()
-        {
-            foreach (var rte in this)
-                rte.Preserialize();
-        }
+        internal void Preserialize() => ForEach(x => x.Preserialize());
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
@@ -388,11 +491,7 @@ namespace SharpGPX.GPX1_1
             return bounds;
         }
 
-        public void Preserialize()
-        {
-            foreach (var trkSeg in this)
-                trkSeg.Preserialize();
-        }
+        internal void Preserialize() => ForEach(x => x.Preserialize());
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
@@ -402,11 +501,7 @@ namespace SharpGPX.GPX1_1
 
         public linkTypeCollection(IEnumerable<linkType> collection) : base(collection) { }
 
-        public void Preserialize()
-        {
-            foreach (var link in this)
-                link.Preserialize();
-        }
+        internal void Preserialize() => ForEach(x => x.Preserialize());
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
@@ -428,11 +523,7 @@ namespace SharpGPX.GPX1_1
             return bounds;
         }
 
-        public void Preserialize()
-        {
-            foreach (var item in this)
-                item.Preserialize();
-        }
+        internal void Preserialize() => ForEach(x => x.Preserialize());
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
@@ -442,10 +533,6 @@ namespace SharpGPX.GPX1_1
 
         public ptTypeCollection(IEnumerable<ptType> collection) : base(collection) { }
 
-        public void Preserialize()
-        {
-            foreach (var pt in this)
-                pt.Preserialize();
-        }
+        internal void Preserialize() => ForEach(x => x.Preserialize());
     }
 }
