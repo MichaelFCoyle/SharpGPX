@@ -34,7 +34,7 @@ namespace SharpGPX.GPX1_1
 
             trk?.Preserialize();
             if (trk.IsNullOrEmpty())
-                wpt = null;
+                trk = null;
         }
     }
 
