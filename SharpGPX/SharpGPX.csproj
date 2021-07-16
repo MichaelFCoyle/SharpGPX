@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Blue Toque Software</Company>
-    <Version>2.21.0715</Version>
+    <Version>2.21.0625</Version>
     <Copyright>Copyright © Blue Toque Software 2021</Copyright>
     <Authors>Michael Coyle</Authors>
     <Description>Read and write GPX Files as associated extensions</Description>
-    <AssemblyVersion>2.21.0715</AssemblyVersion>
-    <FileVersion>2.21.0715</FileVersion>
+    <AssemblyVersion>2.21.0705</AssemblyVersion>
+    <FileVersion>2.21.0705</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/BlueToque/SharpGPX</RepositoryUrl>
@@ -16,11 +16,7 @@
     <PackageTags>gpx,geospatial,gps</PackageTags>
     <RepositoryType>Git</RepositoryType>
     <AssemblyName>BlueToque.SharpGPX</AssemblyName>
-    <PackageReleaseNotes>* Load Gpx from an url</PackageReleaseNotes>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <NoWarn>1701;1702;1006</NoWarn>
+    <PackageReleaseNotes>* Fixed a bug where Tracks would be deleted on serialization (fatal)</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
