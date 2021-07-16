@@ -1,5 +1,6 @@
 ﻿using SharpGPX;
 using System;
+using System.Net;
 using System.Windows.Forms;
 using Utility;
 
@@ -26,8 +27,33 @@ namespace WinForms
 
             if (ofd.ShowDialog(this) != DialogResult.OK) return;
 
-            GpxClass gpx = GpxClass.FromFile(ofd.FileName);
-            PropertyGrid.SelectedObject = gpx;
+            OpenFile(ofd.FileName);
+        }
+
+        private void OpenFile(string url) => PropertyGrid.SelectedObject = FromUrl(url);
+
+        /// <summary>
+        /// Load Gpx file from an url
+        /// You can use a local path "C:\Temp\fileName.gpx" and this will detect it.
+        /// You can also use "file:\\\" if you like.
+        /// 
+        /// </summary>
+        /// <param name="url"></param>
+        /// <returns></returns>
+        public static GpxClass FromUrl(string url)
+        {
+            // this will throw an exception if the url isn't an url
+            // but interestingly it handles local file paths easily, creating
+            // an url with a "file" Scheme
+            Uri uri = new(url);
+
+            // if it's a file scheme, just read the local file
+            if (uri.Scheme == "file")
+                return GpxClass.FromFile(url);
+
+            // open a stream and load the file directly
+            using var client = new WebClient();
+            return GpxClass.FromStream(client.OpenRead(url));
         }
 
         private void SaveButton_Click(object sender, EventArgs e)
@@ -68,5 +94,18 @@ namespace WinForms
 
             public override string ToString() => Name;
         }
+
+        private void Panel_DragDrop(object sender, DragEventArgs e)
+        {
+            string fileName = null;
+            if (e.Data.GetDataPresent(DataFormats.FileDrop))
+                fileName = ((string[])e.Data.GetData(DataFormats.FileDrop, false))[0];
+            else if(e.Data.GetDataPresent(DataFormats.Text))
+                fileName = (string)e.Data.GetData(DataFormats.Text, false);
+
+            OpenFile(fileName);
+        }
+
+        private void Panel_DragEnter(object sender, DragEventArgs e) => e.Effect = DragDropEffects.Copy;
     }
 }

@@ -4,6 +4,7 @@ using System;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Xml;
 using Utility;
 
@@ -66,15 +67,16 @@ namespace SharpGPX
         {
             GpxVersion? version = GetVersion(xmlString);
 
+            // if this isn't a GPX file the version will be null
             if (version == null)
                 return new GpxClass();
-            else if (version == GpxVersion.GPX_1_0)
+            
+            // if the version is 1.0 transform it to 1.1
+            if (version == GpxVersion.GPX_1_0)
                 xmlString = XsltHelper.Transform(xmlString, Resources.gpx10to11);
 
-            return new GpxClass(Serializer.Deserialize<gpxType>(xmlString))
-            {
-                GpxVersion = version.Value
-            };
+            // deserialize the xml and create the GpxClass
+            return new GpxClass(Serializer.Deserialize<gpxType>(xmlString));
         }
 
         /// <summary>
@@ -103,7 +105,7 @@ namespace SharpGPX
         /// Check the verion of the file and return true if it is 
         /// XML and is a version of this file we can read.
         /// </summary>
-        /// <param name="xmlFileName"></param>
+        /// <param name="xmlFileName">Path to a GPX file</param>
         /// <returns></returns>
         public static bool CheckFile(string xmlFileName)
         {
@@ -124,12 +126,11 @@ namespace SharpGPX
         }
 
         /// <summary>
-        /// Get the version of this file.
-        /// Return the version if it's a valid XML file and a valid GPX file
-        /// Return null if it's not a valid GPX file
-        /// Throw exception if it's not a valid XML file
+        /// Get the version of the xml string
+        /// Return the version if it's a valid XML and valid GPX 
+        /// Return null if it's not valid GPX 
         /// </summary>
-        /// <param name="xmlFileName"></param>
+        /// <param name="xmlString">XML</param>
         /// <returns></returns>
         public static GpxVersion? GetVersion(string xmlString)
         {
@@ -149,7 +150,7 @@ namespace SharpGPX
             }
             catch (Exception ex)
             {
-                Trace.TraceError("GpxClass.GetVersion: Error reading {0}: file is not xml:\r\n{1}", xmlString, ex);
+                Trace.TraceError("GpxClass.GetVersion: Error: xml is not valid:\r\n{0}", ex);
                 throw ex;
             }
         }

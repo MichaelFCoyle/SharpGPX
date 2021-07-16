@@ -64,16 +64,21 @@ namespace WinForms
             // 
             // splitContainer1
             // 
+            this.splitContainer1.AllowDrop = true;
+            this.splitContainer1.Cursor = System.Windows.Forms.Cursors.VSplit;
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.AllowDrop = true;
             this.splitContainer1.Panel1.Controls.Add(this.myCreateButton);
             this.splitContainer1.Panel1.Controls.Add(this.listBox1);
             this.splitContainer1.Panel1.Controls.Add(this.mySaveButton);
             this.splitContainer1.Panel1.Controls.Add(this.myOpenButton);
+            this.splitContainer1.Panel1.DragDrop += new System.Windows.Forms.DragEventHandler(this.Panel_DragDrop);
+            this.splitContainer1.Panel1.DragEnter += new System.Windows.Forms.DragEventHandler(this.Panel_DragEnter);
             // 
             // splitContainer1.Panel2
             // 
@@ -81,6 +86,8 @@ namespace WinForms
             this.splitContainer1.Size = new System.Drawing.Size(484, 341);
             this.splitContainer1.SplitterDistance = 242;
             this.splitContainer1.TabIndex = 2;
+            this.splitContainer1.DragDrop += new System.Windows.Forms.DragEventHandler(this.Panel_DragDrop);
+            this.splitContainer1.DragEnter += new System.Windows.Forms.DragEventHandler(this.Panel_DragEnter);
             // 
             // myCreateButton
             // 
@@ -103,20 +110,26 @@ namespace WinForms
             // 
             // PropertyGrid
             // 
+            this.PropertyGrid.AllowDrop = true;
             this.PropertyGrid.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PropertyGrid.Location = new System.Drawing.Point(0, 0);
             this.PropertyGrid.Name = "PropertyGrid";
             this.PropertyGrid.Size = new System.Drawing.Size(238, 341);
             this.PropertyGrid.TabIndex = 1;
+            this.PropertyGrid.DragDrop += new System.Windows.Forms.DragEventHandler(this.Panel_DragDrop);
+            this.PropertyGrid.DragEnter += new System.Windows.Forms.DragEventHandler(this.Panel_DragEnter);
             // 
             // MainForm
             // 
+            this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(484, 341);
             this.Controls.Add(this.splitContainer1);
             this.Name = "MainForm";
             this.Text = "SharpGPX Test";
+            this.DragDrop += new System.Windows.Forms.DragEventHandler(this.Panel_DragDrop);
+            this.DragEnter += new System.Windows.Forms.DragEventHandler(this.Panel_DragEnter);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
