@@ -3,7 +3,8 @@ using SharpGPX.GPX1_1;
 using System;
 using System.Linq;
 using System.Security.Principal;
-
+using System.Text;
+using System.Xml;
 
 namespace Examples
 {
@@ -47,7 +48,15 @@ namespace Examples
 
                 newGpx.Waypoints.Add(waypoint);
 
+                // test settings XmlWriterSettings
+                GpxClass.XmlWriterSettings.Encoding = Encoding.UTF8;
                 newGpx.ToFile("Test.gpx");
+
+                var utf8String = newGpx.ToXml();
+
+                GpxClass.XmlWriterSettings.Indent = false;
+                GpxClass.XmlWriterSettings.NewLineHandling = NewLineHandling.None;                
+                var smallString = newGpx.ToXml();
 
             }
             catch (Exception ex)

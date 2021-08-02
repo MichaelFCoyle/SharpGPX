@@ -35,6 +35,7 @@ namespace WinForms
             this.myCreateButton = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.PropertyGrid = new System.Windows.Forms.PropertyGrid();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -43,7 +44,6 @@ namespace WinForms
             // 
             // myOpenButton
             // 
-            this.myOpenButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.myOpenButton.Location = new System.Drawing.Point(12, 12);
             this.myOpenButton.Name = "myOpenButton";
             this.myOpenButton.Size = new System.Drawing.Size(75, 23);
@@ -73,6 +73,7 @@ namespace WinForms
             // splitContainer1.Panel1
             // 
             this.splitContainer1.Panel1.AllowDrop = true;
+            this.splitContainer1.Panel1.Controls.Add(this.button1);
             this.splitContainer1.Panel1.Controls.Add(this.myCreateButton);
             this.splitContainer1.Panel1.Controls.Add(this.listBox1);
             this.splitContainer1.Panel1.Controls.Add(this.mySaveButton);
@@ -83,15 +84,15 @@ namespace WinForms
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.PropertyGrid);
-            this.splitContainer1.Size = new System.Drawing.Size(484, 341);
-            this.splitContainer1.SplitterDistance = 242;
+            this.splitContainer1.Size = new System.Drawing.Size(697, 464);
+            this.splitContainer1.SplitterDistance = 348;
             this.splitContainer1.TabIndex = 2;
             this.splitContainer1.DragDrop += new System.Windows.Forms.DragEventHandler(this.Panel_DragDrop);
             this.splitContainer1.DragEnter += new System.Windows.Forms.DragEventHandler(this.Panel_DragEnter);
             // 
             // myCreateButton
             // 
-            this.myCreateButton.Location = new System.Drawing.Point(12, 70);
+            this.myCreateButton.Location = new System.Drawing.Point(12, 99);
             this.myCreateButton.Name = "myCreateButton";
             this.myCreateButton.Size = new System.Drawing.Size(75, 23);
             this.myCreateButton.TabIndex = 3;
@@ -114,17 +115,26 @@ namespace WinForms
             this.PropertyGrid.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PropertyGrid.Location = new System.Drawing.Point(0, 0);
             this.PropertyGrid.Name = "PropertyGrid";
-            this.PropertyGrid.Size = new System.Drawing.Size(238, 341);
+            this.PropertyGrid.Size = new System.Drawing.Size(345, 464);
             this.PropertyGrid.TabIndex = 1;
             this.PropertyGrid.DragDrop += new System.Windows.Forms.DragEventHandler(this.Panel_DragDrop);
             this.PropertyGrid.DragEnter += new System.Windows.Forms.DragEventHandler(this.Panel_DragEnter);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(12, 70);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "To String";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 341);
+            this.ClientSize = new System.Drawing.Size(697, 464);
             this.Controls.Add(this.splitContainer1);
             this.Name = "MainForm";
             this.Text = "SharpGPX Test";
@@ -146,6 +156,7 @@ namespace WinForms
         private System.Windows.Forms.PropertyGrid PropertyGrid;
         private System.Windows.Forms.Button myCreateButton;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button button1;
     }
 }
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SharpGPX;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
@@ -68,17 +69,14 @@ namespace Utility
             return ser;
         }
 
-        private static XmlReaderSettings DefaultXmlReaderSettings()
-        {
-            return new XmlReaderSettings()
+        private static XmlReaderSettings DefaultXmlReaderSettings() => 
+            new XmlReaderSettings()
             {
                 ConformanceLevel = ConformanceLevel.Document
             };
-        }
 
-        private static XmlWriterSettings DefaultXmlWriterSettings()
-        {
-            return new XmlWriterSettings()
+        private static XmlWriterSettings DefaultXmlWriterSettings() => 
+            new XmlWriterSettings()
             {
                 Encoding = Encoding.Unicode,
                 NewLineChars = Environment.NewLine,
@@ -86,7 +84,6 @@ namespace Utility
                 NewLineHandling = NewLineHandling.Replace,
                 Indent = true
             };
-        }
 
         private static void CheckXML(string xmlString)
         {
@@ -102,10 +99,7 @@ namespace Utility
         /// <typeparam name="T"></typeparam>
         /// <param name="stream"></param>
         /// <returns></returns>
-        public static T Deserialize<T>(Stream stream) where T : class
-        {
-            return Deserialize<T>(stream, null);
-        }
+        public static T Deserialize<T>(Stream stream) where T : class => Deserialize<T>(stream, null);
 
         /// <summary>
         /// Deserialize an instance of type T from the given xml string
@@ -130,10 +124,7 @@ namespace Utility
         /// <typeparam name="T">the type to deserialize</typeparam>
         /// <param name="element">an XmlElement that contains the node to deserialize</param>
         /// <returns>an instance of T deserialized from the XmlElement</returns>
-        public static T Deserialize<T>(XmlElement element) where T : class
-        {
-            return Deserialize<T>(element, null);
-        }
+        public static T Deserialize<T>(XmlElement element) where T : class => Deserialize<T>(element, null);
 
         /// <summary>
         /// Deserialize an object of the given type from the stream.
@@ -143,10 +134,7 @@ namespace Utility
         /// <param name="stream"></param>
         /// <param name="types"></param>
         /// <returns></returns>
-        public static T Deserialize<T>(Stream stream, Type[] types) where T : class
-        {
-            return Deserialize<T>(stream, types, null);
-        }
+        public static T Deserialize<T>(Stream stream, Type[] types) where T : class => Deserialize<T>(stream, types, null);
 
         /// <summary>
         /// Deserialize an object of a given type from the xml string
@@ -238,10 +226,7 @@ namespace Utility
         /// <param name="element"></param>
         /// <param name="types"></param>
         /// <returns></returns>
-        public static T Deserialize<T>(XmlElement element, Type[] types) where T : class
-        {
-            return Deserialize<T>(element.OuterXml, types);
-        }
+        public static T Deserialize<T>(XmlElement element, Type[] types) where T : class => Deserialize<T>(element.OuterXml, types);
 
         /// <summary>
         /// 
@@ -313,19 +298,17 @@ namespace Utility
         #endregion
 
         #region serializers
+
         /// <summary>
-        /// 
+        /// Serialize the object to a string
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="obj"></param>
         /// <returns></returns>
-        public static string Serialize<T>(T obj) where T : class
-        {
-            return Serialize<T>(obj, null, null, null);
-        }
+        public static string Serialize<T>(T obj) where T : class => Serialize<T>(obj, null, null, null);
 
         /// <summary>
-        /// 
+        /// Serialize the object to a string
         /// </summary>
         /// <param name="obj"></param>
         /// <returns></returns>
@@ -334,9 +317,9 @@ namespace Utility
             try
             {
                 Trace.Assert(obj != null);
-                XmlSerializer serializer = CreateSerializer(obj.GetType());
+
                 StringWriter sw = new StringWriter();
-                serializer.Serialize((TextWriter)sw, obj);
+                CreateSerializer(obj.GetType()).Serialize(sw, obj);
                 return sw.ToString();
             }
             catch (Exception ex)
@@ -348,18 +331,15 @@ namespace Utility
         }
 
         /// <summary>
-        /// 
+        /// Serialize the object to a stream
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="stream"></param>
         /// <param name="obj"></param>
-        public static void Serialize<T>(Stream stream, T obj) where T : class
-        {
-            Serialize<T>(stream, obj, null, null, null);
-        }
+        public static void Serialize<T>(Stream stream, T obj) where T : class => Serialize<T>(stream, obj, null, null, null);
 
         /// <summary>
-        /// 
+        /// Serialize the object to a stream
         /// </summary>
         /// <param name="stream"></param>
         /// <param name="obj"></param>
@@ -378,7 +358,7 @@ namespace Utility
         }
 
         /// <summary>
-        /// 
+        /// Serialize the object using the given XmlWriter
         /// </summary>
         /// <param name="writer"></param>
         /// <param name="obj"></param>
@@ -397,40 +377,31 @@ namespace Utility
         }
 
         /// <summary>
-        /// 
+        /// Serialize the object to a string using the given xml namespaces
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="obj"></param>
         /// <param name="ns"></param>
         /// <returns></returns>
-        public static string Serialize<T>(T obj, XmlSerializerNamespaces ns) where T : class
-        {
-            return Serialize<T>(obj, null, null, ns);
-        }
+        public static string Serialize<T>(T obj, XmlSerializerNamespaces ns) where T : class => Serialize<T>(obj, null, null, ns);
 
         /// <summary>
-        /// 
+        /// Serialize the object to a string using the given XmlWriterSettings
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="obj"></param>
         /// <param name="settings"></param>
         /// <returns></returns>
-        public static string Serialize<T>(T obj, XmlWriterSettings settings) where T : class
-        {
-            return Serialize<T>(obj, null, settings, null);
-        }
+        public static string Serialize<T>(T obj, XmlWriterSettings settings) where T : class => Serialize<T>(obj, null, settings, null);
 
         /// <summary>
-        /// 
+        /// Seriailize the object to stream using he given Xml Namespaces
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="stream"></param>
         /// <param name="obj"></param>
         /// <param name="ns"></param>
-        public static void Serialize<T>(Stream stream, T obj, XmlSerializerNamespaces ns) where T : class
-        {
-            Serialize<T>(stream, obj, null, null, ns);
-        }
+        public static void Serialize<T>(Stream stream, T obj, XmlSerializerNamespaces ns) where T : class => Serialize<T>(stream, obj, null, null, ns);
 
         /// <summary>
         /// 
@@ -440,10 +411,7 @@ namespace Utility
         /// <param name="settings"></param>
         /// <param name="ns"></param>
         /// <returns></returns>
-        public static string Serialize<T>(T obj, XmlWriterSettings settings, XmlSerializerNamespaces ns) where T : class
-        {
-            return Serialize<T>(obj, null, settings, ns);
-        }
+        public static string Serialize<T>(T obj, XmlWriterSettings settings, XmlSerializerNamespaces ns) where T : class => Serialize<T>(obj, null, settings, ns);
 
         /// <summary>
         /// 
@@ -452,10 +420,7 @@ namespace Utility
         /// <param name="stream"></param>
         /// <param name="obj"></param>
         /// <param name="settings"></param>
-        public static void Serialize<T>(Stream stream, T obj, XmlWriterSettings settings) where T : class
-        {
-            Serialize<T>(stream, obj, null, settings, null);
-        }
+        public static void Serialize<T>(Stream stream, T obj, XmlWriterSettings settings) where T : class => Serialize<T>(stream, obj, null, settings, null);
 
         /// <summary>
         /// 
@@ -465,33 +430,33 @@ namespace Utility
         /// <param name="obj"></param>
         /// <param name="settings"></param>
         /// <param name="ns"></param>
-        public static void Serialize<T>(Stream stream, T obj, XmlWriterSettings settings, XmlSerializerNamespaces ns) where T : class
-        {
-            Serialize<T>(stream, obj, null, settings, ns);
-        }
+        public static void Serialize<T>(Stream stream, T obj, XmlWriterSettings settings, XmlSerializerNamespaces ns) where T : class => Serialize<T>(stream, obj, null, settings, ns);
 
         /// <summary>
-        /// 
+        /// Master serialization method
         /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="obj"></param>
-        /// <param name="types"></param>
-        /// <param name="settings"></param>
-        /// <param name="ns"></param>
+        /// <typeparam name="T">type to serialize</typeparam>
+        /// <param name="obj">object to serialize</param>
+        /// <param name="types">additional types to provide to the serializer</param>
+        /// <param name="settings">XmlWriterSettings controls xml out put</param>
+        /// <param name="ns">XmlSerializerNamespaces controls namespaces within the document</param>
         /// <returns></returns>
         private static string Serialize<T>(object obj, Type[] types, XmlWriterSettings settings, XmlSerializerNamespaces ns) where T : class
         {
             if (obj == null)
                 throw new ArgumentNullException("Object is null when trying to serialize");
-            StringWriter sw = new StringWriter();
+
+            if (settings == null)
+                settings = DefaultXmlWriterSettings();
+            
+            StringWriter sw = new StringWriterExt(settings.Encoding);
+
             try
             {
                 XmlSerializer ser = CreateSerializer(typeof(T), types);
-                if (settings == null)
-                    settings = DefaultXmlWriterSettings();
 
                 using (XmlWriter writer = XmlWriter.Create(sw, settings))
-                {
+                {                    
                     if (ns != null)
                         ser.Serialize(writer, obj, ns);
                     else
@@ -511,6 +476,7 @@ namespace Utility
         {
             if (obj == null)
                 throw new ArgumentNullException("Object is null when trying to serialize");
+
             try
             {
                 XmlSerializer ser = CreateSerializer(typeof(T), types);
