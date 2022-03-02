@@ -32,10 +32,11 @@ namespace WinForms
             this.myOpenButton = new System.Windows.Forms.Button();
             this.mySaveButton = new System.Windows.Forms.Button();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.button1 = new System.Windows.Forms.Button();
             this.myCreateButton = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.PropertyGrid = new System.Windows.Forms.PropertyGrid();
-            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -73,6 +74,7 @@ namespace WinForms
             // splitContainer1.Panel1
             // 
             this.splitContainer1.Panel1.AllowDrop = true;
+            this.splitContainer1.Panel1.Controls.Add(this.button2);
             this.splitContainer1.Panel1.Controls.Add(this.button1);
             this.splitContainer1.Panel1.Controls.Add(this.myCreateButton);
             this.splitContainer1.Panel1.Controls.Add(this.listBox1);
@@ -89,6 +91,15 @@ namespace WinForms
             this.splitContainer1.TabIndex = 2;
             this.splitContainer1.DragDrop += new System.Windows.Forms.DragEventHandler(this.Panel_DragDrop);
             this.splitContainer1.DragEnter += new System.Windows.Forms.DragEventHandler(this.Panel_DragEnter);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(12, 70);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "To String";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // myCreateButton
             // 
@@ -120,14 +131,15 @@ namespace WinForms
             this.PropertyGrid.DragDrop += new System.Windows.Forms.DragEventHandler(this.Panel_DragDrop);
             this.PropertyGrid.DragEnter += new System.Windows.Forms.DragEventHandler(this.Panel_DragEnter);
             // 
-            // button1
+            // button2
             // 
-            this.button1.Location = new System.Drawing.Point(12, 70);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "To String";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button2.Location = new System.Drawing.Point(12, 183);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "Hand Load";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.HandLoad_Click);
             // 
             // MainForm
             // 
@@ -157,6 +169,7 @@ namespace WinForms
         private System.Windows.Forms.Button myCreateButton;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

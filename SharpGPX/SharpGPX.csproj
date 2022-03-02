@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Blue Toque Software</Company>
-    <Version>2.21.0801</Version>
-    <Copyright>Copyright © Blue Toque Software 2021</Copyright>
+    <Version>2.22.0302</Version>
+    <Copyright>Copyright © Blue Toque Software 2022</Copyright>
     <Authors>Michael Coyle</Authors>
     <Description>Read and write GPX Files as associated extensions</Description>
-    <AssemblyVersion>2.21.0801</AssemblyVersion>
-    <FileVersion>2.21.0801</FileVersion>
+    <AssemblyVersion>2.22.0302</AssemblyVersion>
+    <FileVersion>2.22.0302</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/BlueToque/SharpGPX</RepositoryUrl>
@@ -16,8 +16,8 @@
     <PackageTags>gpx,geospatial,gps</PackageTags>
     <RepositoryType>Git</RepositoryType>
     <AssemblyName>BlueToque.SharpGPX</AssemblyName>
-    <PackageReleaseNotes>* Added the ability to change the encoding of the generated XML
-* fixed a bug where serializing to string wouldn't honour the xml encoding so set</PackageReleaseNotes>
+    <PackageReleaseNotes>* Issue #8: "ele" field saving
+* Issue #9: Garmin RoutePointExtension</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Security.Principal;
 using System.Text;
 using System.Xml;
+using Utility;
 
 namespace Examples
 {
@@ -25,6 +26,8 @@ namespace Examples
                     Utility.Examples.ReadAndPrint("Files\\All Buntzen Trails.gpx");
                     Utility.Examples.ReadAndPrint("Files\\Buntzen Waypoints.gpx");
                     Utility.Examples.ReadAndPrint("Files\\Burnaby Walk.gpx");
+
+                    Utility.Examples.ReadAndPrint("Files\\Issue #8 RoutePointExtension.gpx");
                 }
 
                 // create a new file
@@ -58,12 +61,12 @@ namespace Examples
                 GpxClass.XmlWriterSettings.NewLineHandling = NewLineHandling.None;                
                 var smallString = newGpx.ToXml();
 
+                Issues.Execute();
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Error processing file:\r\n{0}", ex);
             }
-
         }
     }
 }

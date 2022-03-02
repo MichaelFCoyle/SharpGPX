@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2022-03-01T09:23:15Z</time>
+    <bounds maxlat="-37.464001178741455" maxlon="144.37371969223022" minlat="-37.479579448699951" minlon="144.36998605728149" />
+  </metadata>
+
+  <rte>
+    <name>Test</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+      <trp:Trip>
+        <trp:TransportationMode>Hiking</trp:TransportationMode>
+      </trp:Trip>
+    </extensions>
+    <rtept lat="-37.464001178741455" lon="144.37371969223022">
+      <time>2022-03-01T09:22:53Z</time>
+      <name>Amblers Lane Track</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0000487249030C005A040FE56600E35B6FAA</gpxx:Subclass>
+          <gpxx:rpt lat="-37.464001178741455" lon="144.37371969223022">
+            <gpxx:Subclass>0B0048724903BFC501002116000000000000</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="-37.464001178741455" lon="144.37371969223022" />
+          <gpxx:rpt lat="-37.464001178741455" lon="144.37371969223022" />
+          <gpxx:rpt lat="-37.464001178741455" lon="144.37371969223022" />
+          <gpxx:rpt lat="-37.464001178741455" lon="144.37371969223022">
+            <gpxx:Subclass>0B0048724903BFC501001F000A0009CB0C03</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="-37.464001178741455" lon="144.37371969223022" />
+          <gpxx:rpt lat="-37.464430332183838" lon="144.37311887741089" />
+          <gpxx:rpt lat="-37.464838027954102" lon="144.37294721603394" />
+          <gpxx:rpt lat="-37.465417385101318" lon="144.37277555465698" />
+          <gpxx:rpt lat="-37.466104030609131" lon="144.3724536895752" />
+          <gpxx:rpt lat="-37.466425895690918" lon="144.37232494354248" />
+          <gpxx:rpt lat="-37.466747760772705" lon="144.37211036682129" />
+          <gpxx:rpt lat="-37.466940879821777" lon="144.37196016311646" />
+          <gpxx:rpt lat="-37.467241287231445" lon="144.37191724777222" />
+          <gpxx:rpt lat="-37.467606067657471" lon="144.37193870544434" />
+          <gpxx:rpt lat="-37.468593120574951" lon="144.3718957901001" />
+          <gpxx:rpt lat="-37.469022274017334" lon="144.37183141708374" />
+          <gpxx:rpt lat="-37.469215393066406" lon="144.37172412872314" />
+          <gpxx:rpt lat="-37.469687461853027" lon="144.37168121337891" />
+          <gpxx:rpt lat="-37.470073699951172" lon="144.3714451789856" />
+          <gpxx:rpt lat="-37.470223903656006" lon="144.3714451789856" />
+          <gpxx:rpt lat="-37.470438480377197" lon="144.37150955200195" />
+          <gpxx:rpt lat="-37.471017837524414" lon="144.37140226364136" />
+          <gpxx:rpt lat="-37.47136116027832" lon="144.37129497528076" />
+          <gpxx:rpt lat="-37.471854686737061" lon="144.3714451789856" />
+          <gpxx:rpt lat="-37.472090721130371" lon="144.3714451789856" />
+          <gpxx:rpt lat="-37.472305297851562" lon="144.37140226364136" />
+          <gpxx:rpt lat="-37.472455501556396" lon="144.371337890625" />
+          <gpxx:rpt lat="-37.472648620605469" lon="144.37131643295288" />
+          <gpxx:rpt lat="-37.472820281982422" lon="144.37138080596924" />
+          <gpxx:rpt lat="-37.473249435424805" lon="144.37120914459229" />
+          <gpxx:rpt lat="-37.473464012145996" lon="144.37105894088745" />
+          <gpxx:rpt lat="-37.473721504211426" lon="144.37103748321533" />
+          <gpxx:rpt lat="-37.473914623260498" lon="144.37108039855957" />
+          <gpxx:rpt lat="-37.474343776702881" lon="144.37114477157593" />
+          <gpxx:rpt lat="-37.475073337554932" lon="144.37114477157593" />
+          <gpxx:rpt lat="-37.475459575653076" lon="144.37120914459229" />
+          <gpxx:rpt lat="-37.475695610046387" lon="144.3712306022644" />
+          <gpxx:rpt lat="-37.475953102111816" lon="144.37129497528076" />
+          <gpxx:rpt lat="-37.476210594177246" lon="144.37150955200195" />
+          <gpxx:rpt lat="-37.476425170898438" lon="144.37174558639526" />
+          <gpxx:rpt lat="-37.476575374603271" lon="144.37191724777222" />
+          <gpxx:rpt lat="-37.476811408996582" lon="144.37193870544434" />
+          <gpxx:rpt lat="-37.477068901062012" lon="144.37193870544434" />
+          <gpxx:rpt lat="-37.477262020111084" lon="144.37183141708374" />
+          <gpxx:rpt lat="-37.477755546569824" lon="144.37165975570679" />
+          <gpxx:rpt lat="-37.478163242340088" lon="144.37120914459229" />
+          <gpxx:rpt lat="-37.4788498878479" lon="144.37056541442871" />
+          <gpxx:rpt lat="-37.479257583618164" lon="144.37030792236328" />
+          <gpxx:rpt lat="-37.479472160339355" lon="144.37011480331421" />
+          <gpxx:rpt lat="-37.479579448699951" lon="144.36998605728149">
+            <gpxx:Subclass>0B0048724903DD1F8F001F000A008ACA0000</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="-37.479579448699951" lon="144.36998605728149" />
+          <gpxx:rpt lat="-37.479579448699951" lon="144.36998605728149" />
+          <gpxx:rpt lat="-37.479579448699951" lon="144.36998605728149" />
+          <gpxx:rpt lat="-37.479579448699951" lon="144.36998605728149">
+            <gpxx:Subclass>0B0048724903DD1F0F002117000073010000</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="-37.479579448699951" lon="144.36998605728149">
+      <time>2022-03-01T09:22:55Z</time>
+      <name>Amblers Lane Track and unpaved track</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0000487249030C005A040FE566000D59C1A9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+</gpx>

@@ -71,25 +71,32 @@ namespace SharpGPX
         #region Garmin extensions
 
         /// <summary>
-        /// Get a Garmin track extension from a GPX track
+        /// Get a Garmin Track Extension from a GPX track
         /// </summary>
         /// <param name="trk"></param>
         /// <returns></returns>
-        public static GPX1_1.Garmin.TrackExtension_t GetGarminExt(this trkType trk) => trk.extensions.Get<GPX1_1.Garmin.TrackExtension_t>();
+        public static GPX1_1.Garmin.TrackExtension_t GetGarminTrackExt(this trkType trk) => trk.extensions.Get<GPX1_1.Garmin.TrackExtension_t>();
 
         /// <summary>
-        /// Get a Garmin route extension from a GPX route
+        /// Get a Garmin Route Extension from a GPX route
         /// </summary>
         /// <param name="rte"></param>
         /// <returns></returns>
-        public static GPX1_1.Garmin.RouteExtension_t GetGarminExt(this rteType rte) => rte.extensions.Get<GPX1_1.Garmin.RouteExtension_t>();
+        public static GPX1_1.Garmin.RouteExtension_t GetGarminRouteExt(this rteType rte) => rte.extensions.Get<GPX1_1.Garmin.RouteExtension_t>();
 
         /// <summary>
-        /// Get a Garmin waypoint extension from a GPX waypoint
+        /// Get a Garmin Waypoint Extension from a GPX waypoint
         /// </summary>
         /// <param name="wpt"></param>
         /// <returns></returns>
-        public static GPX1_1.Garmin.WaypointExtension_t GetGarminExt(this wptType wpt) => wpt.extensions.Get<GPX1_1.Garmin.WaypointExtension_t>();
+        public static GPX1_1.Garmin.WaypointExtension_t GetGarminWaypointExt(this wptType wpt) => wpt.extensions.Get<GPX1_1.Garmin.WaypointExtension_t>();
+
+        /// <summary>
+        /// Get a Garmin Route Point Extension from a GPX waypoint
+        /// </summary>
+        /// <param name="wpts"></param>
+        /// <returns></returns>
+        public static GPX1_1.Garmin.RoutePointExtension_t GetGarminRoutePointExt(this wptType wpt) => wpt.extensions.Get<GPX1_1.Garmin.RoutePointExtension_t>();
 
         #endregion
 

@@ -90,6 +90,9 @@ namespace SharpGPX.GPX1_1
 
             if (name.IsNullOrEmpty())
                 name = null;
+
+            if (time == DateTime.MinValue)
+                timeSpecified = false;
         }
     }
 
@@ -242,6 +245,9 @@ namespace SharpGPX.GPX1_1
         }
     }
 
+    /// <summary>
+    /// Bounds
+    /// </summary>
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
     [System.Diagnostics.DebuggerDisplay("Bounds {maxlat},{maxlon},{minlat},{minlon}")]
     public partial class boundsType
@@ -310,14 +316,21 @@ namespace SharpGPX.GPX1_1
         public decimal Height => maxlat - minlat;
     }
 
+    /// <summary>
+    /// Waypoint
+    /// 
+    /// Note the fields in this class that have "specified" fields.
+    /// 
+    /// </summary>
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
-    [System.Diagnostics.DebuggerDisplay("{lat},{lon},{ele}")]
+    [System.Diagnostics.DebuggerDisplay("{DebuggerDisplay, nq}")]
     public partial class wptType
     {
         public wptType()
         {
             timeSpecified = false;
             eleSpecified = false;
+            ele = NULL_ELE;
         }
 
         /// <summary>
@@ -327,7 +340,7 @@ namespace SharpGPX.GPX1_1
         /// <param name="longitude"></param>
         /// <param name="elevation"></param>
         /// <param name="dateTime"></param>
-        public wptType(double latitude, double longitude, double? elevation = null, DateTime? dateTime = null)
+        public wptType(double latitude, double longitude, double? elevation = null, DateTime? dateTime = null) : this()
         {
             lat = (decimal)latitude;
             lon = (decimal)longitude;
@@ -341,14 +354,37 @@ namespace SharpGPX.GPX1_1
                 ele = (decimal)elevation.Value;
         }
 
-        internal void Preserialize() { }
+        public static decimal NULL_ELE = -99999;
+
+        internal void Preserialize()
+        {
+            if (time == DateTime.MinValue)
+                timeSpecified = false;
+
+            if (!eleSpecified)
+                eleSpecified = (ele != NULL_ELE);
+        }
+
+        [System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never), System.ComponentModel.Browsable(false)]
+        internal string DebuggerDisplay => (ele == NULL_ELE) ? $"{lat}, {lon}" : $"{lat}, {lon}, {ele}m";
+
     }
 
+    /// <summary>
+    /// Point
+    /// </summary>
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
-    [System.Diagnostics.DebuggerDisplay("{lat},{lon},{ele}")]
+    [System.Diagnostics.DebuggerDisplay("{DebuggerDisplay, nq}")]
     public partial class ptType
     {
-        public ptType()=> eleSpecified = false;
+        public ptType()
+        {
+            timeSpecified = false;
+            eleSpecified = false;
+            ele = NULL_ELE;
+        }
+
+        public static decimal NULL_ELE = -99999;
 
         /// <summary>
         /// 
@@ -357,7 +393,7 @@ namespace SharpGPX.GPX1_1
         /// <param name="longitude"></param>
         /// <param name="elevation"></param>
         /// <param name="dateTime"></param>
-        public ptType(double latitude, double longitude, double? elevation = null, DateTime? dateTime = null)
+        public ptType(double latitude, double longitude, double? elevation = null, DateTime? dateTime = null) : this()
         {
             lat = (decimal)latitude;
             lon = (decimal)longitude;
@@ -372,9 +408,22 @@ namespace SharpGPX.GPX1_1
                 ele = (decimal)elevation.Value;
         }
 
-        internal void Preserialize() { }
+        internal void Preserialize()
+        {
+            if (time == DateTime.MinValue)
+                timeSpecified = false;
+
+            if (!eleSpecified)
+                eleSpecified = (ele != NULL_ELE);
+        }
+
+        [System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never), System.ComponentModel.Browsable(false)]
+        internal string DebuggerDisplay => (ele == NULL_ELE) ? $"{lat}, {lon}" : $"{lat}, {lon}, {ele}m";
     }
 
+    /// <summary>
+    /// Track
+    /// </summary>
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
     [System.Diagnostics.DebuggerDisplay("{trkseg.Count} segments")]
     public partial class trkType
@@ -404,6 +453,9 @@ namespace SharpGPX.GPX1_1
         internal void Preserialize() { }
     }
 
+    /// <summary>
+    /// Track Segment
+    /// </summary>
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
     [System.Diagnostics.DebuggerDisplay("{trkpt.Count} points")]
     public partial class trksegType
@@ -419,6 +471,9 @@ namespace SharpGPX.GPX1_1
         internal void Preserialize() => trkpt.Preserialize();
     }
 
+    /// <summary>
+    /// Route Type
+    /// </summary>
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
     [System.Diagnostics.DebuggerDisplay("{rtept.Count} points")]
     public partial class rteType
@@ -434,6 +489,9 @@ namespace SharpGPX.GPX1_1
         internal void Preserialize() => rtept.Preserialize();
     }
 
+    /// <summary>
+    /// Waypoint Collection
+    /// </summary>
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
     public partial class wptTypeCollection
     {

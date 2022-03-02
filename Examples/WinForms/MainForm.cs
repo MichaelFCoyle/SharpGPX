@@ -107,5 +107,43 @@ namespace WinForms
         }
 
         private void Panel_DragEnter(object sender, DragEventArgs e) => e.Effect = DragDropEffects.Copy;
+
+        /// <summary>
+        /// "hand load" some data into a track
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void HandLoad_Click(object sender, EventArgs e)
+        {
+            GpxClass gpx = PropertyGrid.SelectedObject as GpxClass;
+            if (gpx == null)
+                gpx = new GpxClass();
+
+            gpx.Tracks.Add(new SharpGPX.GPX1_1.trkType());
+            gpx.Tracks[0].trkseg.Add(new SharpGPX.GPX1_1.trksegType());
+            for (int i = 0; i <= 7; i++)
+                gpx.Tracks[0].trkseg[0].trkpt.Add(new SharpGPX.GPX1_1.wptType(123+i,49+i, 100));
+
+            var text = gpx.ToXml();
+
+            // do it again
+            gpx = new GpxClass();
+
+            gpx.Tracks.Add(new SharpGPX.GPX1_1.trkType());
+            gpx.Tracks[0].trkseg.Add(new SharpGPX.GPX1_1.trksegType());
+            for (int i = 0; i <= 7; i++)
+            {
+                var wpt = new SharpGPX.GPX1_1.wptType
+                {
+                    lat = 123 + i,
+                    lon = 49 + i,
+                    ele = 100
+                };
+                gpx.Tracks[0].trkseg[0].trkpt.Add(wpt);
+            }
+
+            text = gpx.ToXml();
+
+        }
     }
 }
