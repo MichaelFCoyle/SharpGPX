@@ -22,7 +22,7 @@ namespace SharpGPX.GPX1_1.Garmin {
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.garmin.com/xmlschemas/GpxExtensions/v3")]
     [System.Xml.Serialization.XmlRootAttribute("WaypointExtension", Namespace="http://www.garmin.com/xmlschemas/GpxExtensions/v3", IsNullable=false)]
-    public partial class WaypointExtension_t : System.ComponentModel.INotifyPropertyChanged {
+    public partial class WaypointExtension : System.ComponentModel.INotifyPropertyChanged {
         
         /// <summary />
         public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
@@ -123,10 +123,10 @@ namespace SharpGPX.GPX1_1.Garmin {
         }
         
         /// <summary />
-        private DisplayMode_t displayModeField;
+        private DisplayMode displayModeField;
         
         /// <remarks/>
-        public DisplayMode_t DisplayMode {
+        public DisplayMode DisplayMode {
             get {
                 return this.displayModeField;
             }
@@ -181,11 +181,11 @@ namespace SharpGPX.GPX1_1.Garmin {
         }
         
         /// <summary />
-        private PhoneNumber_tCollection phoneNumberField;
+        private PhoneNumberCollection phoneNumberField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhoneNumber")]
-        public PhoneNumber_tCollection PhoneNumber {
+        public PhoneNumberCollection PhoneNumber {
             get {
                 return this.phoneNumberField;
             }
@@ -214,7 +214,7 @@ namespace SharpGPX.GPX1_1.Garmin {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.garmin.com/xmlschemas/GpxExtensions/v3")]
-    public enum DisplayMode_t {
+    public enum DisplayMode {
         
         /// <remarks/>
         SymbolOnly,
@@ -426,7 +426,7 @@ namespace SharpGPX.GPX1_1.Garmin {
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.garmin.com/xmlschemas/GpxExtensions/v3")]
     [System.Xml.Serialization.XmlRootAttribute("RouteExtension", Namespace="http://www.garmin.com/xmlschemas/GpxExtensions/v3", IsNullable=false)]
-    public partial class RouteExtension_t : System.ComponentModel.INotifyPropertyChanged {
+    public partial class RouteExtension : System.ComponentModel.INotifyPropertyChanged {
         
         /// <summary />
         public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
@@ -561,7 +561,7 @@ namespace SharpGPX.GPX1_1.Garmin {
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.garmin.com/xmlschemas/GpxExtensions/v3")]
     [System.Xml.Serialization.XmlRootAttribute("RoutePointExtension", Namespace="http://www.garmin.com/xmlschemas/GpxExtensions/v3", IsNullable=false)]
-    public partial class RoutePointExtension_t : System.ComponentModel.INotifyPropertyChanged {
+    public partial class RoutePointExtension : System.ComponentModel.INotifyPropertyChanged {
         
         /// <summary />
         public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
@@ -590,11 +590,11 @@ namespace SharpGPX.GPX1_1.Garmin {
         }
         
         /// <summary />
-        private AutoroutePoint_tCollection rptField;
+        private AutoroutePointCollection rptField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("rpt")]
-        public AutoroutePoint_tCollection rpt {
+        public AutoroutePointCollection rpt {
             get {
                 return this.rptField;
             }
@@ -625,7 +625,7 @@ namespace SharpGPX.GPX1_1.Garmin {
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.garmin.com/xmlschemas/GpxExtensions/v3")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://www.garmin.com/xmlschemas/GpxExtensions/v3", IsNullable=true)]
-    public partial class AutoroutePoint_t : System.ComponentModel.INotifyPropertyChanged {
+    public partial class AutoroutePoint : System.ComponentModel.INotifyPropertyChanged {
         
         /// <summary />
         public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
@@ -690,7 +690,7 @@ namespace SharpGPX.GPX1_1.Garmin {
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.garmin.com/xmlschemas/GpxExtensions/v3")]
     [System.Xml.Serialization.XmlRootAttribute("TrackExtension", Namespace="http://www.garmin.com/xmlschemas/GpxExtensions/v3", IsNullable=false)]
-    public partial class TrackExtension_t : System.ComponentModel.INotifyPropertyChanged {
+    public partial class TrackExtension : System.ComponentModel.INotifyPropertyChanged {
         
         /// <summary />
         public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
@@ -753,7 +753,7 @@ namespace SharpGPX.GPX1_1.Garmin {
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.garmin.com/xmlschemas/GpxExtensions/v3")]
     [System.Xml.Serialization.XmlRootAttribute("TrackPointExtension", Namespace="http://www.garmin.com/xmlschemas/GpxExtensions/v3", IsNullable=false)]
-    public partial class TrackPointExtension_t : System.ComponentModel.INotifyPropertyChanged {
+    public partial class TrackPointExtension : System.ComponentModel.INotifyPropertyChanged {
         
         /// <summary />
         public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
@@ -876,12 +876,12 @@ namespace SharpGPX.GPX1_1.Garmin {
     
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.garmin.com/xmlschemas/GpxExtensions/v3")]
-    public partial class PhoneNumber_tCollection : System.Collections.Generic.List<PhoneNumber_t> {
+    public partial class PhoneNumberCollection : System.Collections.Generic.List<PhoneNumber_t> {
     }
     
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.garmin.com/xmlschemas/GpxExtensions/v3")]
-    public partial class AutoroutePoint_tCollection : System.Collections.Generic.List<AutoroutePoint_t> {
+    public partial class AutoroutePointCollection : System.Collections.Generic.List<AutoroutePoint> {
     }
 }
 #pragma warning restore 1591

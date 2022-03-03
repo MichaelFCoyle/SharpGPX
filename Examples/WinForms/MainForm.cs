@@ -13,7 +13,7 @@ namespace WinForms
         protected override void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
-            listBox1.Items.Add(new CreateModel("Track", Examples.CreateTrack));
+            //listBox1.Items.Add(new CreateModel("Track", Examples.CreateGpx().AddTrack(Examples.CreateTrack()) ));
             listBox1.Items.Add(new CreateModel("Track No Meta", Examples.CreateTrackNoMetadata));
         }
 
@@ -115,8 +115,7 @@ namespace WinForms
         /// <param name="e"></param>
         private void HandLoad_Click(object sender, EventArgs e)
         {
-            GpxClass gpx = PropertyGrid.SelectedObject as GpxClass;
-            if (gpx == null)
+            if (PropertyGrid.SelectedObject is not GpxClass gpx)
                 gpx = new GpxClass();
 
             gpx.Tracks.Add(new SharpGPX.GPX1_1.trkType());
@@ -124,7 +123,7 @@ namespace WinForms
             for (int i = 0; i <= 7; i++)
                 gpx.Tracks[0].trkseg[0].trkpt.Add(new SharpGPX.GPX1_1.wptType(123+i,49+i, 100));
 
-            var text = gpx.ToXml();
+            _ = gpx.ToXml();
 
             // do it again
             gpx = new GpxClass();
@@ -142,7 +141,7 @@ namespace WinForms
                 gpx.Tracks[0].trkseg[0].trkpt.Add(wpt);
             }
 
-            text = gpx.ToXml();
+            _ = gpx.ToXml();
 
         }
     }

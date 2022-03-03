@@ -363,9 +363,13 @@ namespace SharpGPX.GPX1_1
 
             if (!eleSpecified)
                 eleSpecified = (ele != NULL_ELE);
+
+            if (extensions != null && extensions.Count == 0)
+                extensions = null;
         }
 
         [System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never), System.ComponentModel.Browsable(false)]
+        [XmlIgnore]
         internal string DebuggerDisplay => (ele == NULL_ELE) ? $"{lat}, {lon}" : $"{lat}, {lon}, {ele}m";
 
     }
@@ -418,6 +422,7 @@ namespace SharpGPX.GPX1_1
         }
 
         [System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never), System.ComponentModel.Browsable(false)]
+        [XmlIgnore]
         internal string DebuggerDisplay => (ele == NULL_ELE) ? $"{lat}, {lon}" : $"{lat}, {lon}, {ele}m";
     }
 
@@ -436,7 +441,13 @@ namespace SharpGPX.GPX1_1
         /// <returns></returns>
         public boundsType GetBounds() => trkseg.GetBounds();
 
-        internal void Preserialize() => trkseg.Preserialize();
+        internal void Preserialize()
+        {
+            trkseg.Preserialize();
+            
+            if (extensions != null && extensions.Count == 0)
+                extensions = null;
+        }
     }
 
     [SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Xml Serialization Name")]
@@ -451,6 +462,27 @@ namespace SharpGPX.GPX1_1
         public extensionsType(extensionsType other) => Any = other?.Any;
 
         internal void Preserialize() { }
+
+        /// <summary>
+        /// The number of extensions
+        /// </summary>
+        [XmlIgnore]
+        public int Count => (Any?.Length).GetValueOrDefault(0);
+
+        public void Clear() => Any = new System.Xml.XmlElement[0];
+
+        /// <summary>
+        /// Add an XmlElement to the Any field
+        /// </summary>
+        /// <param name="element"></param>
+        public void Add(System.Xml.XmlElement element)
+        {
+            if (Any == null)
+                Any = new System.Xml.XmlElement[1];
+            else
+                Array.Resize(ref anyField, anyField.Length + 1);            
+            Any[anyField.Length - 1] = element;
+        }
     }
 
     /// <summary>
@@ -468,7 +500,13 @@ namespace SharpGPX.GPX1_1
         /// <returns></returns>
         public boundsType GetBounds() => trkpt.GetBounds();
 
-        internal void Preserialize() => trkpt.Preserialize();
+        internal void Preserialize()
+        {
+            trkpt.Preserialize();
+
+            if (extensions != null && extensions.Count == 0)
+                extensions = null;
+        }
     }
 
     /// <summary>
@@ -478,7 +516,9 @@ namespace SharpGPX.GPX1_1
     [System.Diagnostics.DebuggerDisplay("{rtept.Count} points")]
     public partial class rteType
     {
-        public rteType() => rtept = new wptTypeCollection(); 
+        public rteType() => rtept = new wptTypeCollection();
+        
+        public rteType(wptTypeCollection rtept) => this.rtept = rtept;        
 
         /// <summary>
         /// Get a boundsType that represents the bounds of this data
@@ -486,7 +526,13 @@ namespace SharpGPX.GPX1_1
         /// <returns></returns>
         public boundsType GetBounds() => rtept.GetBounds();
 
-        internal void Preserialize() => rtept.Preserialize();
+        internal void Preserialize()
+        {
+            rtept.Preserialize();
+
+            if (extensions != null && extensions.Count == 0)
+                extensions = null;
+        }
     }
 
     /// <summary>
@@ -590,6 +636,12 @@ namespace SharpGPX.GPX1_1
         public ptTypeCollection() { }
 
         public ptTypeCollection(IEnumerable<ptType> collection) : base(collection) { }
+
+        /// <summary>
+        /// Get a boundsType that represents the bounds of this data
+        /// </summary>
+        /// <returns></returns>
+        public boundsType GetBounds() => Count == 0 ? new boundsType() : new boundsType(this.Min(x => x.lat), this.Max(x => x.lat), this.Min(x => x.lon), this.Max(x => x.lon));
 
         internal void Preserialize() => ForEach(x => x.Preserialize());
     }

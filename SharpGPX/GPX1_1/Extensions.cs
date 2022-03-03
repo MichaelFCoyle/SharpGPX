@@ -1,12 +1,39 @@
 ﻿using System.Collections.Generic;
 
-namespace SharpGPX.GPX1_1
+namespace SharpGPX.GPX1_1.Topografix
 {
     /// <summary>
     /// Helper methods for GPX 1.1
     /// </summary>
     public static class Extensions
     {
+        #region TopoGrafix extensions
+
+        public static GpxStyle.lineType GetTopografixLine(this trkType trk) => trk.extensions.Get<GpxStyle.lineType>();
+
+        /// <summary>
+        /// Get a lineType from Gpx extensions
+        /// </summary>
+        /// <param name="ext"></param>
+        /// <returns></returns>
+        public static GpxStyle.lineType GetTopografixLine(this extensionsType ext) => ext.Get<GpxStyle.lineType>();
+
+        /// <summary>
+        /// Get a fillType from Gpx extensions
+        /// </summary>
+        /// <param name="ext"></param>
+        /// <returns></returns>
+        public static GpxStyle.fillType GetTopografixFill(this extensionsType ext) => ext.Get<GpxStyle.fillType>();
+
+        /// <summary>
+        /// Get a textType from Gpx extensions
+        /// </summary>
+        /// <param name="ext"></param>
+        /// <returns></returns>
+        public static GpxStyle.textType GetTopografixText(this extensionsType ext) => ext.Get<GpxStyle.textType>();
+
+        #endregion
+
         /// <summary>
         /// Add an item to a collection fluently
         /// </summary>

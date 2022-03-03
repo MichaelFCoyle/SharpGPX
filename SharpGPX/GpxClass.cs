@@ -18,7 +18,15 @@ namespace SharpGPX
         /// <summary>
         /// Default constructor
         /// </summary>
-        public GpxClass(GpxVersion version = GpxVersion.GPX_1_1) => GpxVersion = version;
+        public GpxClass(GpxVersion version = GpxVersion.GPX_1_1)
+        {
+            GpxVersion = version;
+            var ver = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
+
+            Creator = ver.Revision==0?
+                $"SharpGPX v{ver.Major}.{ver.Minor}.{ver.Build:0000}":
+                $"SharpGPX v{ver.Major}.{ver.Minor}.{ver.Build:0000}.{ver.Revision}";
+        }
 
         /// <summary>
         /// Create this class from the child class

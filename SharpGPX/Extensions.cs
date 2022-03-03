@@ -1,4 +1,5 @@
 ﻿using SharpGPX.GPX1_1;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -6,6 +7,8 @@ namespace SharpGPX
 {
     public static class Extensions
     {
+        #region IsNullOrEmpty
+
         public static bool IsNullOrEmpty(this metadataType metadata)
         {
             if (metadata == null) return true;
@@ -45,6 +48,47 @@ namespace SharpGPX
 
         public static bool IsNullOrEmpty(this trkTypeCollection trkCollection) => trkCollection == null || trkCollection.Count == 0;
 
+        #endregion
+
+        #region fluent methods
+
+        public static GpxClass AddTrack(this GpxClass gpx, trkType trk)
+        {
+            if (gpx == null) return null;
+            gpx.Tracks.Add(trk);
+            return gpx;
+        }
+
+        public static GpxClass AddRoute(this GpxClass gpx, rteType rte)
+        {
+            if (gpx == null) return null;
+            gpx.Routes.Add(rte);
+            return gpx;
+        }
+
+        public static GpxClass AddWaypoint(this GpxClass gpx, wptType wpt)
+        {
+            if (gpx == null) return null;
+            gpx.Waypoints.Add(wpt);
+            return gpx;
+        }
+
+        public static rteType AddPoint(this rteType rte, wptType wpt)
+        {
+            if (rte == null) return null;
+            rte.rtept.Add(wpt);
+            return rte;
+        }
+
+        public static trksegType AddPoint(this trksegType trkSeg, wptType wpt)
+        {
+            if (trkSeg == null) return null;
+            trkSeg.trkpt.Add(wpt);
+            return trkSeg;
+        }
+
+        #endregion
+
         /// <summary>
         /// Get a deserialized extension if it exists
         /// </summary>
@@ -68,65 +112,14 @@ namespace SharpGPX
             return null;
         }
 
-        #region Garmin extensions
-
         /// <summary>
-        /// Get a Garmin Track Extension from a GPX track
+        /// Set an extension 
         /// </summary>
-        /// <param name="trk"></param>
-        /// <returns></returns>
-        public static GPX1_1.Garmin.TrackExtension_t GetGarminTrackExt(this trkType trk) => trk.extensions.Get<GPX1_1.Garmin.TrackExtension_t>();
-
-        /// <summary>
-        /// Get a Garmin Route Extension from a GPX route
-        /// </summary>
-        /// <param name="rte"></param>
-        /// <returns></returns>
-        public static GPX1_1.Garmin.RouteExtension_t GetGarminRouteExt(this rteType rte) => rte.extensions.Get<GPX1_1.Garmin.RouteExtension_t>();
-
-        /// <summary>
-        /// Get a Garmin Waypoint Extension from a GPX waypoint
-        /// </summary>
-        /// <param name="wpt"></param>
-        /// <returns></returns>
-        public static GPX1_1.Garmin.WaypointExtension_t GetGarminWaypointExt(this wptType wpt) => wpt.extensions.Get<GPX1_1.Garmin.WaypointExtension_t>();
-
-        /// <summary>
-        /// Get a Garmin Route Point Extension from a GPX waypoint
-        /// </summary>
-        /// <param name="wpts"></param>
-        /// <returns></returns>
-        public static GPX1_1.Garmin.RoutePointExtension_t GetGarminRoutePointExt(this wptType wpt) => wpt.extensions.Get<GPX1_1.Garmin.RoutePointExtension_t>();
-
-        #endregion
-
-        #region TopoGrafix extensions
-
-        public static GPX1_1.Topografix.GpxStyle.lineType GetTopografixLine(this trkType trk) => trk.extensions.Get<GPX1_1.Topografix.GpxStyle.lineType>();
-
-        /// <summary>
-        /// Get a lineType from Gpx extensions
-        /// </summary>
+        /// <typeparam name="T"></typeparam>
         /// <param name="ext"></param>
-        /// <returns></returns>
-        public static GPX1_1.Topografix.GpxStyle.lineType GetTopografixLine(this extensionsType ext) => ext.Get<GPX1_1.Topografix.GpxStyle.lineType>();
+        public static void Set<T>(this extensionsType ext, T obj) where T : class => 
+            ext?.Add(Utility.Serializer.SerializeToElement<T>(obj));
 
-        /// <summary>
-        /// Get a fillType from Gpx extensions
-        /// </summary>
-        /// <param name="ext"></param>
-        /// <returns></returns>
-        public static GPX1_1.Topografix.GpxStyle.fillType GetTopografixFill(this extensionsType ext) => ext.Get<GPX1_1.Topografix.GpxStyle.fillType>();
-
-        /// <summary>
-        /// Get a textType from Gpx extensions
-        /// </summary>
-        /// <param name="ext"></param>
-        /// <returns></returns>
-        public static GPX1_1.Topografix.GpxStyle.textType GetTopografixText(this extensionsType ext) => ext.Get<GPX1_1.Topografix.GpxStyle.textType>();
-
-        #endregion
- 
         /// <summary>
         /// Convert a track to several routes.
         /// Each track segment is a seperate route.
@@ -161,9 +154,6 @@ namespace SharpGPX
         /// </summary>
         /// <param name="seg"></param>
         /// <returns></returns>
-        public static rteType ToRoute(this trksegType seg) => new rteType()
-        {
-            rtept = new wptTypeCollection(seg.trkpt.ToArray())
-        };
+        public static rteType ToRoute(this trksegType seg) => new rteType(new wptTypeCollection(seg.trkpt.ToArray()));
     }
 }

@@ -48,7 +48,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>gpx.xsd</DependentUpon>
     </Compile>
-    <Compile Include="GPX1_1\Extensions.cs" />
     <Compile Include="GPX1_1\Garmin\GarminExtensions.cs">
       <DependentUpon>GarminExtensions.xsd</DependentUpon>
     </Compile>

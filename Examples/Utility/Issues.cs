@@ -27,7 +27,7 @@ namespace Utility
                 lon = -123,
             });
 
-            var xml = gpx.ToXml();
+            _ = gpx.ToXml();
 
             return true;
         }

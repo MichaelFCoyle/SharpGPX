@@ -560,10 +560,7 @@ namespace Utility
         /// <typeparam name="T"></typeparam>
         /// <param name="obj"></param>
         /// <returns></returns>
-        public static XmlElement SerializeToElement<T>(T obj) where T : class
-        {
-            return SerializeToElement<T>(obj, null);
-        }
+        public static XmlElement SerializeToElement<T>(T obj) where T : class => SerializeToElement<T>(obj, null);
 
         /// <summary>
         /// 
@@ -572,10 +569,7 @@ namespace Utility
         /// <param name="obj"></param>
         /// <param name="ns"></param>
         /// <returns></returns>
-        public static XmlElement SerializeToElement<T>(T obj, XmlSerializerNamespaces ns) where T : class
-        {
-            return SerializeToElement<T>(obj, ns, null);
-        }
+        public static XmlElement SerializeToElement<T>(T obj, XmlSerializerNamespaces ns) where T : class => SerializeToElement<T>(obj, ns, null);
 
         /// <summary>
         /// 
@@ -642,7 +636,6 @@ namespace Utility
             return null;
         }
 
-
         /// <summary>
         /// Serialize the object to an element
         /// </summary>
@@ -682,10 +675,7 @@ namespace Utility
         /// <typeparam name="T"></typeparam>
         /// <param name="obj"></param>
         /// <param name="fileName"></param>
-        public static void SerializeToFile<T>(T obj, string fileName) where T : class
-        {
-            SerializeToFile<T>(obj, fileName, null, null);
-        }
+        public static void SerializeToFile<T>(T obj, string fileName) where T : class => SerializeToFile<T>(obj, fileName, null, null);
 
         /// <summary>
         /// 
@@ -694,10 +684,7 @@ namespace Utility
         /// <param name="obj"></param>
         /// <param name="fileName"></param>
         /// <param name="ns"></param>
-        public static void SerializeToFile<T>(T obj, string fileName, XmlSerializerNamespaces ns) where T : class
-        {
-            SerializeToFile<T>(obj, fileName, null, ns);
-        }
+        public static void SerializeToFile<T>(T obj, string fileName, XmlSerializerNamespaces ns) where T : class => SerializeToFile<T>(obj, fileName, null, ns);
 
         /// <summary>
         /// 
@@ -706,10 +693,7 @@ namespace Utility
         /// <param name="obj"></param>
         /// <param name="fileName"></param>
         /// <param name="settings"></param>
-        public static void SerializeToFile<T>(T obj, string fileName, XmlWriterSettings settings) where T : class
-        {
-            SerializeToFile<T>(obj, fileName, settings, null);
-        }
+        public static void SerializeToFile<T>(T obj, string fileName, XmlWriterSettings settings) where T : class => SerializeToFile<T>(obj, fileName, settings, null);
 
         /// <summary>
         /// 
@@ -741,8 +725,10 @@ namespace Utility
                     throw;
             }
         }
+
         #endregion
     }
+
     /// <summary>
     /// Generic way to handle exceptions
     /// </summary>

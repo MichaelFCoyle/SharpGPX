@@ -31,15 +31,24 @@ namespace SharpGPX.GPX1_1.Garmin
         }
     }
 
-    public partial class RouteExtension_t
+    public interface IPointExtension { }
+
+    public partial class WaypointExtension : IPointExtension { }
+
+    public partial class RoutePointExtension : IPointExtension { }
+
+    public partial class TrackPointExtension : IPointExtension { }
+
+    public partial class TrackExtension
     {
         [XmlIgnore]
         public Color Color => GarminExtensions.ConvertColor(DisplayColor);
     }
 
-    public partial class TrackExtension_t
+    public partial class RouteExtension
     {
         [XmlIgnore]
         public Color Color => GarminExtensions.ConvertColor(DisplayColor);
     }
+
 }
