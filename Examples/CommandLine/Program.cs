@@ -1,16 +1,10 @@
-﻿using SharpGPX;
-using SharpGPX.GPX1_1;
-using System;
-using System.Linq;
-using System.Security.Principal;
-using System.Text;
-using System.Xml;
-using Utility;
+﻿using System;
 
 namespace Examples
 {
     class Program
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0060:Remove unused parameter", Justification = "<Pending>")]
         static void Main(string[] args)
         {
             try
@@ -27,19 +21,25 @@ namespace Examples
                 //    Utility.Examples.ReadAndPrint("Files\\Buntzen Waypoints.gpx");
                 //    Utility.Examples.ReadAndPrint("Files\\Burnaby Walk.gpx");
 
-                    Utility.Examples.ReadAndPrint("Files\\Issue #8 RoutePointExtension.gpx");
                 //}
 
                 Utility.Examples.TestUTF8();
 
                 Utility.Examples.TestGarminExtensions();
 
-                Issues.Execute();
+                Issues();
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Error processing file:\r\n{0}", ex);
             }
+        }
+
+        public static void Issues()
+        {
+            new Utility.Issues.Issue8().Execute();
+            new Utility.Issues.Issue9().Execute();
+            new Utility.Issues.Issue10().Execute();
         }
     }
 }

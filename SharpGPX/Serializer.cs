@@ -22,7 +22,7 @@ namespace Utility
 
         #region Fields
 
-        private static readonly Dictionary<Type, XmlSerializer> m_serializers = new Dictionary<Type, XmlSerializer>();
+        private static readonly Dictionary<Type, XmlSerializer> m_serializers = [];
 
         #endregion
 

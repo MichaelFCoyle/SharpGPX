@@ -11,7 +11,8 @@ using Utility;
 namespace SharpGPX
 {
     /// <summary>
-    /// Read and write GPX files
+    /// GpxClass is a wrapper around the code-generated classes that adds conveneince methods
+    /// like loading and saving, initialization etc.
     /// </summary>
     public class GpxClass 
     {
@@ -23,8 +24,8 @@ namespace SharpGPX
             GpxVersion = version;
             var ver = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
 
-            Creator = ver.Revision==0?
-                $"SharpGPX v{ver.Major}.{ver.Minor}.{ver.Build:0000}":
+            Creator = ver.Revision == 0 ?
+                $"SharpGPX v{ver.Major}.{ver.Minor}.{ver.Build:0000}" :
                 $"SharpGPX v{ver.Major}.{ver.Minor}.{ver.Build:0000}.{ver.Revision}";
         }
 
@@ -58,24 +59,47 @@ namespace SharpGPX
                  Indent = true
              };
 
-        #region fields
+        #region properties
 
+        /// <summary>
+        /// The GPX <see cref="GpxVersion">version</see>
+        /// </summary>
         public GpxVersion GpxVersion { get; internal set; } = GpxVersion.GPX_1_1;
 
+        /// <summary>
+        /// Creator string
+        /// </summary>
         public string Creator { get; set; }
 
+        /// <summary>
+        /// Metadata structure
+        /// </summary>
         public metadataType Metadata { get; set; } = new metadataType();
         
+        /// <summary>
+        /// GPX Extensions
+        /// </summary>
         public extensionsType Extensions { get; set; }
 
-        /// <summary> Version is set to "1.1" because this is part of the standards </summary>
+        /// <summary> 
+        /// Version is set to "1.1" because this is part of the standard
+        /// </summary>
         public string Version { get; } = "1.1";
 
-        public wptTypeCollection Waypoints { get; set; } = new wptTypeCollection();
+        /// <summary>
+        /// Waypoints
+        /// </summary>
+        public wptTypeCollection Waypoints { get; set; } = [];
 
-        public trkTypeCollection Tracks { get; set; } = new trkTypeCollection();
+        /// <summary>
+        /// Tracks
+        /// </summary>
+        public trkTypeCollection Tracks { get; set; } = [];
 
-        public rteTypeCollection Routes { get; set; } = new rteTypeCollection();
+        /// <summary>
+        /// Routes
+        /// </summary>
+        public rteTypeCollection Routes { get; set; } = [];
 
         #endregion
 
@@ -154,7 +178,7 @@ namespace SharpGPX
         /// Return null if it's not valid GPX 
         /// </summary>
         /// <param name="xmlString">XML</param>
-        /// <returns></returns>
+        /// <returns><see cref="GpxVersion"/></returns>
         public static GpxVersion? GetVersion(string xmlString)
         {
             try
@@ -194,9 +218,9 @@ namespace SharpGPX
                 extensions = Extensions,
                 metadata = Metadata,
                 version = Version,
-                rte = Routes == null ? new rteTypeCollection() : new rteTypeCollection(Routes),
-                trk = Tracks == null ? new trkTypeCollection() : new trkTypeCollection(Tracks),
-                wpt = Waypoints == null ? new wptTypeCollection() : new wptTypeCollection(Waypoints),
+                rte = Routes == null ? [] : new rteTypeCollection(Routes),
+                trk = Tracks == null ? [] : new trkTypeCollection(Tracks),
+                wpt = Waypoints == null ? [] : new wptTypeCollection(Waypoints),
             };
 
             gpx1_1.Preserialize();

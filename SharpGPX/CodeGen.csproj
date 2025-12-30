@@ -56,6 +56,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>GarminExtensions.xsd</DependentUpon>
     </Compile>
+    <Compile Include="GPX1_1\Garmin\TripExtensionsv1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TripExtensionsv1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="GPX1_1\gpx.Generated.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -109,6 +114,11 @@
       <Generator>XsdCodeGenerator</Generator>
       <LastGenOutput>GarminExtensions.Generated.cs</LastGenOutput>
       <CustomToolNamespace>SharpGPX.GPX1_1.Garmin</CustomToolNamespace>
+    </None>
+    <None Include="GPX1_1\Garmin\TripExtensionsv1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>XsdCodeGenerator</Generator>
+      <LastGenOutput>TripExtensionsv1.cs</LastGenOutput>
     </None>
     <None Include="GPX1_1\gpx.xsd">
       <SubType>Designer</SubType>

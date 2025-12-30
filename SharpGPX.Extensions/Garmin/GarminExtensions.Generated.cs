@@ -13,7 +13,7 @@
 //	http://BlueToque.ca
 // Workaround for bug http://lab.msdn.microsoft.com/productfeedback/viewfeedback.aspx?feedbackid=d457a36e-0ce8-4368-9a27-92762860d8e1
 #pragma warning disable 1591
-namespace SharpGPX.GPX1_1.Garmin {
+namespace SharpGPX.Extensions.Garmin {
     
     
     /// <remarks/>

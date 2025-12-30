@@ -1,11 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\SharpGPX\SharpGPX.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\SharpGPX.Extensions\SharpGPX.Extensions.csproj" />
+		<ProjectReference Include="..\..\SharpGPX\SharpGPX.csproj" />
+	</ItemGroup>
 
 </Project>

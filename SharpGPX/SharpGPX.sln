@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30523.141
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36717.8 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpGPX", "SharpGPX.csproj", "{C80D5A5B-E3C4-4D47-ADBF-1CC03C747F01}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinForms", "..\Examples\WinForms\WinForms.csproj", "{93198030-690D-4ECB-8AF8-065CFCBAD15F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "..\Examples\Utility\Utility.csproj", "{00830A59-4B1C-4137-B9FC-9374637ED546}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpGPX.Extensions", "..\SharpGPX.Extensions\SharpGPX.Extensions.csproj", "{740A4E17-ED9C-4772-8B1A-62F285746654}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,6 +42,10 @@ Global
 		{00830A59-4B1C-4137-B9FC-9374637ED546}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00830A59-4B1C-4137-B9FC-9374637ED546}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00830A59-4B1C-4137-B9FC-9374637ED546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{740A4E17-ED9C-4772-8B1A-62F285746654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{740A4E17-ED9C-4772-8B1A-62F285746654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{740A4E17-ED9C-4772-8B1A-62F285746654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{740A4E17-ED9C-4772-8B1A-62F285746654}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,15 +1,10 @@
 ﻿using SharpGPX;
 
-namespace Utility
+namespace Utility.Issues
 {
-    public static class Issues
+    public class Issue9
     {
-        public static bool Execute()
-        {
-            return Issue9();
-        }
-
-        public static bool Issue9()
+        public bool Execute()
         {
             GpxClass gpx = new GpxClass();
             gpx.Waypoints.Add(new SharpGPX.GPX1_1.wptType()

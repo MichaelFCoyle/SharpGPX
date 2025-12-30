@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Company>Blue Toque Software</Company>
+		<Version>2.25.1230</Version>
+		<Copyright>Copyright © Blue Toque Software 2025</Copyright>
+		<Authors>Michael Coyle</Authors>
+		<Description>Read and write GPX extensions</Description>
+		<AssemblyName>BlueToque.SharpGPX.Extensions</AssemblyName>
+		<AssemblyVersion>2.25.1230</AssemblyVersion>
+		<FileVersion>2.25.1230</FileVersion>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/BlueToque/SharpGPX</RepositoryUrl>
+		<PackageId>BlueToque.SharpGPX.Extensions</PackageId>
+		<PackageTags>gpx,geospatial,gps</PackageTags>
+		<RepositoryType>Git</RepositoryType>
+		<PackageReleaseNotes></PackageReleaseNotes>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="BlueToque.SharpGPX" Version="2.22.302" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="Garmin\GarminExtensions.xsd">
+			<Generator></Generator>
+		</None>
+		<None Update="Garmin\TripExtensionsv1.xsd">
+			<Generator></Generator>
+		</None>
+		<None Update="TopoGrafix\GPX_Style\gpx_style.xsd">
+			<Generator></Generator>
+		</None>
+		<None Update="TopoGrafix\PrivateStyle0_1\topografix.xsd">
+			<Generator></Generator>
+		</None>
+		<None Update="TopoGrafix\PrivateStyle0_2\topografix.xsd">
+			<Generator></Generator>
+		</None>
+	</ItemGroup>
+
+</Project>

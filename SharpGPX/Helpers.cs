@@ -1,11 +1,10 @@
 ﻿using SharpGPX.GPX1_1;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace SharpGPX
 {
-    public static class Extensions
+    public static class Helpers
     {
         #region IsNullOrEmpty
 
@@ -130,7 +129,7 @@ namespace SharpGPX
         /// <returns></returns>
         public static List<rteType> ToRoutes(this trkType track)
         {
-            List<rteType> results = new List<rteType>();
+            List<rteType> results = [];
 
             int i = 0;
             foreach (var seg in track.trkseg)

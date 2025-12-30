@@ -80,17 +80,11 @@ namespace WinForms
             PropertyGrid.SelectedObject = toCreate();
         }
 
-        public class CreateModel
+        public class CreateModel(string name, Func<GpxClass> create)
         {
-            public CreateModel(string name, Func<GpxClass> create)
-            {
-                Name = name;
-                Create = create;
-            }
+            public string Name { get; } = name;
 
-            public string Name { get; }
-
-            public Func<GpxClass> Create { get; }
+            public Func<GpxClass> Create { get; } = create;
 
             public override string ToString() => Name;
         }

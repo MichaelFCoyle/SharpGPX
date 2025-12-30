@@ -1,11 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using SharpGPX.GPX1_1;
+using System.Collections.Generic;
 
-namespace SharpGPX.GPX1_1.Topografix
+namespace SharpGPX.Extensions.Topografix
 {
     /// <summary>
     /// Helper methods for GPX 1.1
     /// </summary>
-    public static class Extensions
+    public static class Helpers
     {
         #region TopoGrafix extensions
 

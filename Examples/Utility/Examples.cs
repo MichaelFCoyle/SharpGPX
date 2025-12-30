@@ -1,14 +1,19 @@
 ﻿using SharpGPX;
 using SharpGPX.GPX1_1;
-using SharpGPX.GPX1_1.Garmin;
-using SharpGPX.GPX1_1.Topografix;
+using SharpGPX.Extensions.Garmin;
+using SharpGPX.Extensions.Topografix;
 using System;
 using System.Collections.Generic;
+using System.Text;
 
 namespace Utility
 {
     public static class Examples
     {
+        /// <summary>
+        /// Create a GPX file
+        /// </summary>
+        /// <returns></returns>
         public static GpxClass CreateGpx() => new GpxClass()
         {
             Metadata = new metadataType()
@@ -21,6 +26,10 @@ namespace Utility
             },
         };
 
+        /// <summary>
+        /// Create a track
+        /// </summary>
+        /// <returns></returns>
         public static trkType CreateTrack() => new trkType()
         {
             name = "11-AUG-11 18:18:27",
@@ -36,6 +45,10 @@ namespace Utility
                     })
         };
 
+        /// <summary>
+        /// Create a route
+        /// </summary>
+        /// <returns></returns>
         public static rteType CreateRoute() => new rteType()
         {
             name = "Test",
@@ -44,6 +57,10 @@ namespace Utility
             src = "BlueToque Software",            
         };
 
+        /// <summary>
+        /// Create a waypoint
+        /// </summary>
+        /// <returns></returns>
         public static wptType CreateWaypoint() => new wptType()
         {
             name = "Test Waypoint",
@@ -56,6 +73,10 @@ namespace Utility
             sym = "Waypoint",
         };
 
+        /// <summary>
+        /// Create a track
+        /// </summary>
+        /// <returns></returns>
         public static GpxClass CreateTrackNoMetadata()
         {
             GpxClass track = new GpxClass();
@@ -113,6 +134,11 @@ namespace Utility
             return result;
         }
 
+        /// <summary>
+        /// Convert tracks to routes
+        /// </summary>
+        /// <param name="sourceFileName"></param>
+        /// <returns></returns>
         public static GpxClass ConvertToRoutes(string sourceFileName)
         {
             var src = GpxClass.FromFile(sourceFileName);
@@ -130,53 +156,96 @@ namespace Utility
             return dst;
         }
 
-        public static void ReadAndPrint(string fileName)
+        /// <summary>
+        /// Read and print a GPX file
+        /// </summary>
+        /// <param name="fileName"></param>
+        public static string ReadAndPrint(string fileName)
         {
-            Console.WriteLine("File Name: {0}", fileName);
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendFormat("File Name: {0}\r\n", fileName);
             GpxClass gpx = GpxClass.FromFile(fileName);
 
-            Console.WriteLine("{0} elements total", gpx.CountElements());
-
-            Console.WriteLine("Waypoints: {0}", gpx.Waypoints.Count);
-            gpx.Waypoints.ForEach(x => x.Print());
-            
-            Console.WriteLine("Routes: {0}", gpx.Routes.Count);
-            gpx.Routes.ForEach(x => x.Print());
-            
-            Console.WriteLine("Tracks: {0}", gpx.Tracks.Count);
-            gpx.Tracks.ForEach(x => x.Print());
+            return sb.Append(gpx.Print()).ToString();
         }
 
-        public static void Print(this wptType wpt)
+        /// <summary>
+        /// Print a GPX file
+        /// </summary>
+        /// <param name="gpx"></param>
+        /// <returns></returns>
+        public static string Print(this GpxClass gpx)
         {
-            Console.WriteLine("\tWaypoint: {0}", wpt.name);
+            StringBuilder sb = new StringBuilder();
+            sb.AppendFormat("{0} elements total\r\n", gpx.CountElements());
+
+            sb.AppendFormat("Waypoints: {0}\r\n", gpx.Waypoints.Count);
+            gpx.Waypoints.ForEach(x => sb.AppendLine(x.Print()));
+
+            sb.AppendFormat("Routes: {0}\r\n", gpx.Routes.Count);
+            gpx.Routes.ForEach(x => sb.AppendLine(x.Print()));
+
+            sb.AppendFormat("Tracks: {0}\r\n", gpx.Tracks.Count);
+            gpx.Tracks.ForEach(x => sb.AppendLine(x.Print()));
+
+            return sb.ToString();
         }
 
-        public static void Print(this trkType trk)
+        /// <summary>
+        /// Print a waypoint
+        /// </summary>
+        /// <param name="wpt"></param>
+        public static string Print(this wptType wpt)
         {
-            Console.WriteLine("\tTrack: {0}, {1} segments", trk.name, trk.trkseg.Count);
+            return new StringBuilder()
+                .AppendFormat("\tWaypoint: {0}\r\n", wpt.name)
+                .ToString();
+        }
 
-            var garminExt = trk.GetExt();
+        /// <summary>
+        /// print a track
+        /// </summary>
+        /// <param name="trk"></param>
+        public static string Print(this trkType trk)
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendFormat("\tTrack: \"{0}\":\r\n\t\t {1} segments\r\n", trk.name, trk.trkseg.Count);
+
+            TrackExtension garminExt = trk.GetExt();
             if (garminExt != null)
-                Console.WriteLine("Track {0} has Garmin extension", trk.name);
+                sb.AppendFormat("\t\thas Garmin extension\r\n", trk.name);
             _ = garminExt?.Color;
 
             var lineExt = trk.GetTopografixLine();
-            if (lineExt != null) Console.WriteLine("Track {0} has Topografix extension", trk.name);
+            if (lineExt != null)
+                sb.AppendFormat("\t\tTopografix extension\r\n", trk.name);
+            return sb.ToString();
         }
 
-        public static void Print(this trksegType trkSeg)
+        /// <summary>
+        /// Print a track segment
+        /// </summary>
+        /// <param name="trkSeg"></param>
+        public static string Print(this trksegType trkSeg)
         {
-            Console.WriteLine("\tSegment: {0} points", trkSeg.trkpt.Count);
+            StringBuilder sb = new StringBuilder();
+            sb.AppendFormat("\tSegment: {0} points\r\n", trkSeg.trkpt.Count);
+            return sb.ToString();
         }
 
-        public static void Print(this rteType rte)
+        /// <summary>
+        /// print a route
+        /// </summary>
+        /// <param name="rte"></param>
+        public static string Print(this rteType rte)
         {
-            Console.WriteLine("\tRoute: {0}, {1} points", rte.name, rte.rtept.Count);
+            StringBuilder sb = new StringBuilder();
+            sb.AppendFormat("\tRoute: {0}, {1} points\r\n", rte.name, rte.rtept.Count);
 
-            var garminExt = rte.GetExt();
+            RouteExtension garminExt = rte.GetExt();
             if (garminExt != null)
-                Console.WriteLine("Route {0} has Garmin extension", rte.name);
+                sb.AppendFormat("\t\t has Garmin extension\r\n", rte.name);
             _ = garminExt?.Color;
 
             int i = 0;
@@ -185,11 +254,15 @@ namespace Utility
             {
                 var rtePteExt = point.GetExt<RoutePointExtension>();
                 if (rtePteExt != null)
-                    Console.WriteLine("Route {0} point {1} has Garmin extension", rte.name, i);
+                    sb.AppendFormat("\t\t\t point {1} has Garmin extension\r\n", rte.name, i);
                 i++;
             }
+            return sb.ToString();
         }
 
+        /// <summary>
+        /// Write a file with the UTF8 BOM
+        /// </summary>
         public static void TestUTF8()
         {
             // create a new file
@@ -198,16 +271,30 @@ namespace Utility
             newGpx.Waypoints.Add(CreateWaypoint());
 
             // test settings XmlWriterSettings
-            GpxClass.XmlWriterSettings.Encoding = System.Text.Encoding.UTF8;
+            GpxClass.XmlWriterSettings.Encoding = Encoding.UTF8;
             newGpx.ToFile("Test.gpx");
 
             _ = newGpx.ToXml();
+        }
+
+        /// <summary>
+        /// Test "compressing" xml (no newlines)
+        /// </summary>
+        public static void TestCompress()
+        {
+            // create a new file
+            GpxClass newGpx = CreateGpx();
+
+            newGpx.Waypoints.Add(CreateWaypoint());
 
             GpxClass.XmlWriterSettings.Indent = false;
             GpxClass.XmlWriterSettings.NewLineHandling = System.Xml.NewLineHandling.None;
             _ = newGpx.ToXml();
         }
 
+        /// <summary>
+        /// Text Garmin extensions
+        /// </summary>
         public static void TestGarminExtensions()
         {
             // Garmin Track Ext

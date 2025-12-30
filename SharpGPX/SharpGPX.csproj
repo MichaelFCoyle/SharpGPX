@@ -1,56 +1,53 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <Company>Blue Toque Software</Company>
-    <Version>2.22.0302</Version>
-    <Copyright>Copyright © Blue Toque Software 2022</Copyright>
-    <Authors>Michael Coyle</Authors>
-    <Description>Read and write GPX Files as associated extensions</Description>
-    <AssemblyVersion>2.22.0302</AssemblyVersion>
-    <FileVersion>2.22.0302</FileVersion>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/BlueToque/SharpGPX</RepositoryUrl>
-    <PackageId>BlueToque.SharpGPX</PackageId>
-    <PackageTags>gpx,geospatial,gps</PackageTags>
-    <RepositoryType>Git</RepositoryType>
-    <AssemblyName>BlueToque.SharpGPX</AssemblyName>
-    <PackageReleaseNotes>* Issue #8: "ele" field saving
-* Issue #9: Garmin RoutePointExtension</PackageReleaseNotes>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<LangVersion>latest</LangVersion>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="GPX1_1\TopoGrafix\PrivateStyle0_1\obj\**" />
-    <Compile Remove="GPX1_1\TopoGrafix\PrivateStyle0_2\bin\**" />
-    <Compile Remove="GPX1_1\TopoGrafix\PrivateStyle0_2\obj\**" />
-    <EmbeddedResource Remove="GPX1_1\TopoGrafix\PrivateStyle0_1\obj\**" />
-    <EmbeddedResource Remove="GPX1_1\TopoGrafix\PrivateStyle0_2\bin\**" />
-    <EmbeddedResource Remove="GPX1_1\TopoGrafix\PrivateStyle0_2\obj\**" />
-    <None Remove="GPX1_1\TopoGrafix\PrivateStyle0_1\obj\**" />
-    <None Remove="GPX1_1\TopoGrafix\PrivateStyle0_2\bin\**" />
-    <None Remove="GPX1_1\TopoGrafix\PrivateStyle0_2\obj\**" />
-  </ItemGroup>
+	<PropertyGroup>
+		<Company>Blue Toque Software</Company>
+		<Version>2.25.1230</Version>
+		<Copyright>Copyright © Blue Toque Software 2025</Copyright>
+		<Authors>Michael Coyle</Authors>
+		<Description>Read and write GPX Files</Description>
+		<AssemblyName>BlueToque.SharpGPX</AssemblyName>
+		<AssemblyVersion>2.25.1230</AssemblyVersion>
+		<FileVersion>2.25.1230</FileVersion>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <Compile Update="Properties\Resources.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-  </ItemGroup>
+	<PropertyGroup>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/BlueToque/SharpGPX</RepositoryUrl>
+		<PackageId>BlueToque.SharpGPX</PackageId>
+		<PackageTags>gpx,geospatial,gps</PackageTags>
+		<RepositoryType>Git</RepositoryType>
+		<PackageReleaseNotes>
+			* Issue #8: "ele" field saving
+			* Issue #9: Garmin RoutePointExtension
+		</PackageReleaseNotes>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <EmbeddedResource Update="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-  </ItemGroup>
+	<ItemGroup>
+		<Compile Update="Properties\Resources.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Resources.resx</DependentUpon>
+		</Compile>
+	</ItemGroup>
 
-  <ItemGroup>
-    <None Update="GPX1_0\gpx.xsd">
-      <Generator>XsdCodeGenerator</Generator>
-    </None>
-  </ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Update="Properties\Resources.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>Resources.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="GPX1_0\gpx.xsd">
+			<Generator>XsdCodeGenerator</Generator>
+		</None>
+	</ItemGroup>
 
 </Project>
